@@ -4,6 +4,9 @@
 
 <h1 align="center">Rime 倉頡粵拼混合輸入法</h1>
 
+這個方案是fork [rime-cantonese](https://github.com/rime/rime-cantonese/)而修改出來。
+
+
 參考討論可以在高登的這篇文章中找到：[【軟體討論】Linux 高登集中討論(#10)](https://forum.hkgolden.com/thread/7908621/page/4)
 
 ## DEMO

@@ -2,6 +2,9 @@
 
 <h1 align="center">Rime Cangjie Cantonese Mixed Input</h1>
 
+This project is forked and modified from [rime-cantonese](https://github.com/rime/rime-cantonese/).
+
+
 For reference discussions, you can find them in this post[【軟件台】Linux 高登集中討論(#10)](https://forum.hkgolden.com/thread/7908621/page/4).
 
 ## DEMO

@@ -4,6 +4,8 @@
 
 <h1 align="center">Rime 倉頡粵拼混打</h1>
 
+依個方案係fork [rime-cantonese](https://github.com/rime/rime-cantonese/)而修改出嚟。
+
 參考討論可以喺高登嘅依個Post到搵得到[【軟件台】Linux 高登集中討論(#10)](https://forum.hkgolden.com/thread/7908621/page/4)
 
 ## DEMO
