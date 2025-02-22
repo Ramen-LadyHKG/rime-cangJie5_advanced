@@ -1,6 +1,34 @@
 [粵語](README.md) | [官話](README-cmn.md)
 
-<h1 align="center">Rime Cantonese Input</h1>
+<h1 align="center">Rime Cangjie Cantonese Mixed Input</h1>
+
+For reference discussions, you can find them in this post[【軟件台】Linux 高登集中討論(#10)](https://forum.hkgolden.com/thread/7908621/page/4).
+
+## Planning / Features / Roadmap｜My current progress is:
+1. <s>Default main input method [Cangjie] | Secondary input method [Cantonese ]</s>
+2. <s>Support continuous input of [Cangjie/Cantonese ] codes</s>
+3. <s>Punctuation marks prioritize Cangjie codes</s>
+4. <s>Fast input of [Cantonese ]</s>
+**Currently: Cannot recognize complex phrases/sentences**
+5. <s>In [Cangjie] mode, directly input [Cantonese ] codes</s>
+**Currently: Cannot input Cantonese  codes continuously in this mode**
+6. <s>Input [Cantonese ] to show [Cangjie] suggestions</s>
+**Currently: Limited to single characters**
+7. <s>Input [Cangjie] to show [Cantonese ] suggestions</s>
+**Currently: No suggestions for phrases/sentences | Only single characters show suggestions**
+8. **Fix and improve functionality <4>**
+9. **Fix and improve functionality <5>**
+10. **Fix and improve functionality <6>**
+11. **Fix and improve functionality <7>**
+12. Fast input of [Cangjie] (Wish: <i>Provide [Quick Cangjie] candidate characters, i.e. Fast Cangjie</i>)
+13. Fast input of [Cangjie] phrases/sentences (Wish: <i>Type [you], offer [hello] and other common phrase candidates</i>)
+14. Customizable word bank (for quick input of [email, personal info, etc.])
+15. Input English to get Chinese
+16. Integrate Japanese input
+17. Input date and time
+
+## The following content is excerpted from the [Original Repository](https://github.com/rime/rime-cantonese)
+
 
 <p align="center">
 <a href="https://github.com/rime/rime-cantonese/issues"><img src="https://img.shields.io/badge/Contributions-Welcomed-1dd3b0?style=for-the-badge&logo=github"/></a>
@@ -84,7 +112,7 @@ Please use the following snippet under `switches` in `jyut6ping3.schema.yaml` to
 
 ### Reverse lookup
 
-This schema also allows the user to lookup Cantonese words with Putonghua Pinyin, [Loengfan](https://github.com/CanCLID/rime-loengfan), stroke order and Cangjie code. Click the following button in edit mode to enable the respective reverse lookup option:
+This schema also allows the user to lookup Cantonese words with Putonghua , [Loengfan](https://github.com/CanCLID/rime-loengfan), stroke order and Cangjie code. Click the following button in edit mode to enable the respective reverse lookup option:
 
 - Putonghua: <kbd>`</kbd>
 - Loengfan: <kbd>r</kbd>

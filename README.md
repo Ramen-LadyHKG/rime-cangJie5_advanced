@@ -2,7 +2,34 @@
 
 <div lang="yue-HK">
 
-<h1 align="center">Rime 粵語拼音方案</h1>
+<h1 align="center">Rime 倉頡粵拼混打</h1>
+
+參考討論可以喺高登嘅依個Post到搵得到[【軟件台】Linux 高登集中討論(#10)](https://forum.hkgolden.com/thread/7908621/page/4)
+
+## Planning / Features / Roadmap｜我目前嘅進度係：
+1. <s>預設主要輸入法【倉頡】｜副輸入法【粵拼】</s>
+2. <s>可以連續輸入【倉頡/粵拼】碼</s>
+3. <s>標點符號以倉頡碼為優先</s>
+4. <s>快打【粵拼】</s>
+**目前：無法識別複雜詞組/句子**
+5. <s>【倉頡】模式下，直接輸入【粵拼】碼</s>
+**目前：無法於此模式下連續輸入粵拼碼**
+6. <s>打【粵拼】，出【倉頡】提示</s>
+**目前：只限於1個字以下**
+7. <s>打【倉頡】，出【粵拼】提示</s>
+**目前：無法於詞組句子出提示｜只有單字有提示**
+8. **修復並完善功能<4>**
+9. **修復並完善功能<5>**
+10. **修復並完善功能<6>**
+11. **修復並完善功能<7>**
+12. 快打【倉頡】（Wish：<i>同時提供【速成倉頡】候選字，即係快倉</i>）
+13. 快打【倉頡】嘅詞組/句子（Wish：<i>打[你]，提供[你好]等常用候選詞組</i>）
+14. 自定義詞庫(比人快速輸入【email、個人資料等等】
+15. 打英文出中文
+16. 將日文塞埋入去
+17. 輸入日期時間
+
+## 以下內容截取至[Original Repository](https://github.com/rime/rime-cantonese)
 
 <p align="center">
 <a href="https://github.com/rime/rime-cantonese/issues"><img src="https://img.shields.io/badge/%E6%AD%A1%E8%BF%8E-%E5%8F%83%E8%88%87%E8%B2%A2%E7%8D%BB-1dd3b0?style=for-the-badge&logo=github"/></a>
