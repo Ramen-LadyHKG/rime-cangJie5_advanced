@@ -6,7 +6,19 @@
 
 參考討論可以喺高登嘅依個Post到搵得到[【軟件台】Linux 高登集中討論(#10)](https://forum.hkgolden.com/thread/7908621/page/4)
 
-## Planning / Features / Roadmap｜我目前嘅進度係：
+## DEMO
+[DEMO1&2 | YouTube](https://youtu.be/CPhoTEEFDhI)
+
+[DEMO1&2 | YouTube](https://youtu.be/MAnnJ7BrYOg)
+
+### 【倉頡】DEMO1
+![DEMO1.gif](DEMO\DEMO1.gif)
+### 【粵拼】DEMO2
+![DEMO2.gif](DEMO\DEMO2.gif)
+### 【粵拼快打】DEMO3
+![DEMO3.gif](DEMO\DEMO3.gif)
+
+## Planning / Features / Roadmap｜我哋目前嘅進度係：
 1. <s>預設主要輸入法【倉頡】｜副輸入法【粵拼】</s>
 2. <s>可以連續輸入【倉頡/粵拼】碼</s>
 3. <s>標點符號以倉頡碼為優先</s>
@@ -28,6 +40,8 @@
 15. 打英文出中文
 16. 將日文塞埋入去
 17. 輸入日期時間
+
+\
 
 ## 以下內容截取至[Original Repository](https://github.com/rime/rime-cantonese)
 
