@@ -4,6 +4,18 @@
 
 For reference discussions, you can find them in this post[【軟件台】Linux 高登集中討論(#10)](https://forum.hkgolden.com/thread/7908621/page/4).
 
+## DEMO
+[DEMO1&2 | YouTube](https://youtu.be/CPhoTEEFDhI)
+
+[DEMO1&2 | YouTube](https://youtu.be/MAnnJ7BrYOg)
+
+### 【Cangjie】DEMO1
+![DEMO1.gif](./DEMO/DEMO1.gif)
+### 【Cantonese】DEMO2
+![DEMO2.gif](./DEMO/DEMO2.gif)
+### 【Cantonese Quick Type】DEMO3
+![DEMO3.gif](./DEMO/DEMO3.gif)
+
 ## Planning / Features / Roadmap｜My current progress is:
 1. <s>Default main input method [Cangjie] | Secondary input method [Cantonese ]</s>
 2. <s>Support continuous input of [Cangjie/Cantonese ] codes</s>

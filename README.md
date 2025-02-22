@@ -12,11 +12,11 @@
 [DEMO1&2 | YouTube](https://youtu.be/MAnnJ7BrYOg)
 
 ### 【倉頡】DEMO1
-![DEMO1.gif](DEMO\DEMO1.gif)
+![DEMO1.gif](./DEMO/DEMO1.gif)
 ### 【粵拼】DEMO2
-![DEMO2.gif](DEMO\DEMO2.gif)
+![DEMO2.gif](./DEMO/DEMO2.gif)
 ### 【粵拼快打】DEMO3
-![DEMO3.gif](DEMO\DEMO3.gif)
+![DEMO3.gif](./DEMO/DEMO3.gif)
 
 ## Planning / Features / Roadmap｜我哋目前嘅進度係：
 1. <s>預設主要輸入法【倉頡】｜副輸入法【粵拼】</s>

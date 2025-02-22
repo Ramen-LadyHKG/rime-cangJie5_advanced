@@ -6,6 +6,18 @@
 
 參考討論可以在高登的這篇文章中找到：[【軟體討論】Linux 高登集中討論(#10)](https://forum.hkgolden.com/thread/7908621/page/4)
 
+## DEMO
+[DEMO1&2 | YouTube](https://youtu.be/CPhoTEEFDhI)
+
+[DEMO1&2 | YouTube](https://youtu.be/MAnnJ7BrYOg)
+
+### 【倉頡】DEMO1
+![DEMO1.gif](./DEMO/DEMO1.gif)
+### 【粵拼】DEMO2
+![DEMO2.gif](./DEMO/DEMO2.gif)
+### 【粵拼快打】DEMO3
+![DEMO3.gif](./DEMO/DEMO3.gif)
+
 ## 規劃 / 功能 / 路線圖｜我目前的進度是：
 1. <s>預設主要輸入法【倉頡】｜副輸入法【粵拼】</s>
 2. <s>可以連續輸入【倉頡/粵拼】碼</s>
