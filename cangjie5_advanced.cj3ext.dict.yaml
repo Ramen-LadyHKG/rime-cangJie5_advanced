@@ -7,13 +7,17 @@
 #
 
 ---
-name: "cangjie5.cj3ext"
+name: "cangjie5_advanced.cj3ext"
 version: "0.1"
 sort: by_weight
 use_preset_vocabulary: true
 vocabulary: essay-cantonese
 import_tables:
-- cangjie5
+- cangjie5_advanced
+- cangjie5_advanced.chars
+- cangjie5_advanced.phrase
+- cangjie5_advanced.words
+- cangjie5_advanced.maps
 ...
 
 昨	ahs

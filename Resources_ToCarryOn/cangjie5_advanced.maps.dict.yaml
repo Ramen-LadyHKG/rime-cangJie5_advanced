@@ -1,0 +1,4467 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# jyut6ping3 - 粵拼詞庫
+#
+# 碼表製作與校對人員
+# Ayaka Mikazuki <ayaka@mail.shn.hk>
+# chaaklau <chaakming@gmail.com>
+# LeiMaau <leimaau@qq.com>
+# laubonghaudoi <laubonghaudoi@icloud.com>
+# tanxpyox <tanxpyox@gmail.com>
+# William8915 <William915@gmail.com>
+# szc126 (@szc126)
+# Bing Jeung <bing@ososo.io>
+#
+# Data © OpenStreetMap and its contributors.
+# Data licensed under the Open Data Commons Open Database License (ODbL).
+#
+# Extracted: 2020.07.19
+
+---
+name: cangjie5_advanced.maps
+version: "2025.02.28"
+# based on version: "2021.09.05" (jyut6ping3.maps.dict.yaml)
+sort: by_weight
+use_preset_vocabulary: true
+...
+
+一鳴路	m rhaf rmher
+丁香徑	mn hda homvm
+丁香街	mn hda hoggn
+七姊妹道	ju vlxh vjd ythu
+七寶街	ju jmuc hoggn
+三和路	mmm hdr rmher
+三多里	mmm nini wg
+三家里	mmm jmso wg
+三板街	mmm xdhe hoggn
+三棟屋路	mmm ddw smig rmher
+三祝街	mmm ifrhu hoggn
+三聖街	mmm srmg hoggn
+三角街	mmm nbq hoggn
+三門仔路	mmm an ond rmher
+三陂坊	mmm nldhe gyhs
+上亞厘畢道	ym mllm mwg wtj ythu
+上元街	ym mmu hoggn
+上圍里	ym wdmq wg
+上水東慶路	ym e dw ixe rmher
+上水迴旋處	ym e ywr ysono yphen
+上海街	ym eowy hoggn
+上禾輋路	ym hd ukjj rmher
+上窰郊遊徑	ym jcbou yknl yysd homvm
+上羅禮信道	ym wlvfg iftwt oymr ythu
+上葵涌村路	ym tnok enib ddi rmher
+上角山路	ym nbq u rmher
+上角街	ym nbq hoggn
+上鄉道	ym vhiil ythu
+上高灘街	ym yrbr etog hoggn
+下亞厘畢道	my mllm mwg wtj ythu
+下城門道	my gihs an ythu
+下新圍路	my ydhml wdmq rmher
+下洋新村路	my etq ydhml ddi rmher
+下洋路	my etq rmher
+下灣村東路	my evfn ddi dw rmher
+下竹園路	my h wgrv rmher
+下羅禮信道	my wlvfg iftwt oymr ythu
+下鄉道	my vhiil ythu
+下高灘街	my yrbr etog hoggn
+世歌路	pt mrno rmher
+世運道	pt ybjj ythu
+丙岡路	mob btu rmher
+中匯街	l seog hoggn
+中區行人天橋中環系統	l srrr hommn o mk dhkb l mgwlv hvif vfyiu
+中央道	l lbk ythu
+中學路	l hbnd rmher
+中峽道	l ukoo ythu
+中心里	l p wg
+中景道	l ayrf ythu
+中港道	l etcu ythu
+中環及灣仔繞道	l mgwlv nhe evfn ond vfggu ythu
+中環及灣仔繞道隧道	l mgwlv nhe evfn ond vfggu ythu nlyto ythu
+中環灣仔繞道	l mgwlv evfn ond vfggu ythu
+中環至半山自動扶手電梯系統	l mgwlv mig fq u hbu hgks qqo q mbwu dcnh hvif vfyiu
+中興新街	l hxbc ydhml hoggn
+中興街	l hxbc hoggn
+中英街	l tlbk hoggn
+中路	l rmher
+中間路	l ana rmher
+中間道	l ana ythu
+丹拿道	by orq ythu
+丹桂村路	by dgg ddi rmher
+丹桂村里	by dgg ddi wg
+丹桂路	by dgg rmher
+丹荔街	by tkss hoggn
+主橋路	yg dhkb rmher
+主路	yg rmher
+乙明邨街	nu ab xpunl hoggn
+九如坊	kn vr gyhs
+九如坊北	kn vr gyhs lmp
+九如坊西	kn vr gyhs mcw
+九江街	kn em hoggn
+九肚山路	kn bg u rmher
+九肚徑	kn bg homvm
+九龍公園徑	kn ybysp ci wgrv homvm
+九龍坑行車天橋	kn ybysp gyhn hommn jwj mk dhkb
+九龍城迴旋處	kn ybysp gihs ywr ysono yphen
+九龍城道	kn ybysp gihs ythu
+九龍道	kn ybysp ythu
+乳酸里	bdu mwice wg
+乾秀里	jjon hdnhs wg
+乾隆古道	jjon nlhem jr ythu
+二號橋	mm rsypu dhkb
+二陂圳路	mm nldhe glll rmher
+二陂坊	mm nldhe gyhs
+五和路	mdm hdr rmher
+五柳路	mdm dhhl rmher
+五桂坊	mdm dgg gyhs
+五洲南路	mdm eill jbtj rmher
+五洲路	mdm eill rmher
+五福里	mdm ifmrw wg
+五芳街	mdm tyhs hoggn
+井財街	tt bcdh hoggn
+些利街	ypmm hdln hoggn
+亞公灣路	mllm ci evfn rmher
+亞公角山路	mllm ci nbq u rmher
+亞公角街	mllm ci nbq hoggn
+亞厘畢徑	mllm mwg wtj homvm
+亞士厘道	mllm jm mwg ythu
+亞畢諾道	mllm wtj yrtkr ythu
+亞皆老街	mllm ppha jkp hoggn
+亞皆老街天橋	mllm ppha jkp hoggn mk dhkb
+交加街	yck ksr hoggn
+交加里	yck ksr wg
+亦園路	ylnc wgrv rmher
+亨美街	yrnn tgk hoggn
+享和街	yrnd hdr hoggn
+享成街	yrnd ihs hoggn
+京士柏山道	yrf jm dha u ythu
+京士柏道	yrf jm dha ythu
+京士頓街	yrf jm pumbc hoggn
+京華道	yrf tmtj ythu
+京街	yrf hoggn
+人和里	o hdr wg
+仁勇街	omm nbks hoggn
+仁宇圍	omm jmd wdmq
+仁愛堂街	omm bbpe fbrg hoggn
+仁愛街	omm bbpe hoggn
+仁政街	omm mmok hoggn
+仁樂坊	omm vid gyhs
+仁濟街	omm eyx hoggn
+仁義路	omm tghqi rmher
+仁興街	omm hxbc hoggn
+仁芳街	omm tyhs hoggn
+仁風街	omm hnmli hoggn
+以馬忤斯路	vio sqsf poj tchml rmher
+仲賢路	ol sebuc rmher
+企壁山古道	oylm sjg u jr ythu
+企嶺下樹木研習徑	oylm uoic my dgti d mrmt smha homvm
+伊利沙伯醫院路	osk hdln efh oha semcw nljmu rmher
+伊利近街	osk hdln yhml hoggn
+伊榮街	osk ffbd hoggn
+伊沙里	osk efh wg
+伯恩大道	oha wkp k ythu
+伯爵街	oha bwli hoggn
+佇鷹脊	ojmn iogf fcb
+佐敦谷北道	okm ydok cor lmp ythu
+佐敦道	okm ydok ythu
+佐敦里	okm ydok wg
+佐治里	okm eir wg
+何家園行人天橋	omnr jmso wgrv hommn o mk dhkb
+何文田山道	omnr yk w u ythu
+何文田街	omnr yk w hoggn
+何東道	omnr dw ythu
+何郭里	omnr ydnl wg
+佛光街	olln fmu hoggn
+佛光街天橋	olln fmu hoggn mk dhkb
+佛洛斯大道	olln eher tchml k ythu
+作壆坑路	oos hbg gyhn rmher
+佳廉道	ogg itxc ythu
+佳景路	ogg ayrf rmher
+佳美道	ogg tgk ythu
+依利愛道	oyhv hdln bbpe ythu
+侯王道	onmk mg ythu
+便母橋	omlk wyi dhkb
+俊榮里	oice ffbd wg
+俊賢坊	oice sebuc gyhs
+保仕徑	ord og homvm
+保健路	ord onkq rmher
+保安道	ord jv ythu
+保平路	ord mfj rmher
+保德街	ord hojwp hoggn
+保榮路	ord ffbd rmher
+保泰街	ord qke hoggn
+保輝徑	ord fubjj homvm
+信德街	oymr hojwp hoggn
+信用街	oymr bq hoggn
+信義街	oymr tghqi hoggn
+信芳街	oymr tyhs hoggn
+修打蘭街	oloh qmn tanw hoggn
+候王橋	olnk mg dhkb
+倚天脊	okmr mk fcb
+倫敦里	oomb ydok wg
+偉倫街	odmq oomb hoggn
+偉明街	odmq ab hoggn
+偉景街	odmq ayrf hoggn
+偉晴街	odmq aqmb hoggn
+偉智街	odmq ora hoggn
+偉智里	odmq ora wg
+偉業街	odmq tctd hoggn
+偉業街天橋	odmq tctd hoggn mk dhkb
+偉樂街	odmq vid hoggn
+偉發道	odmq nonhe ythu
+偉順路	odmq lllc rmher
+停車場路	oyrn jwj gamh rmher
+健全街	onkq omg hoggn
+健康中街	onkq ile l hoggn
+健康東街	onkq ile dw hoggn
+健康街	onkq ile hoggn
+健康西街	onkq ile mcw hoggn
+健東路	onkq dw rmher
+傅屋路	oibi smig rmher
+僑福道	ohkb ifmrw ythu
+僑興路	ohkb hxbc rmher
+僑蔭街	ohkb tnli hoggn
+儒林臺	ombb dd grbg
+優景里	ombe ayrf wg
+元勝里	mmu bfqs wg
+元大路	mmu k rmher
+元州街	mmu ilil hoggn
+元慶里	mmu ixe wg
+元政路	mmu mmok rmher
+元朗公路	mmu iib ci rmher
+元朗北繞道	mmu iib lmp vfggu ythu
+元朗區單車主幹綫	mmu iib srrr rrwj jwj yg jjomj vfii
+元朗大馬路	mmu iib k sqsf rmher
+元朗安寧路	mmu iib jv jpbn rmher
+元朗安樂路	mmu iib jv vid rmher
+元朗安興街	mmu iib jv hxbc hoggn
+元朗康樂路	mmu iib ile vid rmher
+元朗新街	mmu iib ydhml hoggn
+元朗東堤街	mmu iib dw gamo hoggn
+元朗東成里路	mmu iib dw ihs wg rmher
+元朗泰祥街	mmu iib qke iftq hoggn
+元朗泰衡街	mmu iib qke honkn hoggn
+元朗炮仗坊	mmu iib fpru ojk gyhs
+元朗舊墟路	mmu iib togx gypm rmher
+元朗西迴旋處	mmu iib mcw ywr ysono yphen
+元朗體育路	mmu iib bbtwt yib rmher
+元洲仔里	mmu eill ond wg
+元發徑	mmu nonhe homvm
+元福里	mmu ifmrw wg
+元荃古道	mmu tomg jr ythu
+元龍街	mmu ybysp hoggn
+兆和街	lmuo hdr hoggn
+兆康路	lmuo ile rmher
+兆業街	lmuo tctd hoggn
+兆祥坊	lmuo iftq gyhs
+兆興里	lmuo hxbc wg
+兆麟街	lmuo ipfdq hoggn
+光昌街	fmu aa hoggn
+光明街	fmu ab hoggn
+光景臺	fmu ayrf grbg
+光漢臺	fmu etlo grbg
+光輝圍	fmu fubjj wdmq
+光輝里	fmu fubjj wg
+克街	jrhu hoggn
+克頓道	jrhu pumbc ythu
+入水口路	oh e r rmher
+全安路	omg jv rmher
+兩塊田上路	mlbo ghui w ym rmher
+兩塊田下路	mlbo ghui w my rmher
+八仙嶺自然教育徑	ho ou uoic hbu bkf jdok yib homvm
+八達街	ho ygtq hoggn
+八鄉路	ho vhiil rmher
+公主道	ci yg ythu
+公園北路	ci wgrv lmp rmher
+公園南路	ci wgrv jbtj rmher
+公庵路	ci iklu rmher
+公爵街	ci bwli hoggn
+六合街	yc omr hoggn
+共振橋	tc qmmv dhkb
+兼善里	txc ttr wg
+冠冕台	bmui xanau ir
+冠峰街	bmui uhej hoggn
+冠業街	bmui tctd hoggn
+冠發街	bmui nonhe hoggn
+冬青徑	hey qmb homvm
+冬青道	hey qmb ythu
+冰廠路	ime ifbk rmher
+凌霄徑	imgce mbfb homvm
+凡爾賽大道	hni mfbk jtcc k ythu
+凱榮路	uthn ffbd rmher
+凹頭交匯處	ssu mtmbc yck seog yphen
+凹頭迴旋處	ssu mtmbc ywr ysono yphen
+出水口路	uu e r rmher
+分域碼頭街	csh girm mrsqf mtmbc hoggn
+分域碼頭街天橋	csh girm mrsqf mtmbc hoggn mk dhkb
+分域街	csh girm hoggn
+分流郊遊徑	csh eyiu yknl yysd homvm
+列堤頓道	mnln gamo pumbc ythu
+列拿士地臺	mnln orq jm gpd grbg
+利南道	hdln jbtj ythu
+利園山道	hdln wgrv u ythu
+利安道	hdln jv ythu
+利安里	hdln jv wg
+利工街	hdln mlm hoggn
+利得街	hdln hoami hoggn
+利景街	hdln ayrf hoggn
+利東街	hdln dw hoggn
+利東邨道	hdln dw xpunl ythu
+利枝道	hdln dje ythu
+利業街	hdln tctd hoggn
+利榮街	hdln ffbd hoggn
+利樂街	hdln vid hoggn
+利民道	hdln rvp ythu
+利源東街	hdln emhf dw hoggn
+利源西街	hdln emhf mcw hoggn
+利牧徑	hdln hqok homvm
+利發徑	hdln nonhe homvm
+利益街	hdln tcbt hoggn
+利眾街	hdln wlooo hoggn
+利群道	hdln srtq ythu
+利興街	hdln hxbc hoggn
+創富道	orln jmrw ythu
+創新路	orln ydhml rmher
+創業街	orln tctd hoggn
+劍橋道	ooln dhkb ythu
+功樂道	mks vid ythu
+加倫台	ksr oomb ir
+加倫大道	ksr oomb k ythu
+加冕臺	ksr xanau grbg
+加列山道	ksr mnln u ythu
+加利利路	ksr hdln hdln rmher
+加士居道	ksr jm sjr ythu
+加士居道天橋	ksr jm sjr ythu mk dhkb
+加多近街	ksr nini yhml hoggn
+加寧街	ksr jpbn hoggn
+加州花園大道	ksr ilil top wgrv k ythu
+加惠民道	ksr jip rvp ythu
+加拿分道	ksr orq csh ythu
+加路連山道	ksr rmher yjwj u ythu
+加連威老廣場	ksr yjwj ihmv jkp itmc gamh
+加連威老道	ksr yjwj ihmv jkp ythu
+勝利道	bfqs hdln ythu
+勝耀街	bfqs fusmg hoggn
+勞力士徑	ffbks ks jm homvm
+勤學里	tmks hbnd wg
+勵德街	mbks hojwp hoggn
+勵德邨道	mbks hojwp xpunl ythu
+勵業街	mbks tctd hoggn
+勿地臣街	phh gpd slsl hoggn
+包華士道	pru tmtj jm ythu
+北京道	lmp yrf ythu
+北區單車主幹綫	lmp srrr rrwj jwj yg jjomj vfii
+北大嶼山公路	lmp k uhxc u ci rmher
+北屋路	lmp smig rmher
+北山徑	lmp u homvm
+北巖棧道	lmp urrk dii ythu
+北帝街	lmp yblb hoggn
+北拱街	lmp qtc hoggn
+北景街	lmp ayrf hoggn
+北河街	lmp emnr hoggn
+北海傍路	lmp eowy oybs rmher
+北海街	lmp eowy hoggn
+北港路	lmp etcu rmher
+北港㘭路	lmp etcu gvis rmher
+北潭涌自然教育徑	lmp emwj enib hbu bkf jdok yib homvm
+北潭路	lmp emwj rmher
+北盛街	lmp isbt hoggn
+北社七里	lmp ifg ju wg
+北社三里	lmp ifg mmm wg
+北社二里	lmp ifg mm wg
+北社五里	lmp ifg mdm wg
+北社六里	lmp ifg yc wg
+北社四里	lmp ifg wc wg
+北社壹里	lmp ifg gbmt wg
+北社後街	lmp ifg hovie hoggn
+北社海傍路	lmp ifg eowy oybs rmher
+北社街	lmp ifg hoggn
+北街	lmp hoggn
+北角咀路	lmp nbq rbm rmher
+北角臺	lmp nbq grbg
+北角道	lmp nbq ythu
+北角邨里	lmp nbq xpunl wg
+匯安里	seog jv wg
+匯景道	seog ayrf ythu
+匯民道	seog rvp ythu
+匯翔道	seog tqsmm ythu
+十八鄉交匯處	j ho vhiil yck seog yphen
+十八鄉路	j ho vhiil rmher
+十間	j ana
+千溪海岸	hj ebvk eowy ummj
+半山徑	fq u homvm
+半山街	fq u hoggn
+半春園路	fq qka wgrv rmher
+卑利士道	hwhj hdln jm ythu
+卑利街	hwhj hdln hoggn
+卑路乍街	hwhj rmher os hoggn
+卓運街	yaj ybjj hoggn
+協和街	jkss hdr hoggn
+協和里	jkss hdr wg
+協欣街	jkss hlno hoggn
+協調道	jkss yrbgr ythu
+南丁格爾路	jbtj mn dher mfbk rmher
+南丫島家樂徑	jbtj cl hayu jmso vid homvm
+南京街	jbtj yrf hoggn
+南圍路	jbtj wdmq rmher
+南坑村路	jbtj gyhn ddi rmher
+南坑渠務維修道路	jbtj gyhn esd nhoks vfog oloh ythu rmher
+南大嶼郊遊徑	jbtj k uhxc yknl yysd homvm
+南安街	jbtj jv hoggn
+南安里	jbtj jv wg
+南寧街	jbtj jpbn hoggn
+南山古道	jbtj u jr ythu
+南山徑	jbtj u homvm
+南山新村路	jbtj u ydhml ddi rmher
+南山路	jbtj u rmher
+南山邨道	jbtj u xpunl ythu
+南山里	jbtj u wg
+南巖棧道	jbtj urrk dii ythu
+南康街	jbtj ile hoggn
+南慶東路	jbtj ixe dw rmher
+南慶西路	jbtj ixe mcw rmher
+南昌街	jbtj aa hoggn
+南朗山道	jbtj iib u ythu
+南海傍路	jbtj eowy oybs rmher
+南涌郊遊徑	jbtj enib yknl yysd homvm
+南灣坊	jbtj evfn gyhs
+南灣徑	jbtj evfn homvm
+南灣道	jbtj evfn ythu
+南灣隧道	jbtj evfn nlyto ythu
+南環路	jbtj mgwlv rmher
+南生圍路	jbtj hqm wdmq rmher
+南盛街	jbtj isbt hoggn
+南角道	jbtj nbq ythu
+南路	jbtj rmher
+南運路	jbtj ybjj rmher
+南邊圍路	jbtj yhus wdmq rmher
+南里	jbtj wg
+南頭街	jbtj mtmbc hoggn
+南風徑	jbtj hnmli homvm
+南風道	jbtj hnmli ythu
+博學里	jibi hbnd wg
+博愛交匯處	jibi bbpe yck seog yphen
+博文街	jibi yk hoggn
+博泉徑	jibi hae homvm
+博泉街	jibi hae hoggn
+博物館道	jibi hqphh oijrr ythu
+博研路	jibi mrmt rmher
+博覽西路	jibi swbuu mcw rmher
+博覽道	jibi swbuu ythu
+博覽道中	jibi swbuu ythu l
+博覽道東	jibi swbuu ythu dw
+卡米爾徑	ymy fd mfbk homvm
+卡連拿徑	ymy yjwj orq homvm
+厚和街	mand hdr hoggn
+厚德里	mand hojwp wg
+厚福街	mand ifmrw hoggn
+厚誠街	mand yrihs hoggn
+原野漫遊徑	mhaf wgnin eawe yysd homvm
+又一居道	nk m sjr ythu
+又新街	nk ydhml hoggn
+友全街	ke omg hoggn
+友善街	ke ttr hoggn
+友愛路	ke bbpe rmher
+友榮街	ke ffbd hoggn
+友翔道	ke tqsmm ythu
+叢林徑	tcte dd homvm
+古坑道	jr gyhn ythu
+古屋里	jr smig wg
+古洞南路	jr ebmr jbtj rmher
+古洞路	jr ebmr rmher
+史樂信路	lk vid oymr rmher
+史釗域道	lk cln girm ythu
+司徒拔道	smr hogyo qikk ythu
+各各他山路	her her opd u rmher
+合一道	omr m ythu
+合桃街	omr dlmo hoggn
+合益路	omr tcbt rmher
+合群街	omr srtq hoggn
+合財街	omr bcdh hoggn
+吉利徑	gr hdln homvm
+吉勝街	gr bfqs hoggn
+吉圍徑	gr wdmq homvm
+吉士笠街	gr jm hyt hoggn
+吉安街	gr jv hoggn
+吉席街	gr itlb hoggn
+吉祥街	gr iftq hoggn
+同仁街	bmr omm hoggn
+同和街	bmr hdr hoggn
+同文街	bmr yk hoggn
+同樂徑	bmr vid homvm
+同樂街	bmr vid hoggn
+同發坊	bmr nonhe gyhs
+同福路	bmr ifmrw rmher
+同秀坊	bmr hdnhs gyhs
+同茂坊	bmr tih gyhs
+名成街	nir ihs hoggn
+后海灣幹線	hmr eowy evfn jjomj vfhae
+吐露港公路	rg mbrmr etcu ci rmher
+吳家瑋學術廊	rvnk jmso mgdmq hbnd hoidn iiil
+吳松街	rvnk dci hoggn
+呈祥道	rmg iftq ythu
+告士打道	hgr jm qmn ythu
+和合石路	hdr omr mr rmher
+和合街	hdr omr hoggn
+和域道	hdr girm ythu
+和安里	hdr jv wg
+和宜合交匯處	hdr jbm omr yck seog yphen
+和宜合道	hdr jbm omr ythu
+和宜合里	hdr jbm omr wg
+和家樓路	hdr jmso dllv rmher
+和富道	hdr jmrw ythu
+和平徑	hdr mfj homvm
+和平新村里	hdr mfj ydhml ddi wg
+和康徑	hdr ile homvm
+和泰街	hdr qke hoggn
+和滿街	hdr etlb hoggn
+和睦路	hdr bugcg rmher
+和福道	hdr ifmrw ythu
+和興路	hdr hxbc rmher
+和衷街	hdr ylhv hoggn
+和豐街	hdr ujmrt hoggn
+和隆街	hdr nlhem hoggn
+和順里	hdr lllc wg
+和風街	hdr hnmli hoggn
+和鳴里	hdr rhaf wg
+咸美頓街	ihmr tgk pumbc hoggn
+品蘭街	rrr tanw hoggn
+哲徑	qlr homvm
+唐人新村交匯處	ilr o ydhml ddi yck seog yphen
+唐人新村西路	ilr o ydhml ddi mcw rmher
+唐人新村路	ilr o ydhml ddi rmher
+唐俊街	ilr oice hoggn
+唐德街	ilr hojwp hoggn
+唐明街	ilr ab hoggn
+唐泰路	ilr qke rmher
+唐炳源廣場	ilr fmob emhf itmc gamh
+唐賢街	ilr sebuc hoggn
+唐賢里	ilr sebuc wg
+啓仁街	xhkr omm hoggn
+啓信道	xhkr oymr ythu
+啓康街	xhkr ile hoggn
+啓德橋	xhkr hojwp dhkb
+啓德道	xhkr hojwp ythu
+啓志街	xhkr gp hoggn
+啓成街	xhkr ihs hoggn
+啓明街	xhkr ab hoggn
+啓東道	xhkr dw ythu
+啓業道	xhkr tctd ythu
+啓樂街	xhkr vid hoggn
+啓民徑	xhkr rvp homvm
+啓泰里	xhkr qke wg
+啓發徑	xhkr nonhe homvm
+啓祥道	xhkr iftq ythu
+啓福道	xhkr ifmrw ythu
+啓福道天橋	xhkr ifmrw ythu mk dhkb
+啓禮道	xhkr iftwt ythu
+啓興道	xhkr hxbc ythu
+啓華街	xhkr tmtj hoggn
+啓超道	xhkr goshr ythu
+啟和路	irok hdr rmher
+啟德三里	irok hojwp mmm wg
+啟德二里	irok hojwp mm wg
+啟德四里	irok hojwp wc wg
+啟德橋	irok hojwp dhkb
+啟德隧道	irok hojwp nlyto ythu
+啟新道	irok ydhml ythu
+啟田道	irok w ythu
+啟融里	irok mblmi wg
+善鄰里	ttr fqnl wg
+喇沙利道	rdln efh hdln ythu
+喜利徑	grtr hdln homvm
+喜東街	grtr dw hoggn
+喜業街	grtr tctd hoggn
+喜泰街	grtr qke hoggn
+喜靈洲路	grtr mbrro eill rmher
+嘉健里	xgrtr onkq wg
+嘉兆里	xgrtr lmuo wg
+嘉和里山路	xgrtr hdr wg u rmher
+嘉咸街	xgrtr ihmr hoggn
+嘉善街	xgrtr ttr hoggn
+嘉安街	xgrtr jv hoggn
+嘉定路	xgrtr jmyo rmher
+嘉富坊	xgrtr jmrw gyhs
+嘉寧徑	xgrtr jpbn homvm
+嘉康里	xgrtr ile wg
+嘉恩街	xgrtr wkp hoggn
+嘉慶路	xgrtr ixe rmher
+嘉才里	xgrtr dh wg
+嘉拿多徑	xgrtr orq nini homvm
+嘉敬里	xgrtr trok wg
+嘉林邊道	xgrtr dd yhus ythu
+嘉業街	xgrtr tctd hoggn
+嘉榮街	xgrtr ffbd hoggn
+嘉樂街	xgrtr vid hoggn
+嘉澍路	xgrtr egti rmher
+嘉福里	xgrtr ifmrw wg
+嘉禾街	xgrtr hd hoggn
+嘉蘭圍	xgrtr tanw wdmq
+嘉道理道	xgrtr ythu mgwg ythu
+嘉齡道	xgrtr yuoii ythu
+嘉龍路	xgrtr ybysp rmher
+四山街	wc u hoggn
+四川街	wc lll hoggn
+四方街	wc yhs hoggn
+四美街	wc tgk hoggn
+四陂坊	wc nldhe gyhs
+因特拉肯大道	wk hqgdi qyt ymb k ythu
+國民路	wirm rvp rmher
+國瑞路	wirm mgumb rmher
+圍乪街	wdmq nw hoggn
+園藝街	wgrv tgii hoggn
+圓墩圍	wrbc gydk wdmq
+圓墩郊遊徑	wrbc gydk yknl yysd homvm
+圓洲角路	wrbc eill nbq rmher
+圖書館道	wryw lga oijrr ythu
+土瓜灣道	g hvio evfn ythu
+地利根德里	gpd hdln dav hojwp wg
+地塘仔郊遊徑	gpd gilr ond yknl yysd homvm
+地士道街	gpd jm ythu hoggn
+地錦路	gpd chab rmher
+圳邊街	glll yhus hoggn
+均益街	gpmm tcbt hoggn
+坑口永隆路	gyhn r ine nlhem rmher
+坑口道	gyhn r ythu
+坑坪街	gyhn gmfj hoggn
+坑溪里	gyhn ebvk wg
+坑頭路	gyhn mtmbc rmher
+坡面徑	gdhe mwsl homvm
+坪原路	gmfj mhaf rmher
+坪愉徑	gmfj pomn homvm
+坪朗路	gmfj iib rmher
+坪洋交匯處	gmfj etq yck seog yphen
+坪洲好景街	gmfj eill vnd ayrf hoggn
+坪洲永安街	gmfj eill ine jv hoggn
+坪輋路	gmfj ukjj rmher
+坪輋隔田	gmfj ukjj nlmrb w
+坳背灣街	gvis lpb evfn hoggn
+埃華街	giok tmtj hoggn
+城南道	gihs jbtj ythu
+城市花園道	gihs ylb top wgrv ythu
+城河道	gihs emnr ythu
+城皇街	gihs hamg hoggn
+城西道	gihs mcw ythu
+城門林道	gihs an dd ythu
+城門道	gihs an ythu
+城門里	gihs an wg
+城門隧道	gihs an nlyto ythu
+城門隧道公路	gihs an nlyto ythu ci rmher
+域多利皇后街	girm nini hdln hamg hmr hoggn
+域多利道	girm nini hdln ythu
+培德街	gytr hojwp hoggn
+培成路	gytr ihs rmher
+培成里	gytr ihs wg
+培正道	gytr mylm ythu
+培民街	gytr rvp hoggn
+培賢里	gytr sebuc wg
+基利坊	tcg hdln gyhs
+基利路	tcg hdln rmher
+基堤道	tcg gamo ythu
+基業街	tcg tctd hoggn
+基業里	tcg tctd wg
+基隆街	tcg nlhem hoggn
+堅尼地道	seg sp gpd ythu
+堅巷	seg tcru
+堅彌地城新海旁	seg nmfb gpd gihs ydhml eowy ybyhs
+堅彌地城海旁	seg nmfb gpd gihs eowy ybyhs
+堅彌地街	seg nmfb gpd hoggn
+堅拿道天橋	seg orq ythu mk dhkb
+堅拿道巴士專用線	seg orq ythu au jm jidi bq vfhae
+堅拿道東	seg orq ythu dw
+堅拿道西	seg orq ythu mcw
+堅道	seg ythu
+堡壘街	odg wwwg hoggn
+堤畔徑	gamo wfq homvm
+堪仕達道	gtmv og ygtq ythu
+堪富利士道	gtmv jmrw hdln jm ythu
+塘亨路	gilr yrnn rmher
+塘尾道	gilr shqu ythu
+塘邊徑	gilr yhus homvm
+壁屋村路	sjg smig ddi rmher
+壆圍南路	hbg wdmq jbtj rmher
+壆圍西路	hbg wdmq mcw rmher
+壆圍路	hbg wdmq rmher
+壩尾路	gmbb shqu rmher
+士丹利街	jm by hdln hoggn
+士丹頓街	jm by pumbc hoggn
+士他令道	jm opd oini ythu
+士他花利街	jm opd top hdln hoggn
+士林一巷	jm dd m tcru
+士林二巷	jm dd mm tcru
+士林四巷	jm dd wc tcru
+士林路	jm dd rmher
+士美菲路	jm tgk tlmy rmher
+士達福信路	jm ygtq ifmrw oymr rmher
+壽富街	gnmi jmrw hoggn
+壽山村道	gnmi u ddi ythu
+壽臣山道東	gnmi slsl u ythu dw
+壽臣山道西	gnmi slsl u ythu mcw
+壽菊路	gnmi tpfd rmher
+夏力道	muhe ks ythu
+夏慤道	muhe gep ythu
+夏慤道天橋	muhe gep ythu mk dhkb
+外景路	niy ayrf rmher
+多實街	nini jwjc hoggn
+多石徑	nini mr homvm
+多石街	nini mr hoggn
+多福道	nini ifmrw ythu
+大光里	k fmu wg
+大全街	k omg hoggn
+大刀屻徑	k sh xushi homvm
+大利街	k hdln hoggn
+大南街	k jbtj hoggn
+大南西街	k jbtj mcw hoggn
+大口環道	k r mgwlv ythu
+大同街	k bmr hoggn
+大喜街	k grtr hoggn
+大圍新村路	k wdmq ydhml ddi rmher
+大圍第一街	k wdmq hnlh m hoggn
+大圍第七街	k wdmq hnlh ju hoggn
+大圍第三街	k wdmq hnlh mmm hoggn
+大圍第九街	k wdmq hnlh kn hoggn
+大圍第二街	k wdmq hnlh mm hoggn
+大圍第五街	k wdmq hnlh mdm hoggn
+大圍第八街	k wdmq hnlh ho hoggn
+大圍第六街	k wdmq hnlh yc hoggn
+大圍第十街	k wdmq hnlh j hoggn
+大圍第四街	k wdmq hnlh wc hoggn
+大圍道	k wdmq ythu
+大圍隧道	k wdmq nlyto ythu
+大圓街	k wrbc hoggn
+大坑口路	k gyhn r rmher
+大坑徑	k gyhn homvm
+大坑東道	k gyhn dw ythu
+大坑西街	k gyhn mcw hoggn
+大坑道	k gyhn ythu
+大坑道天橋	k gyhn ythu mk dhkb
+大坳門路	k gvis an rmher
+大坳門道	k gvis an ythu
+大埔仔徑	k gijb ond homvm
+大埔公路	k gijb ci rmher
+大埔區單車主幹綫	k gijb srrr rrwj jwj yg jjomj vfii
+大埔太和路	k gijb ki hdr rmher
+大埔水窩路	k gijb e jcbbr rmher
+大埔滘林道	k gijb xebcr dd ythu
+大埔滘行人隧道	k gijb xebcr hommn o nlyto ythu
+大埔道	k gijb ythu
+大埔郊野步行徑	k gijb yknl wgnin ylmh hommn homvm
+大埔頭徑	k gijb mtmbc homvm
+大埔頭水圍路	k gijb mtmbc e wdmq rmher
+大埔頭路	k gijb mtmbc rmher
+大埔龍尾路	k gijb ybysp shqu rmher
+大壩街	k gmbb hoggn
+大學街	k hbnd hoggn
+大學道	k hbnd ythu
+大安臺	k jv grbg
+大宏街	k jki hoggn
+大富街	k jmrw hoggn
+大屋街	k smig hoggn
+大嶼山林道	k uhxc u dd ythu
+大帽山家樂徑	k lbabu u jmso vid homvm
+大帽山林道	k lbabu u dd ythu
+大帽山道	k lbabu u ythu
+大帽山遠足研習徑	k lbabu u ygrv ryo mrmt smha homvm
+大庵路	k iklu rmher
+大廈街	k imue hoggn
+大強街	k nili hoggn
+大德街	k hojwp hoggn
+大成街	k ihs hoggn
+大政街	k mmok hoggn
+大新後街	k ydhml hovie hoggn
+大新海傍路	k ydhml eowy oybs rmher
+大新街	k ydhml hoggn
+大方街	k yhs hoggn
+大旗嶺路	k ysotc uoic rmher
+大昌街	k aa hoggn
+大明里	k ab wg
+大景街	k ayrf hoggn
+大有街	k kb hoggn
+大棠山道	k fbrd u ythu
+大棠路	k fbrd rmher
+大業街	k tctd hoggn
+大業里	k tctd wg
+大榮里	k ffbd wg
+大樹下東路	k dgti my dw rmher
+大樹下西路	k dgti my mcw rmher
+大橋路	k dhkb rmher
+大欖林道	k dswu dd ythu
+大欖涌路	k dswu enib rmher
+大欖涌郊遊徑	k dswu enib yknl yysd homvm
+大欖自然教育徑	k dswu hbu bkf jdok yib homvm
+大欖角迴旋處	k dswu nbq ywr ysono yphen
+大欖隧道	k dswu nlyto ythu
+大水坑北街	k e gyhn lmp hoggn
+大水坑南街	k e gyhn jbtj hoggn
+大河道	k emnr ythu
+大河道北	k emnr ythu lmp
+大沽街	k ejr hoggn
+大浪灣道	k eiav evfn ythu
+大浪灣遠足徑	k eiav evfn ygrv ryo homvm
+大涌口路	k enib r rmher
+大涌橋路	k enib dhkb rmher
+大涌道	k enib ythu
+大潭家樂徑	k emwj jmso vid homvm
+大潭水塘道	k emwj e gilr ythu
+大潭道	k emwj ythu
+大潭郊遊徑	k emwj yknl yysd homvm
+大澳太平街	k ehbk ki mfj hoggn
+大澳永安街	k ehbk ine jv hoggn
+大澳街市街	k ehbk hoggn ylb hoggn
+大澳道	k ehbk ythu
+大灘郊遊徑	k etog yknl yysd homvm
+大王東街	k mg dw hoggn
+大王西街	k mg mcw hoggn
+大王里	k mg wg
+大球場徑	k mgije gamh homvm
+大環道	k mgwlv ythu
+大環道東	k mgwlv ythu dw
+大環頭路	k mgwlv mtmbc rmher
+大發街	k nonhe hoggn
+大白田徑	k ha w homvm
+大白田村路	k ha w ddi rmher
+大白田街	k ha w hoggn
+大白田里	k ha w wg
+大盛街	k isbt hoggn
+大石口路	k mr r rmher
+大石街	k mr hoggn
+大磡道	k mrtvs ythu
+大福街	k ifmrw hoggn
+大窩交匯處	k jcbbr yck seog yphen
+大窩口道	k jcbbr r ythu
+大窩坪道	k jcbbr gmfj ythu
+大窩東支路	k jcbbr dw je rmher
+大窩西支路	k jcbbr mcw je rmher
+大網仔單車徑	k vfbtv ond rrwj jwj homvm
+大網仔路	k vfbtv ond rmher
+大美督路	k tgk yebu rmher
+大老山公路	k jkp u ci rmher
+大老山隧道	k jkp u nlyto ythu
+大腦古道	k bvvw jr ythu
+大興堤路	k hxbc gamo rmher
+大興街	k hxbc hoggn
+大菜園路	k tbd wgrv rmher
+大華街	k tmtj hoggn
+大蒸場路	k tnef gamh rmher
+大藍湖路	k tsmt ejrb rmher
+大角咀道	k nbq rbm ythu
+大貴街	k lmbuc hoggn
+大連排道	k yjwj qlmy ythu
+大道村路	k ythu ddi rmher
+大陂坊	k nldhe gyhs
+大陂頭徑	k nldhe mtmbc homvm
+大陽輋路	k nlamh ukjj rmher
+大隴街	k nlybp hoggn
+大順街	k lllc hoggn
+大頭嶺迴旋處	k mtmbc uoic ywr ysono yphen
+大馬色路	k sqsf nau rmher
+大鴻街	k xemhf hoggn
+大鵬街	k bbhf hoggn
+天光道	mk fmu ythu
+天后廟道	mk hmr ijjb ythu
+天后路	mk hmr rmher
+天喜街	mk grtr hoggn
+天地人路	mk gpd o rmher
+天城路	mk gihs rmher
+天壇街	mk gywm hoggn
+天寶街	mk jmuc hoggn
+天平路	mk mfj rmher
+天平里	mk mfj wg
+天影路	mk afhhh rmher
+天恩路	mk wkp rmher
+天慈路	mk tvip rmher
+天文臺圍	mk yk grbg wdmq
+天文臺道	mk yk grbg ythu
+天暉路	mk xabjj rmher
+天月路	mk b rmher
+天柏路	mk dha rmher
+天桃街	mk dlmo hoggn
+天業路	mk tctd rmher
+天榮路	mk ffbd rmher
+天樂里	mk vid wg
+天水圍西交匯處	mk e wdmq mcw yck seog yphen
+天河路	mk emnr rmher
+天湖路	mk ejrb rmher
+天瑞路	mk mgumb rmher
+天祥路	mk iftq rmher
+天福路	mk ifmrw rmher
+天秀路	mk hdnhs rmher
+天竹街	mk h hoggn
+天美街	mk tgk hoggn
+天耀路	mk fusmg rmher
+天華路	mk tmtj rmher
+天葵路	mk tnok rmher
+天際里東	mk nlbof wg dw
+天際里西	mk nlbof wg mcw
+天靖街	mk ytqmb hoggn
+天順里	mk lllc wg
+天香街	mk hda hoggn
+天龍路	mk ybysp rmher
+太原街	ki mhaf hoggn
+太古城道	ki jr gihs ythu
+太古灣道	ki jr evfn ythu
+太和橋	ki hdr dhkb
+太和街	ki hdr hoggn
+太子台	ki nd ir
+太子道東	ki nd ythu dw
+太子道西	ki nd ythu mcw
+太子道西天橋	ki nd ythu mcw mk dhkb
+太安街	ki jv hoggn
+太富街	ki jmrw hoggn
+太寧街	ki jpbn hoggn
+太平山街	ki mfj u hoggn
+太平道	ki mfj ythu
+太康街	ki ile hoggn
+太榮路	ki ffbd rmher
+太樂街	ki vid hoggn
+太白臺	ki ha grbg
+太祥街	ki iftq hoggn
+太茂路	ki tih rmher
+太裕路	ki lcor rmher
+太豐路	ki ujmrt rmher
+奇靈里	kmnr mbrro wg
+奉天街	qkq mk hoggn
+奕蔭街	xyck tnli hoggn
+奧卑利街	hbk hwhj hdln hoggn
+奧林匹克廣場	hbk dd sc jrhu itmc gamh
+奶路臣街	vnhs rmher slsl hoggn
+好利街	vnd hdln hoggn
+好景台	vnd ayrf ir
+威利麻街	ihmv hdln ijcc hoggn
+威靈頓街	ihmv mbrro pumbc hoggn
+威非路道	ihmv lmsy rmher ythu
+媽廟路	vsqf ijjb rmher
+媽橫路	vsqf xdtmc rmher
+孔嶺北路	ndu uoic lmp rmher
+孔雀道	ndu fog ythu
+孖峰嶺路	ndnd uhej uoic rmher
+孖庶街	ndnd itf hoggn
+孖沙街	ndnd efh hoggn
+孝思徑	jknd wp homvm
+孝民街	jknd rvp hoggn
+孟公屋路	ndbt ci smig rmher
+孟公窩路	ndbt ci jcbbr rmher
+孫志新紀念廣場	ndhvf gp ydhml vfsu oinp itmc gamh
+學林里	hbnd dd wg
+學校路	hbnd dyck rmher
+學餘里	hbnd oiomd wg
+守仁徑	jdi omm homvm
+安信徑	jv oymr homvm
+安信街	jv oymr hoggn
+安全街	jv omg hoggn
+安和里	jv hdr wg
+安善道	jv ttr ythu
+安埔路	jv gijb rmher
+安埔里	jv gijb wg
+安域道	jv girm ythu
+安定道	jv jmyo ythu
+安富道	jv jmrw ythu
+安寧徑	jv jpbn homvm
+安寧里	jv jpbn wg
+安居街	jv sjr hoggn
+安島徑	jv hayu homvm
+安平街	jv mfj hoggn
+安庶庇街	jv itf xipp hoggn
+安康路	jv ile rmher
+安德道	jv hojwp ythu
+安徽街	jv houfk hoggn
+安心街	jv p hoggn
+安慈路	jv tvip rmher
+安慶臺	jv ixe grbg
+安捷街	jv qjlo hoggn
+安捷里	jv qjlo wg
+安明街	jv ab hoggn
+安景街	jv ayrf hoggn
+安東街	jv dw hoggn
+安業街	jv tctd hoggn
+安榮街	jv ffbd hoggn
+安樂門街	jv vid an hoggn
+安民坊	jv rvp gyhs
+安泰街	jv qke hoggn
+安泰路	jv qke rmher
+安浩里	jv ehgr wg
+安田街	jv w hoggn
+安睦街	jv bugcg hoggn
+安睦里	jv bugcg wg
+安祥路	jv iftq rmher
+安福街	jv ifmrw hoggn
+安秀道	jv hdnhs ythu
+安群街	jv srtq hoggn
+安翠街	jv smyoj hoggn
+安耀街	jv fusmg hoggn
+安育路	jv yib rmher
+安興里	jv hxbc wg
+安良里	jv iav wg
+安茵街	jv xtwk hoggn
+安華街	jv tmtj hoggn
+安蘭街	jv tanw hoggn
+安賢街	jv sebuc hoggn
+安足街	jv ryo hoggn
+安逸街	jv ynai hoggn
+安運道	jv ybjj ythu
+安達坊	jv ygtq gyhs
+安達臣道	jv ygtq slsl ythu
+安邦路	jv qjnl rmher
+安靜道	jv qbbsd ythu
+安駿里	jv sfice wg
+安麗街	jv mmbbp hoggn
+宋皇臺道	xjd hamg grbg ythu
+完善路	jmmu ttr rmher
+宏光道	jki fmu ythu
+宏冠道	jki bmui ythu
+宏利街	jki hdln hoggn
+宏基街	jki tcg hoggn
+宏安道	jki jv ythu
+宏富街	jki jmrw hoggn
+宏展街	jki stv hoggn
+宏德街	jki hojwp hoggn
+宏業南街	jki tctd jbtj hoggn
+宏業東街	jki tctd dw hoggn
+宏業西街	jki tctd mcw hoggn
+宏樂街	jki vid hoggn
+宏泰道	jki qke ythu
+宏照道	jki arf ythu
+宏發徑	jki nonhe homvm
+宏茂街	jki tih hoggn
+宏華街	jki tmtj hoggn
+宏豐臺	jki ujmrt grbg
+宏貝道	jki buc ythu
+宏通街	jki ynib hoggn
+宏達路	jki ygtq rmher
+宏遠街	jki ygrv hoggn
+宏開道	jki anmt ythu
+官涌街	jrlr enib hoggn
+定國街	jmyo wirm hoggn
+定安街	jmyo jv hoggn
+定富街	jmyo jmrw hoggn
+定業街	jmyo tctd hoggn
+定裕坊	jmyo lcor gyhs
+定豐街	jmyo ujmrt hoggn
+宜安街	jbm jv hoggn
+宜昌街	jbm aa hoggn
+宜春街	jbm qka hoggn
+宜正里	jbm mylm wg
+客西馬尼徑	jher mcw sqsf sp homvm
+容容路	jcor jcor rmher
+富健街	jmrw onkq hoggn
+富善街	jmrw ttr hoggn
+富地路	jmrw gpd rmher
+富坪街	jmrw gmfj hoggn
+富安街	jmrw jv hoggn
+富寧街	jmrw jpbn hoggn
+富寶路	jmrw jmuc rmher
+富崗山路	jmrw ubtu u rmher
+富康街	jmrw ile hoggn
+富強街	jmrw nili hoggn
+富忠里	jmrw lp wg
+富怡道	jmrw pir ythu
+富昌徑	jmrw aa homvm
+富明街	jmrw ab hoggn
+富東街	jmrw dw hoggn
+富業街	jmrw tctd hoggn
+富榮街	jmrw ffbd hoggn
+富欣道	jmrw hlno ythu
+富池徑	jmrw epd homvm
+富源街	jmrw emhf hoggn
+富田里	jmrw w wg
+富發里	jmrw nonhe wg
+富盛街	jmrw isbt hoggn
+富福路	jmrw ifmrw rmher
+富美東街	jmrw tgk dw hoggn
+富美街	jmrw tgk hoggn
+富翠街	jmrw smyoj hoggn
+富華街	jmrw tmtj hoggn
+富裕街	jmrw lcor hoggn
+富貴徑	jmrw lmbuc homvm
+富貴橋	jmrw lmbuc dhkb
+富貴街	jmrw lmbuc hoggn
+富運街	jmrw ybjj hoggn
+寓安里	jwlb jv wg
+寧富街	jpbn jmrw hoggn
+寧波街	jpbn edhe hoggn
+寧泰路	jpbn qke rmher
+寧華街	jpbn tmtj hoggn
+寧遠街	jpbn ygrv hoggn
+寨乪路	jtcd nw rmher
+寮肚路	jkcf bg rmher
+寶來街	jmuc doo hoggn
+寶其利街	jmuc tmmc hdln hoggn
+寶勒巷	jmuc tjks tcru
+寶坑徑	jmuc gyhn homvm
+寶坪路	jmuc gmfj rmher
+寶城街	jmuc gihs hoggn
+寶域路	jmuc girm rmher
+寶安橋	jmuc jv dhkb
+寶寧路	jmuc jpbn rmher
+寶寧里	jmuc jpbn wg
+寶峰徑	jmuc uhej homvm
+寶康路	jmuc ile rmher
+寶文街	jmuc yk hoggn
+寶昂路	jmuc ahvl rmher
+寶梨街	jmuc xhnd hoggn
+寶業街	jmuc tctd hoggn
+寶樂坊	jmuc vid gyhs
+寶樹里	jmuc dgti wg
+寶湖道	jmuc ejrb ythu
+寶湖里	jmuc ejrb wg
+寶珊道	jmuc mgbt ythu
+寶珮街	jmuc mghnb hoggn
+寶琳北路	jmuc mgdd lmp rmher
+寶琳南路	jmuc mgdd jbtj rmher
+寶琳路	jmuc mgdd rmher
+寶琳里	jmuc mgdd wg
+寶石徑	jmuc mr homvm
+寶石湖路	jmuc mr ejrb rmher
+寶聯徑	jmuc sjvit homvm
+寶豐台	jmuc ujmrt ir
+寶豐路	jmuc ujmrt rmher
+寶輪街	jmuc jjomb hoggn
+寶運路	jmuc ybjj rmher
+寶邑路	jmuc xrau rmher
+寶鄉坊	jmuc vhiil gyhs
+寶鄉橋	jmuc vhiil dhkb
+寶鄉街	jmuc vhiil hoggn
+寶鄉里	jmuc vhiil wg
+寶雅路	jmuc mhog rmher
+寶雲徑	jmuc mbmmi homvm
+寶雲道	jmuc mbmmi ythu
+寶靈街	jmuc mbrro hoggn
+寶靈頓道	jmuc mbrro pumbc ythu
+寶順路	jmuc lllc rmher
+寶馬山道	jmuc sqsf u ythu
+將軍澳南海濱長廊北橋	vmbdi bjwj ehbk jbtj eowy xejmc smv iiil lmp dhkb
+將軍澳海濱公園	vmbdi bjwj ehbk eowy xejmc ci wgrv
+將軍澳華人永遠墳場通道	vmbdi bjwj ehbk tmtj o ine ygrv gjtc gamh ynib ythu
+將軍澳道	vmbdi bjwj ehbk ythu
+將軍澳隧道	vmbdi bjwj ehbk nlyto ythu
+將軍澳隧道公路	vmbdi bjwj ehbk nlyto ythu ci rmher
+對衡道	tgdi honkn ythu
+小冷水路	nc imoii e rmher
+小商路	nc ycbr rmher
+小坑口路	nc gyhn r rmher
+小夏威夷徑	nc muhe ihmv xkn homvm
+小欖交匯處	nc dswu yck seog yphen
+小欖村路	nc dswu ddi rmher
+小欖路	nc dswu rmher
+小瀝源第一巷	nc emhm emhf hnlh m tcru
+小瀝源第三巷	nc emhm emhf hnlh mmm tcru
+小瀝源第二巷	nc emhm emhf hnlh mm tcru
+小瀝源第五巷	nc emhm emhf hnlh mdm tcru
+小瀝源第六巷	nc emhm emhf hnlh yc tcru
+小瀝源第四巷	nc emhm emhf hnlh wc tcru
+小瀝源路	nc emhm emhf rmher
+小西灣道	nc mcw evfn ythu
+小食里	nc oiav wg
+小馬山橋	nc sqsf u dhkb
+尖山隧道	fk u nlyto ythu
+尖沙咀街坊福利會廣場	fk efh rbm hoggn gyhs ifmrw hdln omwa itmc gamh
+尚堤徑	fbr gamo homvm
+尼斯徑	sp tchml homvm
+居仁里	sjr omm wg
+居賢坊	sjr sebuc gyhs
+居達街	sjr ygtq hoggn
+居適街	sjr yycb hoggn
+屈地街	suu gpd hoggn
+屈臣道	suu slsl ythu
+屋蘭士街	smig tanw jm hoggn
+屋蘭士里	smig tanw jm wg
+屏信街	stt oymr hoggn
+屏健里	stt onkq wg
+屏唐北街	stt ilr lmp hoggn
+屏唐南街	stt ilr jbtj hoggn
+屏唐東街	stt ilr dw hoggn
+屏唐西街	stt ilr mcw hoggn
+屏富徑	stt jmrw homvm
+屏山南北路	stt u jbtj lmp rmher
+屏山竹林路	stt u h dd rmher
+屏山里	stt u wg
+屏康里	stt ile wg
+屏廈路	stt imue rmher
+屏昌徑	stt aa homvm
+屏會街	stt omwa hoggn
+屏柏里	stt dha wg
+屏楊里	stt damh wg
+屏福里	stt ifmrw wg
+屏竹里	stt h wg
+屏義路	stt tghqi rmher
+屏興里	stt hxbc wg
+屏葵路	stt tnok rmher
+屏輝徑	stt fubjj homvm
+屏麗徑	stt mmbbp homvm
+展貿徑	stv hhbuc homvm
+屯仁街	pu omm hoggn
+屯利街	pu hdln hoggn
+屯匯街	pu seog hoggn
+屯合街	pu omr hoggn
+屯喜路	pu grtr rmher
+屯安里	pu jv wg
+屯富路	pu jmrw rmher
+屯發路	pu nonhe rmher
+屯盛街	pu isbt hoggn
+屯義橋	pu tghqi dhkb
+屯義街	pu tghqi hoggn
+屯興路	pu hxbc rmher
+屯貴路	pu lmbuc rmher
+屯門公路	pu an ci rmher
+屯門徑	pu an homvm
+屯門至赤鱲角連接路南面連接路主線	pu an mig glnc nfvvv nbq yjwj qytv rmher jbtj mwsl yjwj qytv rmher yg vfhae
+屯門鄉事會路	pu an vhiil jlln omwa rmher
+屯隆街	pu nlhem hoggn
+屯青里	pu qmb wg
+屯順街	pu lllc hoggn
+山下路	u my rmher
+山光道	u fmu ythu
+山南路	u jbtj rmher
+山咀村路	u rbm ddi rmher
+山塘路	u gilr rmher
+山寮下路	u jkcf my rmher
+山寮路	u jkcf rmher
+山尾街	u shqu hoggn
+山市街	u ylb hoggn
+山明街	u ab hoggn
+山村徑	u ddi homvm
+山村臺	u ddi grbg
+山村道	u ddi ythu
+山東街	u dw hoggn
+山林道	u dd ythu
+山西街	u mcw hoggn
+山谷道	u cor ythu
+山貝河東路	u buc emnr dw rmher
+山貝路	u buc rmher
+山賢路	u sebuc rmher
+山道	u ythu
+山道天橋	u ythu mk dhkb
+山邊臺	u yhus grbg
+山邊路	u yhus rmher
+山頂道	u mnmbc ythu
+峰霞道	uhej mbrse ythu
+崇仁圍	ujmf omm wdmq
+崇仁街	ujmf omm hoggn
+崇信街	ujmf oymr hoggn
+崇和徑	ujmf hdr homvm
+崇基路	ujmf tcg rmher
+崇安街	ujmf jv hoggn
+崇山街	ujmf u hoggn
+崇平街	ujmf mfj hoggn
+崇德圍	ujmf hojwp wdmq
+崇德街	ujmf hojwp hoggn
+崇志街	ujmf gp hoggn
+崇慶里	ujmf ixe wg
+崇文街	ujmf yk hoggn
+崇正路	ujmf mylm rmher
+崇潔街	ujmf eqhf hoggn
+崇耀街	ujmf fusmg hoggn
+崇華街	ujmf tmtj hoggn
+崇賢里	ujmf sebuc wg
+崇齡街	ujmf yuoii hoggn
+崗背街	ubtu lpb hoggn
+嵐霞路	uhni mbrse rmher
+嶂上郊遊徑	uytj ym yknl yysd homvm
+嶺光街	uoic fmu hoggn
+嶼南道	uhxc jbtj ythu
+川龍家樂徑	lll ybysp jmso vid homvm
+川龍林道	lll ybysp dd ythu
+川龍街	lll ybysp hoggn
+巡撫街	yvvv qotf hoggn
+工場路	mlm gamh rmher
+工場里	mlm gamh wg
+工廠街	mlm ifbk hoggn
+工業街	mlm tctd hoggn
+巧明街	mmvs ab hoggn
+巧明里	mmvs ab wg
+巧翔街	mmvs tqsmm hoggn
+差館上街	tqm oijrr ym hoggn
+差館里	tqm oijrr wg
+己連拿利	su yjwj orq hdln
+巴丙頓道	au mob pumbc ythu
+巴域街	au girm hoggn
+巴富街	au jmrw hoggn
+巴掝街	au qirm hoggn
+巴色道	au nau ythu
+巴芬道	au tcsh ythu
+巴路士街	au rmher jm hoggn
+巷仔街	tcru ond hoggn
+市場街	ylb gamh hoggn
+布力徑	klb ks homvm
+布力架街	klb ks krd hoggn
+布思道	klb wp ythu
+布朗街	klb iib hoggn
+布格仔路	klb dher ond rmher
+布袋澳村路	klb opyhv ehbk ddi rmher
+帆船街	lbhni hyhnr hoggn
+希慎道	kklb pjbc ythu
+希雲街	kklb mbmmi hoggn
+常健街	fbrlb onkq hoggn
+常和街	fbrlb hdr hoggn
+常安街	fbrlb jv hoggn
+常富街	fbrlb jmrw hoggn
+常寧路	fbrlb jpbn rmher
+常平街	fbrlb mfj hoggn
+常康街	fbrlb ile hoggn
+常怡道	fbrlb pir ythu
+常怡道天橋	fbrlb pir ythu mk dhkb
+常悅道	fbrlb pcru ythu
+常樂街	fbrlb vid hoggn
+常盛街	fbrlb isbt hoggn
+常盛里	fbrlb isbt wg
+常興街	fbrlb hxbc hoggn
+常茂街	fbrlb tih hoggn
+常達街	fbrlb ygtq hoggn
+帽東林道	lbabu dw dd ythu
+干德道	mj hojwp ythu
+干諾道中	mj yrtkr ythu l
+干諾道西	mj yrtkr ythu mcw
+干諾道西天橋	mj yrtkr ythu mcw mk dhkb
+平安橋	mfj jv dhkb
+平安里	mfj jv wg
+平定道	mfj jmyo ythu
+平定道東	mfj jmyo ythu dw
+平成里	mfj ihs wg
+平樂徑	mfj vid homvm
+平治街	mfj eir hoggn
+平瀾街	mfj eanw hoggn
+平田徑	mfj w homvm
+平田街	mfj w hoggn
+年明路	oq ab rmher
+年春街	oq qka hoggn
+年華路	oq tmtj rmher
+年豐路	oq ujmrt rmher
+幸祥街	gtj iftq hoggn
+幸福街	gtj ifmrw hoggn
+幸運道	gtj ybjj ythu
+幻想道	xvis dup ythu
+庇利街	xipp hdln hoggn
+庇利金街	xipp hdln c hoggn
+庫爾大道	ijwj mfbk k ythu
+庭和里	inkg hdr wg
+康健路	ile onkq rmher
+康利道	ile hdln ythu
+康城徑	ile gihs homvm
+康城路	ile gihs rmher
+康安街	ile jv hoggn
+康定徑	ile jmyo homvm
+康定路	ile jmyo rmher
+康富路	ile jmrw rmher
+康寧道	ile jpbn ythu
+康寶路	ile jmuc rmher
+康山	ile u
+康山道	ile u ythu
+康山道天橋	ile u ythu mk dhkb
+康平街	ile mfj hoggn
+康年徑	ile oq homvm
+康強街	ile nili hoggn
+康德道	ile hojwp ythu
+康愉街	ile pomn hoggn
+康景街	ile ayrf hoggn
+康村路	ile ddi rmher
+康柏徑	ile dha homvm
+康柏橋	ile dha dhkb
+康柏郊遊徑	ile dha yknl yysd homvm
+康業街	ile tctd hoggn
+康榮徑	ile ffbd homvm
+康樂園市中心徑	ile vid wgrv ylb l p homvm
+康樂園第一街	ile vid wgrv hnlh m hoggn
+康樂園第七街	ile vid wgrv hnlh ju hoggn
+康樂園第三街	ile vid wgrv hnlh mmm hoggn
+康樂園第九街	ile vid wgrv hnlh kn hoggn
+康樂園第二十一街	ile vid wgrv hnlh mm j m hoggn
+康樂園第二十七街	ile vid wgrv hnlh mm j ju hoggn
+康樂園第二十三街	ile vid wgrv hnlh mm j mmm hoggn
+康樂園第二十二街	ile vid wgrv hnlh mm j mm hoggn
+康樂園第二十五街	ile vid wgrv hnlh mm j mdm hoggn
+康樂園第二十八街	ile vid wgrv hnlh mm j ho hoggn
+康樂園第二十六街	ile vid wgrv hnlh mm j yc hoggn
+康樂園第二十四街	ile vid wgrv hnlh mm j wc hoggn
+康樂園第二十街	ile vid wgrv hnlh mm j hoggn
+康樂園第二街	ile vid wgrv hnlh mm hoggn
+康樂園第五街	ile vid wgrv hnlh mdm hoggn
+康樂園第八街	ile vid wgrv hnlh ho hoggn
+康樂園第六街	ile vid wgrv hnlh yc hoggn
+康樂園第十一街	ile vid wgrv hnlh j m hoggn
+康樂園第十七街	ile vid wgrv hnlh j ju hoggn
+康樂園第十九街	ile vid wgrv hnlh j kn hoggn
+康樂園第十二街	ile vid wgrv hnlh j mm hoggn
+康樂園第十五街	ile vid wgrv hnlh j mdm hoggn
+康樂園第十八街	ile vid wgrv hnlh j ho hoggn
+康樂園第十六街	ile vid wgrv hnlh j yc hoggn
+康樂園第十四街	ile vid wgrv hnlh j wc hoggn
+康樂園第十街	ile vid wgrv hnlh j hoggn
+康樂園第四街	ile vid wgrv hnlh wc hoggn
+康樂園路	ile vid wgrv rmher
+康樂廣場	ile vid itmc gamh
+康樂東路	ile vid dw rmher
+康樂街	ile vid hoggn
+康樂西路	ile vid mcw rmher
+康樂道	ile vid ythu
+康民街	ile rvp hoggn
+康泰徑	ile qke homvm
+康盛街	ile isbt hoggn
+康祥街	ile iftq hoggn
+康福臺	ile ifmrw grbg
+康莊道	ile tvmg ythu
+康輝路	ile fubjj rmher
+康運徑	ile ybjj homvm
+康達徑	ile ygtq homvm
+庸園路	ilb wgrv rmher
+廈尾路	imue shqu rmher
+廈村交匯處	imue ddi yck seog yphen
+廈村路	imue ddi rmher
+廈門街	imue an hoggn
+廟崗街	ijjb ubtu hoggn
+廟東街	ijjb dw hoggn
+廟街	ijjb hoggn
+廠房路	ifbk isyhs rmher
+廠景路	ifbk ayrf rmher
+廣利道	itmc hdln ythu
+廣善街	itmc ttr hoggn
+廣場徑	itmc gamh homvm
+廣宏街	itmc jki hoggn
+廣成街	itmc ihs hoggn
+廣播道	itmc qhdw ythu
+廣東道	itmc dw ythu
+廣榮里	itmc ffbd wg
+廣田街	itmc w hoggn
+廣福坊	itmc ifmrw gyhs
+廣福道	itmc ifmrw ythu
+廣福里	itmc ifmrw wg
+廣華街	itmc tmtj hoggn
+廣豐里	itmc ujmrt wg
+廣進街	itmc yog hoggn
+延坪道	nkhyv gmfj ythu
+延文禮士道	nkhyv yk iftwt jm ythu
+建國街	nklq wirm hoggn
+建基街	nklq tcg hoggn
+建安街	nklq jv hoggn
+建德街	nklq hojwp hoggn
+建新里	nklq ydhml wg
+建旺街	nklq amg hoggn
+建旺里	nklq amg wg
+建明街	nklq ab hoggn
+建業徑	nklq tctd homvm
+建業街	nklq tctd hoggn
+建榮街	nklq ffbd hoggn
+建榮里	nklq ffbd wg
+建樂街	nklq vid hoggn
+建泰街	nklq qke hoggn
+建灣街	nklq evfn hoggn
+建發街	nklq nonhe hoggn
+建發里	nklq nonhe wg
+建盛里	nklq isbt wg
+建群街	nklq srtq hoggn
+建翔街	nklq tqsmm hoggn
+建華街	nklq tmtj hoggn
+建豐街	nklq ujmrt hoggn
+建隆街	nklq nlhem hoggn
+弓絃巷	n vfyvi tcru
+張保仔路	nsmv ord ond rmher
+張鑑泉紀念廣場	nsmv csmt hae vfsu oinp itmc gamh
+強業街	nili tctd hoggn
+弼街	nman hoggn
+彌勒山郊遊徑	nmfb tjks u yknl yysd homvm
+彌敦道	nmfb ydok ythu
+彝倫街	vmfft oomb hoggn
+彩園路	bdhhh wgrv rmher
+彩明街	bdhhh ab hoggn
+彩暉街	bdhhh xabjj hoggn
+彩榮路	bdhhh ffbd rmher
+彩榮里	bdhhh ffbd wg
+彩沙街	bdhhh efh hoggn
+彩發街	bdhhh nonhe hoggn
+彩盛里	bdhhh isbt wg
+彩石道	bdhhh mr ythu
+彩石里	bdhhh mr wg
+彩禧路	bdhhh ifgrr rmher
+彩竹街	bdhhh h hoggn
+彩興路	bdhhh hxbc rmher
+彩興里	bdhhh hxbc wg
+彩虹交匯處	bdhhh lim yck seog yphen
+彩虹徑	bdhhh lim homvm
+彩虹道	bdhhh lim ythu
+彩雀街	bdhhh fog hoggn
+彩雲道	bdhhh mbmmi ythu
+彩霞道	bdhhh mbrse ythu
+彩順街	bdhhh lllc hoggn
+彩頤里	bdhhh slmbc wg
+彩鳳徑	bdhhh hnmaf homvm
+影業路	afhhh tctd rmher
+律倫街	holq oomb hoggn
+律打街	holq qmn hoggn
+徑口路	homvm r rmher
+徑口里	homvm r wg
+得利街	hoami hdln hoggn
+得基街	hoami tcg hoggn
+得寶街	hoami jmuc hoggn
+得怡街	hoami pir hoggn
+得榮街	hoami ffbd hoggn
+復康徑	hooae ile homvm
+德仁街	hojwp omm hoggn
+德厚街	hojwp mand hoggn
+德士古交匯處	hojwp jm jr yck seog yphen
+德士古道	hojwp jm jr ythu
+德士古道北	hojwp jm jr ythu lmp
+德士古道天橋	hojwp jm jr ythu mk dhkb
+德大徑	hojwp k homvm
+德安街	hojwp jv hoggn
+德定街	hojwp jmyo hoggn
+德己立街	hojwp su yt hoggn
+德康街	hojwp ile hoggn
+德忌利士巷	hojwp sup hdln jm tcru
+德忌利士街	hojwp sup hdln jm hoggn
+德成街	hojwp ihs hoggn
+德政圍	hojwp mmok wdmq
+德昌街	hojwp aa hoggn
+德昌里	hojwp aa wg
+德星里	hojwp ahqm wg
+德業街	hojwp tctd hoggn
+德民街	hojwp rvp hoggn
+德海街	hojwp eowy hoggn
+德田街	hojwp w hoggn
+德立街	hojwp yt hoggn
+德興街	hojwp hxbc hoggn
+德華街	hojwp tmtj hoggn
+德豐街	hojwp ujmrt hoggn
+德輔道中	hojwp jjijb ythu l
+德輔道西	hojwp jjijb ythu mcw
+德隆前街	hojwp nlhem tbln hoggn
+德隆後街	hojwp nlhem hovie hoggn
+德雲道	hojwp mbmmi ythu
+心經簡林	p vfmvm hana dd
+必列者士街	ph mnln jka jm hoggn
+必嘉圍	ph xgrtr wdmq
+必嘉街	ph xgrtr hoggn
+必發道	ph nonhe ythu
+忌利文道	sup hdln yk ythu
+志仁街	gp omm hoggn
+志和街	gp hdr hoggn
+志士達道	gp jm ygtq ythu
+志昂路	gp ahvl rmher
+志盛路	gp isbt rmher
+志蓮道	gp tyjj ythu
+志輝徑	gp fubjj homvm
+忠信街	lp oymr hoggn
+忠孝街	lp jknd hoggn
+忠正街	lp mylm hoggn
+忠民街	lp rvp hoggn
+忠義街	lp tghqi hoggn
+忠賢里	lp sebuc wg
+快富街	pdk jmrw hoggn
+快景路	pdk ayrf rmher
+念祖街	oinp ifbm hoggn
+思源梯	wp emhf dcnh
+思高路	wp yrbr rmher
+怡南路	pir jbtj rmher
+怡和街	pir hdr hoggn
+怡康徑	pir ile homvm
+怡康街	pir ile hoggn
+怡成坊	pir ihs gyhs
+怡景道	pir ayrf ythu
+怡東路	pir dw rmher
+怡樂徑	pir vid homvm
+怡樂街	pir vid hoggn
+怡泰街	pir qke hoggn
+怡盛街	pir isbt hoggn
+怡盛里	pir isbt wg
+怡豐街	pir ujmrt hoggn
+怡雅路	pir mhog rmher
+怡順街	pir lllc hoggn
+急庇利街	nsp xipp hdln hoggn
+恆信街	pmbm oymr hoggn
+恆健街	pmbm onkq hoggn
+恆光街	pmbm fmu hoggn
+恆城街	pmbm gihs hoggn
+恆安街	pmbm jv hoggn
+恆富街	pmbm jmrw hoggn
+恆康街	pmbm ile hoggn
+恆明街	pmbm ab hoggn
+恆智街	pmbm ora hoggn
+恆業街	pmbm tctd hoggn
+恆樂里	pmbm vid wg
+恆泰路	pmbm qke rmher
+恆耀街	pmbm fusmg hoggn
+恆貴街	pmbm lmbuc hoggn
+恆輝街	pmbm fubjj hoggn
+恆錦街	pmbm chab hoggn
+恒德街	pmam hojwp hoggn
+恒柏道	pmam dha ythu
+恩平道	wkp mfj ythu
+悅海街	pcru eowy hoggn
+悠安街	okp jv hoggn
+悠定街	okp jmyo hoggn
+悠麗路	okp mmbbp rmher
+情人路	pqmb o rmher
+惇裕路	pyrd lcor rmher
+惠亨街	jip yrnn hoggn
+惠安街	jip jv hoggn
+惠東路	jip dw rmher
+惠民路	jip rvp rmher
+惠福道	jip ifmrw ythu
+惠華街	jip tmtj hoggn
+惠風街	jip hnmli hoggn
+愉景山道	pomn ayrf u ythu
+愉景灣道	pomn ayrf evfn ythu
+愉景灣隧道	pomn ayrf evfn nlyto ythu
+愉景街	pomn ayrf hoggn
+愛丁堡廣場	bbpe mn odg itmc gamh
+愛信道	bbpe oymr ythu
+愛勇街	bbpe nbks hoggn
+愛勤道	bbpe tmks ythu
+愛德街	bbpe hojwp hoggn
+愛德里	bbpe hojwp wg
+愛明里	bbpe ab wg
+愛景街	bbpe ayrf hoggn
+愛民街	bbpe rvp hoggn
+愛琴道	bbpe mgoin ythu
+愛禮街	bbpe iftwt hoggn
+愛禮里	bbpe iftwt wg
+愛秩序灣道	bbpe hdhqo inin evfn ythu
+愛秩序街	bbpe hdhqo inin hoggn
+愛群道	bbpe srtq ythu
+愛義街	bbpe tghqi hoggn
+愛賢街	bbpe sebuc hoggn
+慈航路	tvip hyyhn rmher
+慈華里	tvip tmtj wg
+慈雲山道	tvip mbmmi u ythu
+慕禮道	takp iftwt ythu
+慧翠道	qjsmp smyoj ythu
+慶平路	ixe mfj rmher
+慶徑石路	ixe homvm mr rmher
+慶東街	ixe dw hoggn
+慶田街	ixe w hoggn
+慶雲街	ixe mbmmi hoggn
+懷仁街	pywv omm hoggn
+懷善街	pywv ttr hoggn
+懷德里	pywv hojwp wg
+懷惠道	pywv jip ythu
+懷義街	pywv tghqi hoggn
+成全路	ihs omg rmher
+成和坊	ihs hdr gyhs
+成和道	ihs hdr ythu
+成安街	ihs jv hoggn
+成安里	ihs jv wg
+成業街	ihs tctd hoggn
+成興街	ihs hxbc hoggn
+成運路	ihs ybjj rmher
+成都道	ihs janl ythu
+戲院街	yti nljmu hoggn
+戲院里	yti nljmu wg
+戴亞街	jiwtc mllm hoggn
+扎山道	xqu u ythu
+打比道	qmn pp ythu
+打版里	qmn xlnhe wg
+打磚坪街	qmn mrjii gmfj hoggn
+打蠔墩路	qmn liyro gydk rmher
+打鼓嶺道	qmn gtje uoic ythu
+扶輪公園自然教育徑	qqo jjomb ci wgrv hbu bkf jdok yib homvm
+批發市場街	qpp nonhe ylb gamh hoggn
+承啓道	nnqo xhkr ythu
+承啟道	nnqo irok ythu
+承啟道迴旋處	nnqo irok ythu ywr ysono yphen
+承昌道	nnqo aa ythu
+承豐道	nnqo ujmrt ythu
+担杆山交匯處	qam dmj u yck seog yphen
+担杆山路	qam dmj u rmher
+担杆莆街	qam dmj tijb hoggn
+担竿洲路	qam hmj eill rmher
+拔子窩街	qikk nd jcbbr hoggn
+拱橋	qtc dhkb
+振強路	qmmv nili rmher
+振業路	qmmv tctd rmher
+振榮街	qmmv ffbd hoggn
+振翅里北	qmmv jesmm wg lmp
+振翅里南	qmmv jesmm wg jbtj
+振興第一街	qmmv hxbc hnlh m hoggn
+振興第三街	qmmv hxbc hnlh mmm hoggn
+振興第二街	qmmv hxbc hnlh mm hoggn
+振興第五街	qmmv hxbc hnlh mdm hoggn
+振興第六街	qmmv hxbc hnlh yc hoggn
+振興第四街	qmmv hxbc hnlh wc hoggn
+振興路	qmmv hxbc rmher
+振華道	qmmv tmtj ythu
+捷船街	qjlo hyhnr hoggn
+掃管埔路	qsmb hjrr gijb rmher
+掃管埔迴旋處	qsmb hjrr gijb ywr ysono yphen
+掃管笏村路	qsmb hjrr hphh ddi rmher
+掃管笏路	qsmb hjrr hphh rmher
+排廠路	qlmy ifbk rmher
+排煤機道	qlmy ftmd dvii ythu
+排頭街	qlmy mtmbc hoggn
+插桅杆街	qhjx dnmu dmj hoggn
+揚帆里北	qamh lbhni wg lmp
+揚帆里南	qamh lbhni wg jbtj
+摩利臣街	idq hdln slsl hoggn
+摩利臣街行人天橋	idq hdln slsl hoggn hommn o mk dhkb
+摩星嶺徑	idq ahqm uoic homvm
+摩星嶺道	idq ahqm uoic ythu
+摩理臣山道	idq mgwg slsl u ythu
+摩羅上街	idq wlvfg ym hoggn
+摩羅下街	idq wlvfg my hoggn
+摩羅廟交加街	idq wlvfg ijjb yck ksr hoggn
+摩羅廟街	idq wlvfg ijjb hoggn
+摩頓臺	idq pumbc grbg
+擊壤路	jeq gyrv rmher
+擎天徑	tkq mk homvm
+擴業街	qitc tctd hoggn
+擺花街	qwlp top hoggn
+攀岩牆碎石徑	ddkq umr vmgow mryoj mr homvm
+攸壆路	olok hbg rmher
+攸田東路	olok w dw rmher
+攸田西路	olok w mcw rmher
+救世軍街	ieok pt bjwj hoggn
+救援徑	ieok qbme homvm
+教堂街	jdok fbrg hoggn
+教堂路	jdok fbrg rmher
+教育路	jdok yib rmher
+散石灣北路	tbok mr evfn lmp rmher
+散石灣路	tbok mr evfn rmher
+敦和里	ydok hdr wg
+敬德街	trok hojwp hoggn
+敬業街	trok tctd hoggn
+敬業里	trok tctd wg
+敬民街	trok rvp hoggn
+敬祖路	trok ifbm rmher
+敬誠街	trok yrihs hoggn
+敬賢里	trok sebuc wg
+數碼港道	lvok mrsqf etcu ythu
+文匯街	yk seog hoggn
+文咸東街	yk ihmr dw hoggn
+文咸西街	yk ihmr mcw hoggn
+文恆街	yk pmbm hoggn
+文成街	yk ihs hoggn
+文昌街	yk aa hoggn
+文明里	yk ab wg
+文曲里	yk xtw wg
+文東路	yk dw rmher
+文林路	yk dd rmher
+文發街	yk nonhe hoggn
+文社里	yk ifg wg
+文福道	yk ifmrw ythu
+文禮路	yk iftwt rmher
+文興里	yk hxbc wg
+文苑街	yk tniu hoggn
+文英街	yk tlbk hoggn
+文華里	yk tmtj wg
+文蔚街	yk tsfi hoggn
+文質路	yk hlbuc rmher
+文輝道	yk fubjj ythu
+文運道	yk ybjj ythu
+文錦渡路	yk chab eite rmher
+文順巷	yk lllc tcru
+料壆路	fdyj hbg rmher
+斧山道	ckhml u ythu
+新亞坊	ydhml mllm gyhs
+新亞路	ydhml mllm rmher
+新健街	ydhml onkq hoggn
+新利街	ydhml hdln hoggn
+新力街	ydhml ks hoggn
+新功街	ydhml mks hoggn
+新勤街	ydhml tmks hoggn
+新北社街	ydhml lmp ifg hoggn
+新合里	ydhml omr wg
+新和里	ydhml hdr wg
+新圍仔路	ydhml wdmq ond rmher
+新圍街	ydhml wdmq hoggn
+新基橋	ydhml tcg dhkb
+新基街	ydhml tcg hoggn
+新填地街	ydhml gjbc gpd hoggn
+新墟徑	ydhml gypm homvm
+新娘潭路	ydhml viav emwj rmher
+新安街	ydhml jv hoggn
+新寧道	ydhml jpbn ythu
+新寶街	ydhml jmuc hoggn
+新屋嶺第一巷	ydhml smig uoic hnlh m tcru
+新屋嶺第七巷	ydhml smig uoic hnlh ju tcru
+新屋嶺第三巷	ydhml smig uoic hnlh mmm tcru
+新屋嶺第二巷	ydhml smig uoic hnlh mm tcru
+新屋嶺第五巷	ydhml smig uoic hnlh mdm tcru
+新屋嶺第六巷	ydhml smig uoic hnlh yc tcru
+新屋嶺第四巷	ydhml smig uoic hnlh wc tcru
+新山道	ydhml u ythu
+新市街	ydhml ylb hoggn
+新平街	ydhml mfj hoggn
+新康街	ydhml ile hoggn
+新廈街	ydhml imue hoggn
+新德街	ydhml hojwp hoggn
+新慶路	ydhml ixe rmher
+新成街	ydhml ihs hoggn
+新成路	ydhml ihs rmher
+新會道	ydhml omwa ythu
+新村街	ydhml ddi hoggn
+新柳街	ydhml dhhl hoggn
+新業街	ydhml tctd hoggn
+新榮街	ydhml ffbd hoggn
+新樂街	ydhml vid hoggn
+新樓街	ydhml dllv hoggn
+新深路	ydhml ebcd rmher
+新清水灣道	ydhml eqmb e evfn ythu
+新潭路	ydhml emwj rmher
+新灰街	ydhml kf hoggn
+新田交匯處	ydhml w yck seog yphen
+新田公路	ydhml w ci rmher
+新田村路	ydhml w ddi rmher
+新發街	ydhml nonhe hoggn
+新益里	ydhml tcbt wg
+新碼頭街	ydhml mrsqf mtmbc hoggn
+新祥街	ydhml iftq hoggn
+新福路	ydhml ifmrw rmher
+新秀街	ydhml hdnhs hoggn
+新聞街	ydhml ansj hoggn
+新興後街	ydhml hxbc hovie hoggn
+新興海傍街	ydhml hxbc eowy oybs hoggn
+新興街	ydhml hxbc hoggn
+新華安里	ydhml tmtj jv wg
+新華里	ydhml tmtj wg
+新葵街	ydhml tnok hoggn
+新街	ydhml hoggn
+新街市街	ydhml hoggn ylb hoggn
+新街市里	ydhml hoggn ylb wg
+新西貢公路	ydhml mcw xmbuc ci rmher
+新豐路	ydhml ujmrt rmher
+新財街	ydhml bcdh hoggn
+新賤橋	ydhml bcii dhkb
+新起村街	ydhml gosu ddi hoggn
+新運路	ydhml ybjj rmher
+新運里	ydhml ybjj wg
+新達里	ydhml ygtq wg
+新錫路	ydhml caph rmher
+新青街	ydhml qmb hoggn
+新順街	ydhml lllc hoggn
+方樹泉廊	yhs dgti hae iiil
+施他佛道	ysopd opd olln ythu
+施勳道	ysopd hfks ythu
+施弼街	ysopd nman hoggn
+日內瓦大道南	a ob mvni k ythu jbtj
+日內瓦大道東	a ob mvni k ythu dw
+日出大道	a uu k ythu
+日善街	a ttr hoggn
+日富里	a jmrw wg
+日新街	a ydhml hoggn
+日落脊	a tehr fcb
+日葵徑	a tnok homvm
+日街	a hoggn
+早禾路	aj hd rmher
+旭日街	kna a hoggn
+旭昇道	kna aht ythu
+旭龢道	kna obhd ythu
+旺堤街	amg gamo hoggn
+旺角道	amg nbq ythu
+旺賢街	amg sebuc hoggn
+昂平路	ahvl mfj rmher
+昂磡路	ahvl mrtvs rmher
+昂船路	ahvl hyhnr rmher
+昂運路	ahvl ybjj rmher
+昃臣道	amo slsl ythu
+昇平街	aht mfj hoggn
+昇昌里	aht aa wg
+昌新里	aa ydhml wg
+昌明街	aa ab hoggn
+昌榮路	aa ffbd rmher
+昌泰街	aa qke hoggn
+昌盛徑	aa isbt homvm
+昌華街	aa tmtj hoggn
+明仁里	ab omm wg
+明倫街	ab oomb hoggn
+明園西街	ab wgrv mcw hoggn
+明安街	ab jv hoggn
+明智街	ab ora hoggn
+明暉路	ab xabjj rmher
+明翠徑	ab smyoj homvm
+明蔚徑	ab tsfi homvm
+明藝街	ab tgii hoggn
+明趣街	ab gosje hoggn
+星光大道	ahqm fmu k ythu
+星街	ahqm hoggn
+映河路	albk emnr rmher
+春勝街	qka bfqs hoggn
+春園街	qka wgrv hoggn
+春暉臺	qka xabjj grbg
+春暉道	qka xabjj ythu
+春田街	qka w hoggn
+春秧街	qka hdlbk hoggn
+昭信路	ashr oymr rmher
+昭隆街	ashr nlhem hoggn
+晉源街	miia emhf hoggn
+晏架街	ajv krd hoggn
+晏頓街	ajv pumbc hoggn
+普仁街	tca omm hoggn
+普善街	tca ttr hoggn
+普慶坊	tca ixe gyhs
+普樂道	tca vid ythu
+普樂里	tca vid wg
+普渡橋	tca eite dhkb
+普照路	tca arf rmher
+普益新街	tca tcbt ydhml hoggn
+普益街	tca tcbt hoggn
+普益里	tca tcbt wg
+普義街	tca tghqi hoggn
+普通道	tca ynib ythu
+普門路	tca an rmher
+景光街	ayrf fmu hoggn
+景峰徑	ayrf uhej homvm
+景嶺路	ayrf uoic rmher
+景新徑	ayrf ydhml homvm
+景明道	ayrf ab ythu
+景星街	ayrf ahqm hoggn
+景泰街	ayrf qke hoggn
+景福街	ayrf ifmrw hoggn
+景秀里	ayrf hdnhs wg
+景荔徑	ayrf tkss homvm
+景隆街	ayrf nlhem hoggn
+景雲街	ayrf mbmmi hoggn
+智昌路	ora aa rmher
+智明街	ora ab hoggn
+智芳街	ora tyhs hoggn
+智賢里	ora sebuc wg
+智順里	ora lllc wg
+暉明路	xabjj ab rmher
+暢景路	llamh ayrf rmher
+暢業路	llamh tctd rmher
+暢興路	llamh hxbc rmher
+暢航路	llamh hyyhn rmher
+暢行道	llamh hommn ythu
+暢行里	llamh hommn wg
+暢通道	llamh ynib ythu
+暢通道南	llamh ynib ythu jbtj
+暢連路	llamh yjwj rmher
+暢運道	llamh ybjj ythu
+暢達路	llamh ygtq rmher
+暢順路	llamh lllc rmher
+曉光街	aggu fmu hoggn
+曉明街	aggu ab hoggn
+曉波徑	aggu edhe homvm
+曉翠街	aggu smyoj hoggn
+曉育徑	aggu yib homvm
+曉運路	aggu ybjj rmher
+曲橋	xtw dhkb
+曲街	xtw hoggn
+書局街	lga ssr hoggn
+書院道	lga nljmu ythu
+書館街	lga oijrr hoggn
+曹公坊	twa ci gyhs
+曹公街	twa ci hoggn
+曾嘴路	cwa rypb rmher
+會所街	omwa hshml hoggn
+會議道	omwa yrtgi ythu
+月園街	b wgrv hoggn
+月桂徑	b dgg homvm
+月華街	b tmtj hoggn
+月街	b hoggn
+月輪街	b jjomb hoggn
+有信街	kb oymr hoggn
+有康街	kb ile hoggn
+朗和路	iib hdr rmher
+朗天路	iib mk rmher
+朗屏路	iib stt rmher
+朗德道	iib hojwp ythu
+朗成路	iib ihs rmher
+朗日路	iib a rmher
+朗明街	iib ab hoggn
+朗暉路	iib xabjj rmher
+朗月街	iib b hoggn
+朗業街	iib tctd hoggn
+朗樂路	iib vid rmher
+朗欣路	iib hlno rmher
+朗河路	iib emnr rmher
+朗漢路	iib etlo rmher
+朗藝徑	iib tgii homvm
+望榮街	ybmg ffbd hoggn
+望發街	ybmg nonhe hoggn
+望達街	ybmg ygtq hoggn
+望隆街	ybmg nlhem hoggn
+朝光街	jjb fmu hoggn
+朝暉徑	jjb xabjj homvm
+朝暉路	jjb xabjj rmher
+木廠街	d ifbk hoggn
+木星街	d ahqm hoggn
+杉樹街	dhhh dgti hoggn
+李寶龍路	dnd jmuc ybysp rmher
+李節街	dnd hail hoggn
+李陞街	dnd nlhtg hoggn
+杏林街	dr dd hoggn
+村南道	ddi jbtj ythu
+杜老誌道	dg jkp yrgp ythu
+杜雲里	dg mbmmi wg
+束勝道	dl bfqs ythu
+杯渡路	dmf eite rmher
+東九龍走廊	dw kn ybysp gyo iiil
+東九龍高架公路	dw kn ybysp yrbr krd ci rmher
+東京街	dw yrf hoggn
+東京街西	dw yrf hoggn mcw
+東來里	dw doo wg
+東健道	dw onkq ythu
+東光道	dw fmu ythu
+東利道	dw hdln ythu
+東勝道	dw bfqs ythu
+東匯路	dw seog rmher
+東區海底隧道	dw srrr eowy ihvi nlyto ythu
+東區走廊	dw srrr gyo iiil
+東喜道	dw grtr ythu
+東堤	dw gamo
+東安街	dw jv hoggn
+東寶庭道	dw jmuc inkg ythu
+東山徑	dw u homvm
+東山臺	dw u grbg
+東岸路	dw ummj rmher
+東提北路	dw qamo lmp rmher
+東方街	dw yhs hoggn
+東旺道	dw amg ythu
+東昌街	dw aa hoggn
+東林台	dw dd ir
+東梅古道	dw dowy jr ythu
+東榮路	dw ffbd rmher
+東橋路	dw dhkb rmher
+東正道	dw mylm ythu
+東永安路	dw ine jv rmher
+東沙島街	dw efh hayu hoggn
+東泰里	dw qke wg
+東涌上落客貨區	dw enib ym tehr jher opbuc srrr
+東涌東交匯處	dw enib dw yck seog yphen
+東涌海濱路	dw enib eowy xejmc rmher
+東涌道	dw enib ythu
+東涌道北	dw enib ythu lmp
+東源街	dw emhf hoggn
+東澳古道	dw ehbk jr ythu
+東灣路	dw evfn rmher
+東灣頭路	dw evfn mtmbc rmher
+東狗牙	dw khpr mvdh
+東發道	dw nonhe ythu
+東碼頭道	dw mrsqf mtmbc ythu
+東籬徑	dw hybg homvm
+東翼路	dw smwtc rmher
+東耀路	dw fusmg rmher
+東興里	dw hxbc wg
+東興里行人天橋	dw hxbc wg hommn o mk dhkb
+東莞街	dw tjmu hoggn
+東街	dw hoggn
+東角道	dw nbq ythu
+東路	dw rmher
+東輝路	dw fubjj rmher
+東邊街	dw yhus hoggn
+東邊街北	dw yhus hoggn lmp
+東院道	dw nljmu ythu
+東隆道	dw nlhem ythu
+東頭村道	dw mtmbc ddi ythu
+東頭灣徑	dw mtmbc evfn homvm
+東頭灣道	dw mtmbc evfn ythu
+東頭灣里	dw mtmbc evfn wg
+松仁路	dci omm rmher
+松山道	dci u ythu
+松嶺路	dci uoic rmher
+松嶺里	dci uoic wg
+松慧街	dci qjsmp hoggn
+松林廢堡歷史徑	dci dd inoe odg mhdm lk homvm
+松柏徑	dci dha homvm
+松柏路	dci dha rmher
+松樹街	dci dgti hoggn
+松滿路	dci etlb rmher
+松濤南路	dci egni jbtj rmher
+松濤東路	dci egni dw rmher
+松濤西路	dci egni mcw rmher
+松菊徑	dci tpfd homvm
+松逸街	dci ynai hoggn
+松頭下路	dci mtmbc my rmher
+松齡徑	dci yuoii homvm
+林士街	dd jm hoggn
+林士街天橋	dd jm hoggn mk dhkb
+林大輝廣場	dd k fubjj itmc gamh
+林安坊	dd jv gyhs
+林村鄉公所路	dd ddi vhiil ci hshml rmher
+林盛路	dd isbt rmher
+林肯道	dd ymb ythu
+林錦公路	dd chab ci rmher
+林錦公路交匯處	dd chab ci rmher yck seog yphen
+柏傑路	dha onqd rmher
+柏暉徑	dha xabjj homvm
+柏架山道	dha krd u ythu
+柏樹街	dha dgti hoggn
+柏濤徑	dha egni homvm
+柏道	dha ythu
+染布房街	end klb isyhs hoggn
+柯士甸山道	dmnr jm pw u ythu
+柯士甸路	dmnr jm pw rmher
+柯士甸道	dmnr jm pw ythu
+柯士甸道西	dmnr jm pw ythu mcw
+柯布連道	dmnr klb yjwj ythu
+柳樹徑	dhhl dgti homvm
+柳樹街	dhhl dgti hoggn
+柴灣角街	ypd evfn nbq hoggn
+柴灣道	ypd evfn ythu
+校友徑	dyck ke homvm
+校園徑	dyck wgrv homvm
+栢欣大道	dma hlno k ythu
+根德道	dav hojwp ythu
+桂地新村路	dgg gpd ydhml ddi rmher
+桂地街	dgg gpd hoggn
+桂成里	dgg ihs wg
+桂林街	dgg dd hoggn
+桂花徑	dgg top homvm
+桂芳街	dgg tyhs hoggn
+桂香街	dgg hda hoggn
+桃勵路	dlmo mbks rmher
+桃李臺	dlmo dnd grbg
+桃源街	dlmo emhf hoggn
+梁盛路	eid isbt rmher
+梁輝臺	eid fubjj grbg
+梅子林路	dowy nd dd rmher
+梅樹坑路	dowy dgti gyhn rmher
+梅窩海濱長廊	dowy jcbbr eowy xejmc smv iiil
+梅窩涌口街	dowy jcbbr enib r hoggn
+梅窩碼頭路	dowy jcbbr mrsqf mtmbc rmher
+梅窩鄉事會路	dowy jcbbr vhiil jlln omwa rmher
+梅花古道	dowy top jr ythu
+梅芳街	dowy tyhs hoggn
+梅道	dowy ythu
+梅馨街	dowy gehda hoggn
+梨木道	xhnd d ythu
+梨樹路	xhnd dgti rmher
+梨貝街	xhnd buc hoggn
+梭椏道	dice dmlm ythu
+梳士巴利道	dyiu jm au hdln ythu
+梳士巴利道隧道	dyiu jm au hdln ythu nlyto ythu
+棉登徑	dhab nomrt homvm
+棉花路	dhab top rmher
+棕樹街	djmf dgti hoggn
+棕櫚徑	djmf danr homvm
+棗梨雅道	xdbdb xhnd mhog ythu
+棟樑路	ddw deid rmher
+棟樑里	ddw deid wg
+棠蔭街	fbrd tnli hoggn
+森麻實徑	ddd ijcc jwjc homvm
+森麻實道	ddd ijcc jwjc ythu
+楊屋道	damh smig ythu
+楊景路	damh ayrf rmher
+楊柳徑	damh dhhl homvm
+楊青路	damh qmb rmher
+楊青里	damh qmb wg
+楓樹窩路	dhni dgti jcbbr rmher
+楓樹街	dhni dgti hoggn
+楓香路	dhni hda rmher
+業勤街	tctd tmks hoggn
+業和街	tctd hdr hoggn
+業成街	tctd ihs hoggn
+業旺路	tctd amg rmher
+業暢街	tctd llamh hoggn
+業發街	tctd nonhe hoggn
+業興街	tctd hxbc hoggn
+業豐街	tctd ujmrt hoggn
+榆樹街	domn dgti hoggn
+榕樹灣大街	djcr dgti evfn k hoggn
+榕樹灣廣場路	djcr dgti evfn itmc gamh rmher
+榕樹灣後街	djcr dgti evfn hovie hoggn
+榕翠徑	djcr smyoj homvm
+榮光街	ffbd fmu hoggn
+榮業街	ffbd tctd hoggn
+榮欣道	ffbd hlno ythu
+榮池徑	ffbd epd homvm
+榮發里	ffbd nonhe wg
+榮祖街	ffbd ifbm hoggn
+榮芳路	ffbd tyhs rmher
+榮華臺	ffbd tmtj grbg
+榮華里	ffbd tmtj wg
+槐樹街	dhui dgti hoggn
+樂信徑	vid oymr homvm
+樂古道	vid jr ythu
+樂和街	vid hdr hoggn
+樂善美道	vid ttr tgk ythu
+樂善道	vid ttr ythu
+樂園大門道	vid wgrv k an ythu
+樂園徑	vid wgrv homvm
+樂城街	vid gihs hoggn
+樂天街	vid mk hoggn
+樂怡街	vid pir hoggn
+樂景臺	vid ayrf grbg
+樂景街	vid ayrf hoggn
+樂東街	vid dw hoggn
+樂林路	vid dd rmher
+樂楓徑	vid dhni homvm
+樂業路	vid tctd rmher
+樂民道	vid rvp ythu
+樂活道	vid ehjr ythu
+樂濤街	vid egni hoggn
+樂禮街	vid iftwt hoggn
+樂群街	vid srtq hoggn
+樂翠街	vid smyoj hoggn
+樂華街	vid tmtj hoggn
+樂葵徑	vid tnok homvm
+樂蓮徑	vid tyjj homvm
+樂道	vid ythu
+樂霞坊	vid mbrse gyhs
+樂鳴街	vid rhaf hoggn
+樓梯臺	dllv dcnh grbg
+樓梯街	dllv dcnh hoggn
+樟大路	dytj k rmher
+樟樹灘路	dytj dgti etog rmher
+模範里	dtak hjju wg
+橋下路	dhkb my rmher
+橋咀洲地質步道	dhkb rbm eill gpd hlbuc ylmh ythu
+橋壽徑	dhkb gnmi homvm
+橋山橋	dhkb u dhkb
+橋德徑	dhkb hojwp homvm
+橋旺街	dhkb amg hoggn
+橋昌路	dhkb aa rmher
+橋樂坊	dhkb vid gyhs
+橋洪路	dhkb etc rmher
+橋發街	dhkb nonhe hoggn
+橋盛街	dhkb isbt hoggn
+橋頭路	dhkb mtmbc rmher
+橙花路	dnot top rmher
+機利士北路	dvii hdln jm lmp rmher
+機利士南路	dvii hdln jm jbtj rmher
+機利文新街	dvii hdln yk ydhml hoggn
+機利文街	dvii hdln yk hoggn
+機利臣街	dvii hdln slsl hoggn
+機場北交匯處	dvii gamh lmp yck seog yphen
+機場南交匯處	dvii gamh jbtj yck seog yphen
+機場管理局土木工程項目維修站	dvii gamh hjrr mgwg ssr g d mlm hdrmg mmbc bu vfog oloh ytyr
+機場緩跑徑	dvii gamh vfbme rmpru homvm
+機場路	dvii gamh rmher
+機場隧道	dvii gamh nlyto ythu
+橡樹街	dnao dgti hoggn
+橫台山散村路	xdtmc ir u tbok ddi rmher
+橫壆街	xdtmc hbg hoggn
+橫平山南路	xdtmc mfj u jbtj rmher
+橫洲路	xdtmc eill rmher
+橫窩仔街	xdtmc jcbbr ond hoggn
+橫街	xdtmc hoggn
+橫頭磡中道	xdtmc mtmbc mrtvs l ythu
+橫頭磡北道	xdtmc mtmbc mrtvs lmp ythu
+橫頭磡南道	xdtmc mtmbc mrtvs jbtj ythu
+橫頭磡東道	xdtmc mtmbc mrtvs dw ythu
+橫龍街	xdtmc ybysp hoggn
+檳榔灣路	djmc diil evfn rmher
+櫸樹街	dhcq dgti hoggn
+櫻桃徑	dbcv dlmo homvm
+櫻桃街	dbcv dlmo hoggn
+櫻桃街行車隧道	dbcv dlmo hoggn hommn jwj nlyto ythu
+欖口村路	dswu r ddi rmher
+欖喜路	dswu grtr rmher
+欖堤東路	dswu gamo dw rmher
+欖堤西路	dswu gamo mcw rmher
+欖裕路	dswu lcor rmher
+欣景路	hlno ayrf rmher
+欣業街	hlno tctd hoggn
+欣榮街	hlno ffbd hoggn
+欣澳道	hlno ehbk ythu
+欣盛里	hlno isbt wg
+欣翔道	hlno tqsmm ythu
+欣華街	hlno tmtj hoggn
+欽州街	cno ilil hoggn
+欽州街西	cno ilil hoggn mcw
+欽明路	cno ab rmher
+歌和老街	mrno hdr jkp hoggn
+歌賦山道	mrno bcmpm u ythu
+歌賦山里	mrno bcmpm u wg
+歌賦街	mrno bcmpm hoggn
+歌連臣街	mrno yjwj slsl hoggn
+歌連臣角道	mrno yjwj slsl nbq ythu
+歌頓道	mrno pumbc ythu
+正大街	mylm k hoggn
+正德街	mylm hojwp hoggn
+正暉街	mylm xabjj hoggn
+正義道	mylm tghqi ythu
+正街	mylm hoggn
+武英路	mpylm tlbk rmher
+毓學里	oyyiu hbnd wg
+毓秀街	oyyiu hdnhs hoggn
+毓秀里	oyyiu hdnhs wg
+毓華街	oyyiu tmtj hoggn
+毓華里	oyyiu tmtj wg
+毓雅里	oyyiu mhog wg
+比雅道	pp mhog ythu
+民兆街	rvp lmuo hoggn
+民光街	rvp fmu hoggn
+民合徑	rvp omr homvm
+民吉街	rvp gr hoggn
+民寶街	rvp jmuc hoggn
+民康街	rvp ile hoggn
+民德路	rvp hojwp rmher
+民新街	rvp ydhml hoggn
+民樂街	rvp vid hoggn
+民泰街	rvp qke hoggn
+民照街	rvp arf hoggn
+民生街	rvp hqm hoggn
+民祥街	rvp iftq hoggn
+民耀街	rvp fusmg hoggn
+民裕街	rvp lcor hoggn
+民豐徑	rvp ujmrt homvm
+民輝街	rvp fubjj hoggn
+水仙徑	e ou homvm
+水務道路	e nhoks ythu rmher
+水坑口街	e gyhn r hoggn
+水塘道	e gilr ythu
+水巷	e tcru
+水庫路	e ijwj rmher
+水廠街	e ifbk hoggn
+水星街	e ahqm hoggn
+水池巷	e epd tcru
+水泉坳街	e hae gvis hoggn
+水渠道	e esd ythu
+水管路	e hjrr rmher
+水蕉新村路	e togf ydhml ddi rmher
+水街	e hoggn
+水車館街	e jwj oijrr hoggn
+水車館里	e jwj oijrr wg
+水邊圍交匯處	e yhus wdmq yck seog yphen
+水邊圍路	e yhus wdmq rmher
+水頭路	e mtmbc rmher
+永利街	ine hdln hoggn
+永創街	ine orln hoggn
+永吉街	ine gr hoggn
+永和街	ine hdr hoggn
+永基路	ine tcg rmher
+永孝街	ine jknd hoggn
+永安橫街	ine jv xdtmc hoggn
+永安街	ine jv hoggn
+永定道	ine jmyo ythu
+永寧街	ine jpbn hoggn
+永平街	ine mfj hoggn
+永康街	ine ile hoggn
+永建路	ine nklq rmher
+永德街	ine hojwp hoggn
+永德路	ine hojwp rmher
+永愛道	ine bbpe ythu
+永授聖母橋	ine qbbe srmg wyi dhkb
+永援聖母橋	ine qbme srmg wyi dhkb
+永明街	ine ab hoggn
+永星里	ine ahqm wg
+永東街	ine dw hoggn
+永業街	ine tctd hoggn
+永樂街	ine vid hoggn
+永樂里	ine vid wg
+永泰道	ine qke ythu
+永生街	ine hqm hoggn
+永祥街	ine iftq hoggn
+永福街	ine ifmrw hoggn
+永立街	ine yt hoggn
+永耀街	ine fusmg hoggn
+永興街	ine hxbc hoggn
+永豐街	ine ujmrt hoggn
+永豐西街	ine ujmrt mcw hoggn
+永賢街	ine sebuc hoggn
+永隆街	ine nlhem hoggn
+永順街	ine lllc hoggn
+汀九橋	emn kn dhkb
+汀太路	emn ki rmher
+汀慶路	emn ixe rmher
+汀角路	emn nbq rmher
+汀逸路	emn ynai rmher
+汀麗路	emn mmbbp rmher
+汕頭街	eu mtmbc hoggn
+汝州街	ev ilil hoggn
+汝州西街	ev ilil mcw hoggn
+江埔路	em gijb rmher
+江大路	em k rmher
+江蘇街	em tnfd hoggn
+江西街	em mcw hoggn
+池旁路	epd ybyhs rmher
+沃泰街	ehk qke hoggn
+沐元街	ed mmu hoggn
+沐安街	ed jv hoggn
+沐寧街	ed jpbn hoggn
+沐朗街	ed iib hoggn
+沐泰街	ed qke hoggn
+沐縉街	ed vfmia hoggn
+沐翠街	ed smyoj hoggn
+沐虹街	ed lim hoggn
+沙下徑	efh my homvm
+沙下路	efh my rmher
+沙井路	efh tt rmher
+沙咀街	efh rbm hoggn
+沙咀道	efh rbm ythu
+沙咀道天橋	efh rbm ythu mk dhkb
+沙埔村路	efh gijb ddi rmher
+沙安街	efh jv hoggn
+沙宣道	efh jmam ythu
+沙嶺道	efh uoic ythu
+沙欄路	efh danw rmher
+沙江圍新路	efh em wdmq ydhml rmher
+沙河路	efh emnr rmher
+沙洲里路	efh eill wg rmher
+沙浦道	efh eijb ythu
+沙瀝公路	efh emhm ci rmher
+沙灣徑	efh evfn homvm
+沙田區單車主幹綫	efh w srrr rrwj jwj yg jjomj vfii
+沙田圍路	efh w wdmq rmher
+沙田坳道	efh w gvis ythu
+沙田嶺路	efh w uoic rmher
+沙田嶺隧道	efh w uoic nlyto ythu
+沙田正街	efh w mylm hoggn
+沙田路	efh w rmher
+沙田車站圍	efh w jwj ytyr wdmq
+沙田鄉事會路	efh w vhiil jlln omwa rmher
+沙田頭路	efh w mtmbc rmher
+沙田㘭道	efh w gvis ythu
+沙福道	efh ifmrw ythu
+沙羅洞路	efh wlvfg ebmr rmher
+沙角尾北	efh nbq shqu lmp
+沙角尾路	efh nbq shqu rmher
+沙角街	efh nbq hoggn
+沙頭角公路	efh mtmbc nbq ci rmher
+沛榮里	eylb ffbd wg
+河上鄉排峰路	emnr ym vhiil qlmy uhej rmher
+河上鄉路	emnr ym vhiil rmher
+河傍街	emnr oybs hoggn
+河內道	emnr ob ythu
+河北第一街	emnr lmp hnlh m hoggn
+河北第七街	emnr lmp hnlh ju hoggn
+河北第三街	emnr lmp hnlh mmm hoggn
+河北第九街	emnr lmp hnlh kn hoggn
+河北第二街	emnr lmp hnlh mm hoggn
+河北第五街	emnr lmp hnlh mdm hoggn
+河北第八街	emnr lmp hnlh ho hoggn
+河北第六街	emnr lmp hnlh yc hoggn
+河北第十一街	emnr lmp hnlh j m hoggn
+河北第十二街	emnr lmp hnlh j mm hoggn
+河北第十街	emnr lmp hnlh j hoggn
+河北第四街	emnr lmp hnlh wc hoggn
+河北里	emnr lmp wg
+河旺街	emnr amg hoggn
+河瀝背街	emnr emhm lpb hoggn
+河田街	emnr w hoggn
+河背街	emnr lpb hoggn
+河興街	emnr hxbc hoggn
+油塘道	elw gilr ythu
+油塘里	elw gilr wg
+油庫路	elw ijwj rmher
+油缸路	elw oum rmher
+油街	elw hoggn
+油麻地交匯處	elw ijcc gpd yck seog yphen
+油麻磡路	elw ijcc mrtvs rmher
+治民街	eir rvp hoggn
+治河路	eir emnr rmher
+泄蘭街	ept tanw hoggn
+法院道	egi nljmu ythu
+波地路	edhe gpd rmher
+波斯富街	edhe tchml jmrw hoggn
+波樓路	edhe dllv rmher
+波爾多徑	edhe mfbk nini homvm
+波老道	edhe jkp ythu
+泥涌樹木研習徑	esp enib dgti d mrmt smha homvm
+泮涌路	efq enib rmher
+泰利街	qke hdln hoggn
+泰民街	qke rvp hoggn
+泰豐街	qke ujmrt hoggn
+洋松街	etq dci hoggn
+洋紫荊徑	etq ypvif tmtn homvm
+洋葵徑	etq tnok homvm
+洗衣街	ehgu yhv hoggn
+洛卡諾大道	eher ymy yrtkr k ythu
+洛森大道	eher ddd k ythu
+洛蔓大道	eher tawe k ythu
+洛陽街	eher nlamh hoggn
+洞梓山路	ebmr xdytj u rmher
+洞梓路	ebmr xdytj rmher
+津堤徑	elq gamo homvm
+洪亮路	etc yrbu rmher
+洪儒路	etc ombb rmher
+洪元路	etc mmu rmher
+洪基路	etc tcg rmher
+洪堤路	etc gamo rmher
+洪天路	etc mk rmher
+洪安里	etc jv wg
+洪平路	etc mfj rmher
+洪德路	etc hojwp rmher
+洪志路	etc gp rmher
+洪柏路	etc dha rmher
+洪水橋大街	etc e dhkb k hoggn
+洪水橋田心路	etc e dhkb w p rmher
+洪祥路	etc iftq rmher
+洪聖街	etc srmg hoggn
+洪雅路	etc mhog rmher
+洪順路	etc lllc rmher
+洲頭南路	eill mtmbc jbtj rmher
+洲頭西路	eill mtmbc mcw rmher
+活倫臺	ehjr oomb grbg
+活道	ehjr ythu
+流業街	eyiu tctd hoggn
+流水橋	eyiu e dhkb
+流水響路	eyiu e vlyta rmher
+流水響道	eyiu e vlyta ythu
+流水響郊遊徑	eyiu e vlyta yknl yysd homvm
+流浮山道	eyiu ebnd u ythu
+浙江街	eqhl em hoggn
+浣紗街	ejmu vffh hoggn
+浩洋街	ehgr etq hoggn
+浩海街	ehgr eowy hoggn
+浩發里	ehgr nonhe wg
+浩福街	ehgr ifmrw hoggn
+浩船街	ehgr hyhnr hoggn
+浩財里	ehgr bcdh wg
+浩運街	ehgr ybjj hoggn
+海下灣自然教育徑	eowy my evfn hbu bkf jdok yib homvm
+海下路	eowy my rmher
+海傍街	eowy oybs hoggn
+海傍道	eowy oybs ythu
+海光街	eowy fmu hoggn
+海利街	eowy hdln hoggn
+海堤徑	eowy gamo homvm
+海堤街	eowy gamo hoggn
+海壇街	eowy gywm hoggn
+海壩街	eowy gmbb hoggn
+海天徑	eowy mk homvm
+海安路	eowy jv rmher
+海富街	eowy jmrw hoggn
+海寧徑	eowy jpbn homvm
+海寧街	eowy jpbn hoggn
+海寶路	eowy jmuc rmher
+海帆道	eowy lbhni ythu
+海底隧道	eowy ihvi nlyto ythu
+海庭道	eowy inkg ythu
+海康街	eowy ile hoggn
+海德街	eowy hojwp hoggn
+海怡路	eowy pir rmher
+海旁路	eowy ybyhs rmher
+海晏街	eowy ajv hoggn
+海景街	eowy ayrf hoggn
+海棠徑	eowy fbrd homvm
+海棠路	eowy fbrd rmher
+海榮路	eowy ffbd rmher
+海沙徑	eowy efh homvm
+海泓道	eowy xeni ythu
+海洋公園道	eowy etq ci wgrv ythu
+海浪徑	eowy eiav homvm
+海澄徑一段	eowy enot homvm m hjhne
+海澄徑二段	eowy enot homvm mm hjhne
+海澄湖畔路	eowy enot ejrb wfq rmher
+海澄街	eowy enot hoggn
+海澄路	eowy enot rmher
+海澤街	eowy ewlj hoggn
+海濱道	eowy xejmc ythu
+海灘道	eowy etog ythu
+海灣街	eowy evfn hoggn
+海燕徑	eowy tlpf homvm
+海珠路	eowy mghjd rmher
+海皇路	eowy hamg rmher
+海盛路	eowy isbt rmher
+海興路	eowy hxbc rmher
+海華路	eowy tmtj rmher
+海藍徑	eowy tsmt homvm
+海蜂徑	eowy lihej homvm
+海裕街	eowy lcor hoggn
+海角街	eowy nbq hoggn
+海貴路	eowy lmbuc rmher
+海輝道	eowy fubjj ythu
+海逸道	eowy ynai ythu
+海防道	eowy nlyhs ythu
+海風徑	eowy hnmli homvm
+海馬徑	eowy sqsf homvm
+海鳴路	eowy rhaf rmher
+海麗街	eowy mmbbp hoggn
+浸大橋	esme k dhkb
+浸會大學道	esme omwa k hbnd ythu
+涌業路	enib tctd rmher
+涌盛街	enib isbt hoggn
+涌美路	enib tgk rmher
+深井交匯處	ebcd tt yck seog yphen
+深井公眾碼頭	ebcd tt ci wlooo mrsqf mtmbc
+深井村路	ebcd tt ddi rmher
+深井釣魚灣碼頭	ebcd tt cpi nwf evfn mrsqf mtmbc
+深圳灣公路大橋	ebcd glll evfn ci rmher k dhkb
+深圳街	ebcd glll hoggn
+深屈道	ebcd suu ythu
+深康路	ebcd ile rmher
+深慈街	ebcd tvip hoggn
+深旺道	ebcd amg ythu
+深水灣徑	ebcd e evfn homvm
+深水灣道	ebcd e evfn ythu
+深水角徑	ebcd e nbq homvm
+深涌村路	ebcd enib ddi rmher
+深涌路	ebcd enib rmher
+深港西部通道	ebcd etcu mcw yrnl ynib ythu
+深灣碼頭徑	ebcd evfn mrsqf mtmbc homvm
+深灣路	ebcd evfn rmher
+深灣道	ebcd evfn ythu
+深盛路	ebcd isbt rmher
+深豐路	ebcd ujmrt rmher
+淺水灣道	eii e evfn ythu
+添福道	emkp ifmrw ythu
+添美道	emkp tgk ythu
+添華道	emkp tmtj ythu
+添馬街	emkp sqsf hoggn
+清城路	eqmb gihs rmher
+清平橋	eqmb mfj dhkb
+清心街	eqmb p hoggn
+清攸徑	eqmb olok homvm
+清攸路	eqmb olok rmher
+清曉路	eqmb aggu rmher
+清梅街	eqmb dowy hoggn
+清水灣樹木研習徑	eqmb e evfn dgti d mrmt smha homvm
+清水灣道	eqmb e evfn ythu
+清甜街	eqmb hrtm hoggn
+清華街	eqmb tmtj hoggn
+清譽街	eqmb hcymr hoggn
+清風街	eqmb hnmli hoggn
+清風街天橋	eqmb hnmli hoggn mk dhkb
+渡船街	eite hyhnr hoggn
+渡船街天橋	eite hyhnr hoggn mk dhkb
+渡華路	eite tmtj rmher
+渣甸坊	edam pw gyhs
+渣甸街	edam pw hoggn
+渣華道	edam tmtj ythu
+渭州道	ewb ilil ythu
+港中里	etcu l wg
+港威大道	etcu ihmv k ythu
+港島徑	etcu hayu homvm
+港島林道	etcu hayu dd ythu
+港攸路	etcu olok rmher
+港景街	etcu ayrf hoggn
+港深西部公路	etcu ebcd mcw yrnl ci rmher
+港灣徑	etcu evfn homvm
+港灣道	etcu evfn ythu
+港珠澳大橋香港連接路	etcu mghjd ehbk k dhkb hda etcu yjwj qytv rmher
+游龍徑	eysd ybysp homvm
+湖光街	ejrb fmu hoggn
+湖北街	ejrb lmp hoggn
+湖南街	ejrb jbtj hoggn
+湖安街	ejrb jv hoggn
+湖山路	ejrb u rmher
+湖康街	ejrb ile hoggn
+湖昌街	ejrb aa hoggn
+湖景路	ejrb ayrf rmher
+湖景道	ejrb ayrf ythu
+湖暉街	ejrb xabjj hoggn
+湖月街	ejrb b hoggn
+湖畔街	ejrb wfq hoggn
+湖秀街	ejrb hdnhs hoggn
+湖翠路	ejrb smyoj rmher
+湧浪路	enbs eiav rmher
+源安街	emhf jv hoggn
+源康街	emhf ile hoggn
+源昌里	emhf aa wg
+源禾路	emhf hd rmher
+源遠街	emhf ygrv hoggn
+源順圍	emhf lllc wdmq
+溪畔漫遊徑	ebvk wfq eawe yysd homvm
+溫思勞街	ewot wp ffbks hoggn
+溫莎道	ewot tefh ythu
+溫黛娜徑	ewot opwgf vsql homvm
+滘西新村路	xebcr mcw ydhml ddi rmher
+滿發里	etlb nonhe wg
+漁光道	enwf fmu ythu
+漁利街	enwf hdln hoggn
+漁安苑道	enwf jv tniu ythu
+漁安街	enwf jv hoggn
+漁暉道	enwf xabjj ythu
+漁歌街	enwf mrno hoggn
+漁獲街	enwf khtoe hoggn
+漁豐街	enwf ujmrt hoggn
+漆咸圍	edoe ihmr wdmq
+漆咸徑	edoe ihmr homvm
+漆咸道北	edoe ihmr ythu lmp
+漆咸道南	edoe ihmr ythu jbtj
+演替之路	ejmc qoa ino rmher
+演藝道	ejmc tgii ythu
+漢口道	etlo r ythu
+漢家路	etlo jmso rmher
+漢寧頓道	etlo jpbn pumbc ythu
+澄平街	enot mfj hoggn
+澄麗路	enot mmbbp rmher
+澤安道	ewlj jv ythu
+澤安道南	ewlj jv ythu jbtj
+澤欣路	ewlj hlno rmher
+澤祥街	ewlj iftq hoggn
+澤豐街	ewlj ujmrt hoggn
+澳景路	ehbk ayrf rmher
+澳背塘徑	ehbk lpb gilr homvm
+濕地公園路	eavf gpd ci wgrv rmher
+濱海街	xejmc eowy hoggn
+瀑布灣道	eate klb evfn ythu
+瀝源橋	emhm emhf dhkb
+瀝源街	emhm emhf hoggn
+灣仔交匯處	evfn ond yck seog yphen
+灣仔峽道	evfn ond ukoo ythu
+灣仔自然教育徑	evfn ond hbu bkf jdok yib homvm
+灣仔道	evfn ond ythu
+灣景街	evfn ayrf hoggn
+灣畔徑	evfn wfq homvm
+火炭路	f umf rmher
+火石道	f mr ythu
+火龍徑	f ybysp homvm
+灰業街	kf tctd hoggn
+灰沙圍南路	kf efh wdmq jbtj rmher
+灰沙圍里	kf efh wdmq wg
+灰窰角街	kf jcbou nbq hoggn
+灰窰里	kf jcbou wg
+炭山路	umf u rmher
+炮仗街	fpru ojk hoggn
+炮台山道	fpru ir u ythu
+炮台街	fpru ir hoggn
+炮台里	fpru ir wg
+烏溪沙村第一巷	hryf ebvk efh ddi hnlh m tcru
+烏溪沙村第七巷	hryf ebvk efh ddi hnlh ju tcru
+烏溪沙村第三巷	hryf ebvk efh ddi hnlh mmm tcru
+烏溪沙村第二巷	hryf ebvk efh ddi hnlh mm tcru
+烏溪沙村第五巷	hryf ebvk efh ddi hnlh mdm tcru
+烏溪沙村第八巷	hryf ebvk efh ddi hnlh ho tcru
+烏溪沙村第六巷	hryf ebvk efh ddi hnlh yc tcru
+烏溪沙村第四巷	hryf ebvk efh ddi hnlh wc tcru
+烏溪沙路	hryf ebvk efh rmher
+烏蛟騰路	hryf liyck bfqf rmher
+烏蛟騰郊遊徑	hryf liyck bfqf yknl yysd homvm
+煙囪路	fmwg hwkk rmher
+煙囱路	fmwg hwni rmher
+煙廠街	fmwg ifbk hoggn
+煤場道	ftmd gamh ythu
+照潭徑	arf emwj homvm
+熙和街	suf hdr hoggn
+熙龍里	suf ybysp wg
+燕子里	tlpf nd wg
+燕安街	tlpf jv hoggn
+燕崗路	tlpf ubtu rmher
+營伯農路	ffbrr oha twmmv rmher
+營盤街	ffbrr hebt hoggn
+爵祿街	bwli ifvne hoggn
+爹核士街	cknin dyvo jm hoggn
+爹核里	cknin dyvo wg
+牙鷹洲街	mvdh iogf eill hoggn
+牛池灣街	hq epd evfn hoggn
+牛津徑	hq elq homvm
+牛津道	hq elq ythu
+牛湖托街	hq ejrb qhp hoggn
+牛潭尾路	hq emwj shqu rmher
+牛牯嶺徑	hq hqjr uoic homvm
+牛牯嶺行山徑	hq hqjr uoic hommn u homvm
+牛皮沙街	hq dhe efh hoggn
+牛頭角道	hq mtmbc nbq ythu
+牡丹徑	hqg by homvm
+牡丹街	hqg by hoggn
+牡丹路	hqg by rmher
+牧愛街	hqok bbpe hoggn
+物華街	hqphh tmtj hoggn
+獅子山隧道	khhrb nd u nlyto ythu
+獅子山隧道公路	khhrb nd u nlyto ythu ci rmher
+獅子石道	khhrb nd mr ythu
+獅尾脊	khhrb shqu fcb
+獅紅古道	khhrb vfm jr ythu
+獲嘉道	khtoe xgrtr ythu
+玉成街	mgi ihs hoggn
+玉石里	mgi mr wg
+玉蘭徑	mgi tanw homvm
+玉蘭路	mgi tanw rmher
+王屋里	mg smig wg
+玫瑰徑	xmgok mghui homvm
+玫瑰街	xmgok mghui hoggn
+玫瑰里	xmgok mghui wg
+玻璃街	mgdhe mgyub hoggn
+珀林路	mgha dd rmher
+珀欣路	mgha hlno rmher
+珀麗路	mgha mmbbp rmher
+球前街	mgije tbln hoggn
+球南街	mgije jbtj hoggn
+球場徑	mgije gamh homvm
+球場路	mgije gamh rmher
+球西街	mgije mcw hoggn
+琉森大道	mgyiu ddd k ythu
+琉璃街	mgyiu mgyub hoggn
+琳寶徑	mgdd jmuc homvm
+琴行街	mgoin hommn hoggn
+琵琶山路	mgpp mgau u rmher
+瑜翠街	mgomn smyoj hoggn
+瑞和街	mgumb hdr hoggn
+瑞奇大道	mgumb kmnr k ythu
+瑞安街	mgumb jv hoggn
+瑞寧街	mgumb jpbn hoggn
+瑞泰路	mgumb qke rmher
+瑞祥街	mgumb iftq hoggn
+瑪利亞徑	mgsqf hdln mllm homvm
+瑪嘉烈醫院路	mgsqf xgrtr mnf semcw nljmu rmher
+瑰麗路	mghui mmbbp rmher
+璧如徑	sjmgi vr homvm
+璧峰路	sjmgi uhej rmher
+環保大道	mgwlv ord k ythu
+環城大道	mgwlv gihs k ythu
+環安街	mgwlv jv hoggn
+環山路	mgwlv u rmher
+環樂街	mgwlv vid hoggn
+環海街	mgwlv eowy hoggn
+環湖徑	mgwlv ejrb homvm
+環澳路	mgwlv ehbk rmher
+環球里	mgwlv mgije wg
+環發街	mgwlv nonhe hoggn
+環翠道	mgwlv smyoj ythu
+環翠里	mgwlv smyoj wg
+環興街	mgwlv hxbc hoggn
+環角徑	mgwlv nbq homvm
+環角道	mgwlv nbq ythu
+環迴北路	mgwlv ywr lmp rmher
+環迴東路	mgwlv ywr dw rmher
+環迴西路	mgwlv ywr mcw rmher
+環達街	mgwlv ygtq hoggn
+環鳳街	mgwlv hnmaf hoggn
+瓊園路	mgnbe wgrv rmher
+瓊山里	mgnbe u wg
+瓊東街	mgnbe dw hoggn
+瓊林街	mgnbe dd hoggn
+甘泉街	tm hae hoggn
+甘澍路	tm egti rmher
+甘肅街	tm lx hoggn
+甘芳街	tm tyhs hoggn
+甘道	tm ythu
+甘雨街	tm mlby hoggn
+甘雨路	tm mlby rmher
+甘霖街	tm mbdd hoggn
+生物科技路	hqm hqphh hdyj qje rmher
+田廈路	w imue rmher
+田心街	w p hoggn
+田心路	w p rmher
+田景路	w ayrf rmher
+田洲路	w eill rmher
+田灣山道	w evfn u ythu
+田灣徑	w evfn homvm
+田灣新街	w evfn ydhml hoggn
+田灣海旁道	w evfn eowy ybyhs ythu
+田灣街	w evfn hoggn
+田石路	w mr rmher
+由義里	lw tghqi wg
+甲邊朗上里	wl yhus iib ym wg
+甲邊朗下里	wl yhus iib my wg
+甲邊朗中里	wl yhus iib l wg
+甲龍古道	wl ybysp jr ythu
+甲龍林徑	wl ybysp dd homvm
+甲龍石澗	wl ybysp mr eana
+界咸路	woll ihmr rmher
+界限街	woll nlav hoggn
+界限街天橋	woll nlav hoggn mk dhkb
+畔塘徑	wfq gilr homvm
+畔山徑	wfq u homvm
+留仙街	hhw ou hoggn
+畢打街	wtj qmn hoggn
+畢打街行車隧道	wtj qmn hoggn hommn jwj nlyto ythu
+畢拉山徑	wtj qyt u homvm
+畢拉山道	wtj qyt u ythu
+畢斯路	wtj tchml rmher
+畢街	wtj hoggn
+畫眉徑	lgwm ahbu homvm
+登巴道	nomrt au ythu
+登打士街	nomrt qmn jm hoggn
+登發街	nomrt nonhe hoggn
+登豐街	nomrt ujmrt hoggn
+登龍街	nomrt ybysp hoggn
+發利街	nonhe hdln hoggn
+發業里	nonhe tctd wg
+發祥街	nonhe iftq hoggn
+發祥街西	nonhe iftq hoggn mcw
+白加力街	ha ksr ks hoggn
+白加士街	ha ksr jm hoggn
+白加道	ha ksr ythu
+白布街	ha klb hoggn
+白建時道	ha nklq agdi ythu
+白楊徑	ha damh homvm
+白楊街	ha damh hoggn
+白沙山路	ha efh u rmher
+白沙灣街	ha efh evfn hoggn
+白沙道	ha efh ythu
+白田壩街	ha w gmbb hoggn
+白田街	ha w hoggn
+白石窩新村路	ha mr jcbbr ydhml ddi rmher
+白石臺路	ha mr grbg rmher
+白筆山道	ha hlq u ythu
+白蘭軒道	ha tanw jjmj ythu
+白雲街	ha mbmmi hoggn
+白顎下棧道	ha rsmbc my dii ythu
+白鶴汀街	ha oghaf emn hoggn
+百利街	ma hdln hoggn
+百勝角路	ma bfqs nbq rmher
+百和路	ma hdr rmher
+百子里	ma nd wg
+百得街	ma hoami hoggn
+百德新街	ma hojwp ydhml hoggn
+百樂徑	ma vid homvm
+百祿徑	ma ifvne homvm
+百福道	ma ifmrw ythu
+百老匯街	ma jkp seog hoggn
+百花林路	ma top dd rmher
+百花路	ma top rmher
+皇后大道中	hamg hmr k ythu l
+皇后大道東	hamg hmr k ythu dw
+皇后大道西	hamg hmr k ythu mcw
+皇后山徑	hamg hmr u homvm
+皇后街	hamg hmr hoggn
+皇珠路	hamg mghjd rmher
+皇龍道	hamg ybysp ythu
+盈福街	nsbt ifmrw hoggn
+盈鳳里	nsbt hnmaf wg
+益群道	tcbt srtq ythu
+盛康里	isbt ile wg
+盛德街	isbt hojwp hoggn
+盛民里	isbt rvp wg
+盛泰道	isbt qke ythu
+盛田街	isbt w hoggn
+盛福街	isbt ifmrw hoggn
+盛芳街	isbt tyhs hoggn
+盧吉道	ypwbt gr ythu
+盧押道	ypwbt qwl ythu
+相思灣路	dbu wp evfn rmher
+真光里	jbmc fmu wg
+真善路	jbmc ttr rmher
+真義里	jbmc tghqi wg
+眾坊街	wlooo gyhs hoggn
+眾安街	wlooo jv hoggn
+睦誠徑	bugcg yrihs homvm
+睦誠道	bugcg yrihs ythu
+睦鄰街	bugcg fqnl hoggn
+瞭望里	bukcf ybmg wg
+石上路	mr ym rmher
+石仔埗街	mr ond gylh hoggn
+石圍角路	mr wdmq nbq rmher
+石埗路	mr gylh rmher
+石塘街	mr gilr hoggn
+石壁水塘道	mr sjg e gilr ythu
+石壁道	mr sjg ythu
+石安街	mr jv hoggn
+石宜路	mr jbm rmher
+石寨下路	mr jtcd my rmher
+石山街	mr u hoggn
+石崗機場路	mr ubtu dvii gamh rmher
+石建街	mr nklq hoggn
+石排灣道	mr qlmy evfn ythu
+石排街	mr qlmy hoggn
+石排頭徑	mr qlmy mtmbc homvm
+石排頭路	mr qlmy mtmbc rmher
+石文	mr yk
+石文徑	mr yk homvm
+石梨街	mr xhnd hoggn
+石棧里	mr dii wg
+石榴洞街	mr dhhw ebmr hoggn
+石水渠街	mr e esd hoggn
+石河	mr emnr
+石湖圍路	mr ejrb wdmq rmher
+石溪里	mr ebvk wg
+石澳山仔路	mr ehbk u ond rmher
+石澳村路	mr ehbk ddi rmher
+石澳道	mr ehbk ythu
+石田路	mr w rmher
+石硤尾街	mr mrkoo shqu hoggn
+石竹路	mr h rmher
+石英徑	mr tlbk homvm
+石蓮路	mr tyjj rmher
+石蔭路	mr tnli rmher
+石角路	mr nbq rmher
+石貝街	mr buc hoggn
+石貴街	mr lmbuc hoggn
+石門交匯處	mr an yck seog yphen
+石門甲道	mr an wl ythu
+石門迴旋處	mr an ywr ysono yphen
+石頭街	mr mtmbc hoggn
+石鼓壟道	mr gtje ypg ythu
+石鼓街	mr gtje hoggn
+石龍街	mr ybysp hoggn
+砵典乍街	mrdm tbc os hoggn
+砵甸乍山郊遊徑	mrdm pw os u yknl yysd homvm
+砵蘭街	mrdm tanw hoggn
+碗窰路	mrjnu jcbou rmher
+碧仙桃路	mamr ou dlmo rmher
+碧屋村路	mamr smig ddi rmher
+碧景林路	mamr ayrf dd rmher
+碧水新村路	mamr e ydhml ddi rmher
+碧沙路	mamr efh rmher
+碧珊徑	mamr mgbt homvm
+碧田街	mamr w hoggn
+碧翠路	mamr smyoj rmher
+碧荔道	mamr tkss ythu
+碧街	mamr hoggn
+碧豪苑第一街	mamr yrbo tniu hnlh m hoggn
+碧豪苑第七街	mamr yrbo tniu hnlh ju hoggn
+碧豪苑第三街	mamr yrbo tniu hnlh mmm hoggn
+碧豪苑第二街	mamr yrbo tniu hnlh mm hoggn
+碧豪苑第五街	mamr yrbo tniu hnlh mdm hoggn
+碧豪苑第六街	mamr yrbo tniu hnlh yc hoggn
+碧豪苑第四街	mamr yrbo tniu hnlh wc hoggn
+碧雲道	mamr mbmmi ythu
+碼頭道	mrsqf mtmbc ythu
+磅巷	mrybs tcru
+社山路	ifg u rmher
+祈禮士道	ifhml iftwt jm ythu
+祐民街	ifkr rvp hoggn
+祐滿街	ifkr etlb hoggn
+祝運街	ifrhu ybjj hoggn
+神奇道	iflwl kmnr ythu
+祥利街	iftq hdln hoggn
+祥和里	iftq hdr wg
+祥業街	iftq tctd hoggn
+祥民道	iftq rvp ythu
+福亨村徑	ifmrw yrnn ddi homvm
+福亨村路	ifmrw yrnn ddi rmher
+福亨村里	ifmrw yrnn ddi wg
+福亭街	ifmrw xyrbn hoggn
+福佬村道	ifmrw ojkp ddi ythu
+福來里	ifmrw doo wg
+福元街	ifmrw mmu hoggn
+福全街	ifmrw omg hoggn
+福利街	ifmrw hdln hoggn
+福和路	ifmrw hdr rmher
+福喜街	ifmrw grtr hoggn
+福塘道	ifmrw gilr ythu
+福壽里	ifmrw gnmi wg
+福安里	ifmrw jv wg
+福宏街	ifmrw jki hoggn
+福寧道	ifmrw jpbn ythu
+福康街	ifmrw ile hoggn
+福德街	ifmrw hojwp hoggn
+福恒街	ifmrw pmam hoggn
+福日徑	ifmrw a homvm
+福榮街	ifmrw ffbd hoggn
+福樂徑	ifmrw vid homvm
+福欣街	ifmrw hlno hoggn
+福民路	ifmrw rvp rmher
+福淘街	ifmrw epou hoggn
+福澤街	ifmrw ewlj hoggn
+福田徑	ifmrw w homvm
+福盛徑	ifmrw isbt homvm
+福祥街	ifmrw iftq hoggn
+福群道	ifmrw srtq ythu
+福至街	ifmrw mig hoggn
+福興里	ifmrw hxbc wg
+福華街	ifmrw tmtj hoggn
+福蔭道	ifmrw tnli ythu
+福順街	ifmrw lllc hoggn
+禧利街	ifgrr hdln hoggn
+禧福道	ifgrr ifmrw ythu
+禮仁里	iftwt omm wg
+禮芳街	iftwt tyhs hoggn
+禮賢街	iftwt sebuc hoggn
+禮賢里	iftwt sebuc wg
+禮頓道	iftwt pumbc ythu
+禮頓里	iftwt pumbc wg
+禾上墩街	hd ym gydk hoggn
+禾塘咀街	hd gilr rbm hoggn
+禾寮坑路	hd jkcf gyhn rmher
+禾徑山路	hd homvm u rmher
+禾盛街	hd isbt hoggn
+禾穗街	hd hdjip hoggn
+禾笛街	hd hlw hoggn
+禾葵里	hd tnok wg
+禾輋街	hd ukjj hoggn
+禾香街	hd hda hoggn
+秀明道	hdnhs ab ythu
+秀竹園道	hdnhs h wgrv ythu
+秀茂坪道	hdnhs tih gmfj ythu
+秀華坊	hdnhs tmtj gyhs
+秀豐街	hdnhs ujmrt hoggn
+秀雅道	hdnhs mhog ythu
+秀麗街	hdnhs mmbbp hoggn
+科士街	hdyj jm hoggn
+科學園路	hdyj hbnd wgrv rmher
+科學館廣場	hdyj hbnd oijrr itmc gamh
+科學館徑	hdyj hbnd oijrr homvm
+科學館道	hdyj hbnd oijrr ythu
+科技大道東	hdyj qje k ythu dw
+科技大道西	hdyj qje k ythu mcw
+科業街	hdyj tctd hoggn
+科發道	hdyj nonhe ythu
+科研路	hdyj mrmt rmher
+科興街	hdyj hxbc hoggn
+科進路	hdyj yog rmher
+租庇利街	hdbm xipp hdln hoggn
+稔灣路	hdoip evfn rmher
+種植道	hdhjg djbm ythu
+積信街	hdqmc oymr hoggn
+積壽里	hdqmc gnmi wg
+積存街	hdqmc klnd hoggn
+積富街	hdqmc jmrw hoggn
+積德里	hdqmc hojwp wg
+積泰里	hdqmc qke wg
+積祿里	hdqmc ifvne wg
+積福街	hdqmc ifmrw hoggn
+積財里	hdqmc bcdh wg
+積輝街	hdqmc fubjj hoggn
+積運街	hdqmc ybjj hoggn
+穎禮路	pdmbc iftwt rmher
+穎竹街	pdmbc h hoggn
+穗禾路	hdjip hd rmher
+穗豐里	hdjip ujmrt wg
+窩仔街	jcbbr ond hoggn
+窩打老道	jcbbr qmn jkp ythu
+窩美紅棉路	jcbbr tgk vfm dhab rmher
+窰圍街	jcbou wdmq hoggn
+立德里	yt hojwp wg
+立法會道	yt egi omwa ythu
+童子街	ytwg nd hoggn
+童軍徑	ytwg bjwj homvm
+竹園道	h wgrv ythu
+竹攸路	h olok rmher
+竹桃徑	h dlmo homvm
+竹洋路	h etq rmher
+竹篙灣公路	h hyrb evfn ci rmher
+竹角路	h nbq rmher
+符理善徑	hodi mgwg ttr homvm
+符禮修路	hodi iftwt oloh rmher
+符興街	hodi hxbc hoggn
+第一巷	hnlh m tcru
+第一街	hnlh m hoggn
+第三巷	hnlh mmm tcru
+第三街	hnlh mmm hoggn
+第二巷	hnlh mm tcru
+第二街	hnlh mm hoggn
+筆架山道	hlq krd u ythu
+策馬特大道	hdb sqsf hqgdi k ythu
+筲箕灣東大街	hfb htmc evfn dw k hoggn
+筲箕灣道	hfb htmc evfn ythu
+箕璉坊	htmc mgyjj gyhs
+管翠路	hjrr smyoj rmher
+管青路	hjrr qmb rmher
+米埔南路	fd gijb jbtj rmher
+米埔隴路	fd gijb nlybp rmher
+米度適道	fd ite yycb ythu
+米萊諾大道	fd tdoo yrtkr k ythu
+米蘭徑	fd tanw homvm
+米路斯徑	fd rmher tchml homvm
+粉嶺公路	fdcsh uoic ci rmher
+粉嶺樓路	fdcsh uoic dllv rmher
+粉嶺車站路	fdcsh uoic jwj ytyr rmher
+粉錦公路	fdcsh chab ci rmher
+精緻臺	fdqmb vfmgk grbg
+糖廠街	fdilr ifbk hoggn
+糖水道	fdilr e ythu
+糖水道天橋	fdilr e ythu mk dhkb
+糖街	fdilr hoggn
+約道	vfpm ythu
+紅山道	vfm u ythu
+紅林路	vfm dd rmher
+紅梅谷路	vfm dowy cor rmher
+紅梅路	vfm dowy rmher
+紅棉圍	vfm dhab wdmq
+紅棉徑	vfm dhab homvm
+紅棉路	vfm dhab rmher
+紅楓徑	vfm dhni homvm
+紅樂道	vfm vid ythu
+紅樹林浮橋	vfm dgti dd ebnd dhkb
+紅橋	vfm dhkb
+紅橋里	vfm dhkb wg
+紅磡南道	vfm mrtvs jbtj ythu
+紅磡灣街	vfm mrtvs evfn hoggn
+紅磡繞道	vfm mrtvs vfggu ythu
+紅磡道	vfm mrtvs ythu
+紅花徑	vfm top homvm
+紅花磡路	vfm top mrtvs rmher
+紅荔道	vfm tkss ythu
+紅荷路	vfm tomr rmher
+紅菱街	vfm tgce hoggn
+紅鸞道	vfm vfhaf ythu
+納柏徑	vfob dha homvm
+納沙泰爾大道	vfob efh qke mfbk k ythu
+索罟灣第一街	jbvif wljr evfn hnlh m hoggn
+索罟灣第三街	jbvif wljr evfn hnlh mmm hoggn
+索罟灣第二街	jbvif wljr evfn hnlh mm hoggn
+紫來里	ypvif doo wg
+紫檀路	ypvif dywm rmher
+紫田路	ypvif w rmher
+紫羅蘭山徑	ypvif wlvfg tanw u homvm
+紫荊北路	ypvif tmtn lmp rmher
+紫荊南路	ypvif tmtn jbtj rmher
+紫荊東路	ypvif tmtn dw rmher
+紫荊西路	ypvif tmtn mcw rmher
+紫葳路	ypvif tihv rmher
+紫薇街	ypvif thok hoggn
+紫藤路	ypvif tbfe rmher
+紫蘭徑	ypvif tanw homvm
+細山路	vfw u rmher
+結志街	vfgr gp hoggn
+統一碼頭道	vfyiu m mrsqf mtmbc ythu
+綠怡徑	vfvne pir homvm
+綠柳路	vfvne dhhl rmher
+維園道	vfog wgrv ythu
+維狄雅徑	vfog khf mhog homvm
+綿發街	vfhab nonhe hoggn
+緊急救援西路	sevif nsp ieok qbme mcw rmher
+緬甸臺	vfmwl pw grbg
+練松柏路	vfdwf dci dha rmher
+繁華街	okvif tmtj hoggn
+繼園臺	vfvvi wgrv grbg
+繼園街	vfvvi wgrv hoggn
+纜車徑	vfswu jwj homvm
+纜車里	vfswu jwj wg
+缸瓦甫路	oum mvni ijb rmher
+置嘉里	wljbm xgrtr wg
+置富徑	wljbm jmrw homvm
+置富道	wljbm jmrw ythu
+置榮徑	wljbm ffbd homvm
+置福圍	wljbm ifmrw wdmq
+置華里	wljbm tmtj wg
+羅便臣道	wlvfg omlk slsl ythu
+羅富國徑	wlvfg jmrw wirm homvm
+羅湖橋	wlvfg ejrb dhkb
+羅湖道	wlvfg ejrb ythu
+羅漢峽	wlvfg etlo ukoo
+羅福道	wlvfg ifmrw ythu
+羅素街	wlvfg qmvif hoggn
+羌山郊遊徑	tqu u yknl yysd homvm
+美光街	tgk fmu hoggn
+美利道	tgk hdln ythu
+美善同道	tgk ttr bmr ythu
+美善同里	tgk ttr bmr wg
+美國小鎮大街	tgk wirm nc cjbc k hoggn
+美孚迴旋處	tgk bnd ywr ysono yphen
+美安街	tgk jv hoggn
+美德街	tgk hojwp hoggn
+美新里	tgk ydhml wg
+美景徑	tgk ayrf homvm
+美景街	tgk ayrf hoggn
+美東街	tgk dw hoggn
+美樂里	tgk vid wg
+美湖路	tgk ejrb rmher
+美源街	tgk emhf hoggn
+美滿里	tgk etlb wg
+美環街	tgk mgwlv hoggn
+美田路	tgk w rmher
+美福街	tgk ifmrw hoggn
+美禾圍	tgk hd wdmq
+美臣里	tgk slsl wg
+美芳街	tgk tyhs hoggn
+美荔道	tgk tkss ythu
+美華街	tgk tmtj hoggn
+美裕街	tgk lcor hoggn
+美輝街	tgk fubjj hoggn
+美青路	tgk qmb rmher
+羗山道	tui u ythu
+義德道	tghqi hojwp ythu
+義懷徑	tghqi pywv homvm
+義本道	tghqi dm ythu
+翔天中路	tqsmm mk l rmher
+翔天南路	tqsmm mk jbtj rmher
+翔東路	tqsmm dw rmher
+翠和里	smyoj hdr wg
+翠善街	smyoj ttr hoggn
+翠塘路	smyoj gilr rmher
+翠屏道	smyoj stt ythu
+翠嶺路	smyoj uoic rmher
+翠嶺里	smyoj uoic wg
+翠巒路	smyoj vfu rmher
+翠怡街	smyoj pir hoggn
+翠景街	smyoj ayrf hoggn
+翠杏街	smyoj dr hoggn
+翠松路	smyoj dci rmher
+翠柏路	smyoj dha rmher
+翠桐里	smyoj dbmr wg
+翠樂街	smyoj vid hoggn
+翠樺道	smyoj dtmj ythu
+翠欣街	smyoj hlno hoggn
+翠灣街	smyoj evfn hoggn
+翠琳路	smyoj mgdd rmher
+翠田街	smyoj w hoggn
+翠福路	smyoj ifmrw rmher
+翠竹街	smyoj h hoggn
+翠群徑	smyoj srtq homvm
+翠興街	smyoj hxbc hoggn
+翠鳳街	smyoj hnmaf hoggn
+翡翠道	lysmm smyoj ythu
+翡翠里	lysmm smyoj wg
+翺翔道	hjsmm tqsmm ythu
+耀星街	fusmg ahqm hoggn
+耀東街	fusmg dw hoggn
+耀榮街	fusmg ffbd hoggn
+耀榮里	fusmg ffbd wg
+耀沙路	fusmg efh rmher
+耀興道	fusmg hxbc ythu
+耀華街	fusmg tmtj hoggn
+老圍路	jkp wdmq rmher
+老沙路街	jkp efh rmher hoggn
+老虎頭郊遊徑	jkp yphu mtmbc yknl yysd homvm
+老龍坑街	jkp ybysp gyhn hoggn
+耶利哥路	sjnl hdln mrnr rmher
+聖佛蘭士街	srmg olln tanw jm hoggn
+聖十字徑	srmg j jnd homvm
+聖哥拉徑	srmg mrnr qyt homvm
+聖地牙哥徑	srmg gpd mvdh mrnr homvm
+聖士提反里	srmg jm qamo he wg
+聖家路	srmg jmso rmher
+聖巴拿徑	srmg au orq homvm
+聖梵哥徑	srmg ddhni mrnr homvm
+聖約翰里	srmg vfpm jjosm wg
+聖若瑟徑	srmg tkr mgph homvm
+聚文街	seooo yk hoggn
+聚星路	seooo ahqm rmher
+聚魚道	seooo nwf ythu
+聯仁街	sjvit omm hoggn
+聯合路	sjvit omr rmher
+聯合道	sjvit omr ythu
+聯合院道	sjvit omr nljmu ythu
+聯和道	sjvit hdr ythu
+聯安街	sjvit jv hoggn
+聯富街	sjvit jmrw hoggn
+聯康里	sjvit ile wg
+聯捷街	sjvit qjlo hoggn
+聯接街	sjvit qytv hoggn
+聯昌街	sjvit aa hoggn
+聯泰街	sjvit qke hoggn
+聯發街	sjvit nonhe hoggn
+聯益街	sjvit tcbt hoggn
+聯盛街	sjvit isbt hoggn
+聯福道	sjvit ifmrw ythu
+聯興街	sjvit hxbc hoggn
+聯運街	sjvit ybjj hoggn
+聶歌信山道	sjsjj mrno oymr u ythu
+肇輝臺	iklq fubjj grbg
+育康街	yib ile hoggn
+育才道	yib dh ythu
+育群街	yib srtq hoggn
+育賢坊	yib sebuc gyhs
+臨利街	slorr hdln hoggn
+臨樂街	slorr vid hoggn
+臨澤街	slorr ewlj hoggn
+臨福街	slorr ifmrw hoggn
+臨興街	slorr hxbc hoggn
+臨華街	slorr tmtj hoggn
+臨豐街	slorr ujmrt hoggn
+自由道	hbu lw ythu
+至善街	mig ttr hoggn
+舂磡角道	qkhx mrtvs nbq ythu
+興仁街	hxbc omm hoggn
+興利街	hxbc hdln hoggn
+興和街	hxbc hdr hoggn
+興安里	hxbc jv wg
+興富街	hxbc jmrw hoggn
+興寧路	hxbc jpbn rmher
+興才街	hxbc dh hoggn
+興旺街	hxbc amg hoggn
+興業街	hxbc tctd hoggn
+興民街	hxbc rvp hoggn
+興漢道	hxbc etlo ythu
+興發街	hxbc nonhe hoggn
+興盛路	hxbc isbt rmher
+興芳路	hxbc tyhs rmher
+興華街	hxbc tmtj hoggn
+興華街西	hxbc tmtj hoggn mcw
+興貴街	hxbc lmbuc hoggn
+興賢街	hxbc sebuc hoggn
+興隆後街	hxbc nlhem hovie hoggn
+興隆東街	hxbc nlhem dw hoggn
+興隆正街	hxbc nlhem mylm hoggn
+興隆街	hxbc nlhem hoggn
+興隆西街	hxbc nlhem mcw hoggn
+舊墟直街	togx gypm jbmm hoggn
+舊實驗室路	togx jwjc sfomo jmig rmher
+舊山頂道	togx u mnmbc ythu
+舊金山徑	togx c u homvm
+舒梨道	ornin xhnd ythu
+航天城交匯處	hyyhn mk gihs yck seog yphen
+航天城東路	hyyhn mk gihs dw rmher
+航天城路	hyyhn mk gihs rmher
+航展道	hyyhn stv ythu
+航膳東路	hyyhn bttr dw rmher
+航膳西路	hyyhn bttr mcw rmher
+般咸道	hyhne ihmr ythu
+船塢里	hyhnr ghrf wg
+船景街	hyhnr ayrf hoggn
+船澳街	hyhnr ehbk hoggn
+船灣淡水湖郊遊徑	hyhnr evfn eff e ejrb yknl yysd homvm
+船街	hyhnr hoggn
+艇街	hynkg hoggn
+良信街	iav oymr hoggn
+良康里	iav ile wg
+良德街	iav hojwp hoggn
+良才里	iav dh wg
+良業街	iav tctd hoggn
+良泰里	iav qke wg
+良範里	iav hjju wg
+良運街	iav ybjj hoggn
+艷馬道	utnau sqsf ythu
+芙蓉健康徑	tqo tjcr onkq ile homvm
+芙蓉山路	tqo tjcr u rmher
+芙蓉徑	tqo tjcr homvm
+芙蓉街	tqo tjcr hoggn
+芝古臺	tino jr grbg
+芝麻坑路	tino ijcc gyhn rmher
+芝麻灣道	tino ijcc evfn ythu
+芬尼街	tcsh sp hoggn
+芬梨徑	tcsh xhnd homvm
+芬梨道	tcsh xhnd ythu
+芭丹娜徑	tau by vsql homvm
+花圃街	top wijb hoggn
+花園徑	top wgrv homvm
+花園街	top wgrv hoggn
+花園道	top wgrv ythu
+花墟徑	top gypm homvm
+花墟道	top gypm ythu
+花屏路	top stt rmher
+芳園路	tyhs wgrv rmher
+芳田美徑	tyhs w tgk homvm
+芳華里	tyhs tmtj wg
+苗圃徑	tw wijb homvm
+苗鍾徑	tw chjg homvm
+英才徑	tlbk dh homvm
+英皇道	tlbk hamg ythu
+英華街	tlbk tmtj hoggn
+英輝臺	tlbk fubjj grbg
+茂林街	tih dd hoggn
+茂田里	tih w wg
+茂蘿街	tih twlg hoggn
+范信達道	tesu oymr ygtq ythu
+茅莆路	tnih tijb rmher
+茜發道	tmcw nonhe ythu
+茵翠街	xtwk smyoj hoggn
+茶果嶺大街	tod wd uoic k hoggn
+茶果嶺道	tod wd uoic ythu
+荃富街	tomg jmrw hoggn
+荃景圍	tomg ayrf wdmq
+荃景圍天橋	tomg ayrf wdmq mk dhkb
+荃業街	tomg tctd hoggn
+荃榮街	tomg ffbd hoggn
+荃樂街	tomg vid hoggn
+荃灣公園緩跑徑	tomg evfn ci wgrv vfbme rmpru homvm
+荃灣街市街	tomg evfn hoggn ylb hoggn
+荃灣路	tomg evfn rmher
+荃興徑	tomg hxbc homvm
+荃華街	tomg tmtj hoggn
+荃貴街	tomg lmbuc hoggn
+荃錦交匯處	tomg chab yck seog yphen
+荃錦公路	tomg chab ci rmher
+荃錦自然教育徑	tomg chab hbu bkf jdok yib homvm
+荃青交匯處	tomg qmb yck seog yphen
+草園街	taj wgrv hoggn
+荔安里	tkss jv wg
+荔寶路	tkss jmuc rmher
+荔峰街	tkss uhej hoggn
+荔崗街	tkss ubtu hoggn
+荔康街	tkss ile hoggn
+荔景山路	tkss ayrf u rmher
+荔枝北路	tkss dje lmp rmher
+荔枝南路	tkss dje jbtj rmher
+荔枝嶺路	tkss dje uoic rmher
+荔枝東路	tkss dje dw rmher
+荔枝窩自然步道	tkss dje jcbbr hbu bkf ylmh ythu
+荔枝西路	tkss dje mcw rmher
+荔枝角道	tkss dje nbq ythu
+荔枝里	tkss dje wg
+荔灣道	tkss evfn ythu
+荔發街	tkss nonhe hoggn
+荔盈街	tkss nsbt hoggn
+荔谷古道	tkss cor jr ythu
+荷塘道	tomr gilr ythu
+荷李活道	tomr dnd ehjr ythu
+荷花徑	tomr top homvm
+荷蘭徑	tomr tanw homvm
+荷蘭街	tomr tanw hoggn
+莊士敦道	tvmg jm ydok ythu
+莎文杜徑	tefh yk dg homvm
+莫遮輋路	tak yitf ukjj rmher
+莫里茲大道	tak wg xtvii k ythu
+菁裕徑	tqmb lcor homvm
+菠蘿壩自然教育徑	tede twlg gmbb hbu bkf jdok yib homvm
+菠蘿輋徑	tede twlg ukjj homvm
+菠蘿輋路	tede twlg ukjj rmher
+菩提街	tytr qamo hoggn
+華信街	tmtj oymr hoggn
+華倫街	tmtj oomb hoggn
+華員徑	tmtj rbuc homvm
+華安里	tmtj jv wg
+華容路	tmtj jcor rmher
+華富道	tmtj jmrw ythu
+華庭街	tmtj inkg hoggn
+華康街	tmtj ile hoggn
+華廈街	tmtj imue hoggn
+華思域徑	tmtj wp girm homvm
+華昌街	tmtj aa hoggn
+華明路	tmtj ab rmher
+華明里	tmtj ab wg
+華星街	tmtj ahqm hoggn
+華景山路	tmtj ayrf u rmher
+華景街	tmtj ayrf hoggn
+華林徑	tmtj dd homvm
+華梓徑	tmtj xdytj homvm
+華樂徑	tmtj vid homvm
+華永行人徑	tmtj ine hommn o homvm
+華池徑	tmtj epd homvm
+華泰路	tmtj qke rmher
+華瑤路	tmtj mgbou rmher
+華發街	tmtj nonhe hoggn
+華福街	tmtj ifmrw hoggn
+華翠街	tmtj smyoj hoggn
+華興里	tmtj hxbc wg
+華荔徑	tmtj tkss homvm
+華蘭路	tmtj tanw rmher
+華豐街	tmtj ujmrt hoggn
+華貴道	tmtj lmbuc ythu
+華里	tmtj wg
+華隆徑	tmtj nlhem homvm
+菲林明道	tlmy dd ab ythu
+萃文道	tyoj yk ythu
+萃文里	tyoj yk wg
+萃雲路	tyoj mbmmi rmher
+萊茵河大道	tdoo xtwk emnr k ythu
+萊茵道	tdoo xtwk ythu
+萬事達廣場	twlb jlln ygtq itmc gamh
+萬安街	twlb jv hoggn
+萬宜里	twlb jbm wg
+萬年街	twlb oq hoggn
+萬茂臺	twlb tih grbg
+萬茂里	twlb tih wg
+落山道	tehr u ythu
+落禾沙里	tehr hd efh wg
+落馬洲徑	tehr sqsf eill homvm
+落馬洲支線管制站	tehr sqsf eill je vfhae hjrr hbln ytyr
+落馬洲橋	tehr sqsf eill dhkb
+落馬洲路	tehr sqsf eill rmher
+葵仁路	tnok omm rmher
+葵合街	tnok omr hoggn
+葵和街	tnok hdr hoggn
+葵喜街	tnok grtr hoggn
+葵孝街	tnok jknd hoggn
+葵安道	tnok jv ythu
+葵定路	tnok jmyo rmher
+葵富路	tnok jmrw rmher
+葵康街	tnok ile hoggn
+葵德街	tnok hojwp hoggn
+葵昌路	tnok aa rmher
+葵景路	tnok ayrf rmher
+葵榮路	tnok ffbd rmher
+葵樂街	tnok vid hoggn
+葵泰路	tnok qke rmher
+葵涌交匯處	tnok enib yck seog yphen
+葵涌道	tnok enib ythu
+葵涌醫院路	tnok enib semcw nljmu rmher
+葵發路	tnok nonhe rmher
+葵益道	tnok tcbt ythu
+葵盛圍	tnok isbt wdmq
+葵福路	tnok ifmrw rmher
+葵秀路	tnok hdnhs rmher
+葵義路	tnok tghqi rmher
+葵聯路	tnok sjvit rmher
+葵興路	tnok hxbc rmher
+葵葉街	tnok tptd hoggn
+葵裕街	tnok lcor hoggn
+葵裕里	tnok lcor wg
+葵豐街	tnok ujmrt hoggn
+葵青路	tnok qmb rmher
+葵順街	tnok lllc hoggn
+蒙尼卡徑	tbmo sp ymy homvm
+蒙特勒大道	tbmo hqgdi tjks k ythu
+蒙特萊徑	tbmo hqgdi tdoo homvm
+蒲台郊遊徑	teib ir yknl yysd homvm
+蒲崗村道	teib ubtu ddi ythu
+蒲崗里	teib ubtu wg
+蒲慈里	teib tvip wg
+蒲景里	teib ayrf wg
+蒲田里	teib w wg
+蒲良里	teib iav wg
+蒲芳里	teib tyhs wg
+蒲英里	teib tlbk wg
+蒲蕙里	teib tjip wg
+蒲蘅里	teib xthon wg
+蒲飛徑	teib nohto homvm
+蒲飛路	teib nohto rmher
+蒲魯賢徑	teib nwfa sebuc homvm
+蓬萊徑	tyhj tdoo homvm
+蓬萊路	tyhj tdoo rmher
+蓮坪路	tyjj gmfj rmher
+蓮花宮東街	tyjj top jrhr dw hoggn
+蓮花宮西街	tyjj top jrhr mcw hoggn
+蓮花街	tyjj top hoggn
+蓮苑徑	tyjj tniu homvm
+蓮麻坑路	tyjj ijcc gyhn rmher
+蓮麻坑路交匯處	tyjj ijcc gyhn rmher yck seog yphen
+蔡意橋路	tbof ytap dhkb rmher
+蔴埔坪道	tijc gijb gmfj ythu
+蕉徑路	togf homvm rmher
+蕙荃路	tjip tomg rmher
+蕪湖街	totf ejrb hoggn
+蕪湖街下通道	totf ejrb hoggn my ynib ythu
+薄扶林水塘道	teii qqo dd e gilr ythu
+薄扶林道	teii qqo dd ythu
+薈然徑	toma bkf homvm
+藍地交匯處	tsmt gpd yck seog yphen
+藍地大街	tsmt gpd k hoggn
+藍塘道	tsmt gilr ythu
+藍田街	tsmt w hoggn
+藍鐘路	tsmt cytg rmher
+蘅安徑	xthon jv homvm
+蘅暉徑	xthon xabjj homvm
+蘅欣徑	xthon hlno homvm
+蘇杭街	tnfd dyhn hoggn
+蘇黎世大道	tnfd hhoe pt k ythu
+蘭杜街	tanw dg hoggn
+蘭桂坊	tanw dgg gyhs
+蘭秀道	tanw hdnhs ythu
+蘭花街	tanw top hoggn
+蘭芳道	tanw tyhs ythu
+蘭開夏道	tanw anmt muhe ythu
+虎地坳道	yphu gpd gvis ythu
+虎坑路	yphu gyhn rmher
+虎蹤徑	yphu rmhoo homvm
+蜆殼街	libuu gnhne hoggn
+蝦尾新村路	lirse shqu ydhml ddi rmher
+蝴蝶山徑	lijrb liptd u homvm
+蝴蝶山路	lijrb liptd u rmher
+蝴蝶谷道	lijrb liptd cor ythu
+蝶景路	liptd ayrf rmher
+蟠龍道	lihdw ybysp ythu
+蟬聯街	lirrj sjvit hoggn
+蠔洲路	liyro eill rmher
+蠔涌北路	liyro enib lmp rmher
+蠔涌古道	liyro enib jr ythu
+蠔涌路	liyro enib rmher
+行善里	hommn ttr wg
+行政路	hommn mmok rmher
+行政道	hommn mmok ythu
+衍慶街	hoemn ixe hoggn
+街市街	hoggn ylb hoggn
+衙前圍道	homrn tbln wdmq ythu
+衙前塱道	homrn tbln ibg ythu
+衛信道	hodqn oymr ythu
+衛和街	hodqn hdr hoggn
+衛城道	hodqn gihs ythu
+衛城里	hodqn gihs wg
+衛奕信徑	hodqn xyck oymr homvm
+衛奕信徑第九段	hodqn xyck oymr homvm hnlh kn hjhne
+衛平坊	hodqn mfj gyhs
+衛星街	hodqn ahqm hoggn
+衛理徑	hodqn mgwg homvm
+衛理道	hodqn mgwg ythu
+衛環里	hodqn mgwlv wg
+衞奕信徑第九段	hodbn xyck oymr homvm hnlh kn hjhne
+衞奕信徑第八段	hodbn xyck oymr homvm hnlh ho hjhne
+衞奕信徑第十段	hodbn xyck oymr homvm hnlh j hjhne
+衞奕迅徑第八段	hodbn xyck ynj homvm hnlh ho hjhne
+衡州道	honkn ilil ythu
+裕景坊	lcor ayrf gyhs
+裕東路	lcor dw rmher
+裕榮徑	lcor ffbd homvm
+裕民坊	lcor rvp gyhs
+裕泰路	lcor qke rmher
+裴樂士道	lyyhv vid jm ythu
+西九龍公路	mcw kn ybysp ci rmher
+西九龍走廊	mcw kn ybysp gyo iiil
+西九龍走廊西	mcw kn ybysp gyo iiil mcw
+西區海底隧道	mcw srrr eowy ihvi nlyto ythu
+西堤	mcw gamo
+西堤街	mcw gamo hoggn
+西安街	mcw jv hoggn
+西安里	mcw jv wg
+西寧街	mcw jpbn hoggn
+西尾道	mcw shqu ythu
+西市街	mcw ylb hoggn
+西康里	mcw ile wg
+西摩道	mcw idq ythu
+西樓角路	mcw dllv nbq rmher
+西橫巷	mcw xdtmc tcru
+西沙路	mcw efh rmher
+西洋菜北街	mcw etq tbd lmp hoggn
+西洋菜南街	mcw etq tbd jbtj hoggn
+西洋菜里	mcw etq tbd wg
+西洗車場路	mcw ehgu jwj gamh rmher
+西消防街	mcw efb nlyhs hoggn
+西湖里	mcw ejrb wg
+西源里	mcw emhf wg
+西溪路	mcw ebvk rmher
+西灣河街	mcw evfn emnr hoggn
+西灣炮台晨運徑	mcw evfn fpru ir ammv ybjj homvm
+西灣臺	mcw evfn grbg
+西灣路	mcw evfn rmher
+西碼頭道	mcw mrsqf mtmbc ythu
+西祥街	mcw iftq hoggn
+西祥街北	mcw iftq hoggn lmp
+西翼路	mcw smwtc rmher
+西興里	mcw hxbc wg
+西草灣路	mcw taj evfn rmher
+西菁徑	mcw tqmb homvm
+西菁街	mcw tqmb hoggn
+西華里	mcw tmtj wg
+西蒙徑	mcw tbmo homvm
+西街	mcw hoggn
+西裕徑	mcw lcor homvm
+西裕街	mcw lcor hoggn
+西谷道	mcw cor ythu
+西貢元洲街	mcw xmbuc mmu eill hoggn
+西貢公路	mcw xmbuc ci rmher
+西貢大街	mcw xmbuc k hoggn
+西貢正街	mcw xmbuc mylm hoggn
+西貢海傍廣場	mcw xmbuc eowy oybs itmc gamh
+西貢海傍街	mcw xmbuc eowy oybs hoggn
+西貢萬宜路	mcw xmbuc twlb jbm rmher
+西貢街	mcw xmbuc hoggn
+西貢西灣路	mcw xmbuc mcw evfn rmher
+西貢道	mcw xmbuc ythu
+西貢鄉事會里	mcw xmbuc vhiil jlln omwa wg
+西貢醫局街	mcw xmbuc semcw ssr hoggn
+西路	mcw rmher
+西邊街	mcw yhus hoggn
+西邨路	mcw xpunl rmher
+親仁街	ydbuu omm hoggn
+親民街	ydbuu rvp hoggn
+覺士道	hbbuu jm ythu
+觀坪路	tgbuu gmfj rmher
+觀塘繞道	tgbuu gilr vfggu ythu
+觀塘道	tgbuu gilr ythu
+觀景山隧道	tgbuu ayrf u nlyto ythu
+觀景路	tgbuu ayrf rmher
+觀海徑	tgbuu eowy homvm
+觀音灣路	tgbuu yta evfn rmher
+觀音街	tgbuu yta hoggn
+角祥街	nbq iftq hoggn
+記利佐治街	yrsu hdln okm eir hoggn
+詩歌舞街	yrgdi mrno otniq hoggn
+詹屋路	ncymr smig rmher
+誠明徑	yrihs ab homvm
+諾士佛臺	yrtkr jm olln grbg
+諾森伯倫路	yrtkr ddd oha oomb rmher
+謝斐道	yrhhi lyyk ythu
+譚公廟道	yrmwj ci ijjb ythu
+譚公道	yrmwj ci ythu
+譚臣道	yrmwj slsl ythu
+譚里	yrmwj wg
+警校道	tkymr dyck ythu
+警署徑	tkymr wljka homvm
+變壓器路	vfok mkg rrikr rmher
+谷亭街	cor xyrbn hoggn
+谷柏道	cor dha ythu
+豉油街	mtje elw hoggn
+豐和里	ujmrt hdr wg
+豐安街	ujmrt jv hoggn
+豐年路	ujmrt oq rmher
+豐業街	ujmrt tctd hoggn
+豐樂里	ujmrt vid wg
+豐物道	ujmrt hqphh ythu
+豐盛街	ujmrt isbt hoggn
+豐石街	ujmrt mr hoggn
+豐竹路	ujmrt h rmher
+豐華街	ujmrt tmtj hoggn
+豐裕路	ujmrt lcor rmher
+豐運路	ujmrt ybjj rmher
+豐順街	ujmrt lllc hoggn
+象山邨東路	napo u xpunl dw rmher
+象山邨西路	napo u xpunl mcw rmher
+象鼻山路	napo huwml u rmher
+貝沙山徑	buc efh u homvm
+貝沙山道	buc efh u ythu
+貝沙徑	buc efh homvm
+貝沙灣道	buc efh evfn ythu
+貝璐道	buc mgrmr ythu
+貨櫃碼頭南路	opbuc dslc mrsqf mtmbc jbtj rmher
+貨櫃碼頭路	opbuc dslc mrsqf mtmbc rmher
+貫華里	wjbuc tmtj wg
+貴州街	lmbuc ilil hoggn
+貴池徑	lmbuc epd homvm
+貴翠街	lmbuc smyoj hoggn
+貿業路	hhbuc tctd rmher
+貿泰路	hhbuc qke rmher
+賀良里	krbuc iav wg
+資訊道	mobuc yrnj ythu
+賈炳達道	mwbuc fmob ygtq ythu
+賓吉道	jmhc gr ythu
+賢居里	sebuc sjr wg
+賤橋	bcii dhkb
+贊善里	hubuc ttr wg
+贊端路	hubuc ytumb rmher
+赤柱大街	glnc dyg k hoggn
+赤柱峽道	glnc dyg ukoo ythu
+赤柱崗道	glnc dyg ubtu ythu
+赤柱市場道	glnc dyg ylb gamh ythu
+赤柱新街	glnc dyg ydhml hoggn
+赤柱村道	glnc dyg ddi ythu
+赤柱灘道	glnc dyg etog ythu
+赤柱連合道	glnc dyg yjwj omr ythu
+赤鱲角南路	glnc nfvvv nbq jbtj rmher
+赤鱲角路	glnc nfvvv nbq rmher
+赫德道	gcglc hojwp ythu
+赫蘭道	gcglc tanw ythu
+路德圍	rmher hojwp wdmq
+躉場路	twbo gamh rmher
+車公廟路	jwj ci ijjb rmher
+車坪街	jwj gmfj hoggn
+車廠主路	jwj ifbk yg rmher
+車站環迴路北	jwj ytyr mgwlv ywr rmher lmp
+車站環迴路南	jwj ytyr mgwlv ywr rmher jbtj
+車站環迴路東	jwj ytyr mgwlv ywr rmher dw
+車站路	jwj ytyr rmher
+軍器廠街	bjwj rrikr ifbk hoggn
+軍器廠街天橋	bjwj rrikr ifbk hoggn mk dhkb
+軒尼詩道	jjmj sp yrgdi ythu
+軒德蓀道	jjmj hojwp tndf ythu
+載德街	jijwj hojwp hoggn
+輋徑篤路	ukjj homvm hsqf rmher
+輔仁街	jjijb omm hoggn
+農圃道	twmmv wijb ythu
+迎康街	yhvl ile hoggn
+迎東路	yhvl dw rmher
+迎樂路	yhvl vid rmher
+迎海路	yhvl eowy rmher
+迎禧路	yhvl ifgrr rmher
+迎運里	yhvl ybjj wg
+迦密村街	yksr jphu ddi hoggn
+迪欣路	ylw hlno rmher
+述德街	yijc hojwp hoggn
+通州街	ynib ilil hoggn
+通州西街	ynib ilil mcw hoggn
+通明街	ynib ab hoggn
+通菜街	ynib tbd hoggn
+逢吉鄉路	yhej gr vhiil rmher
+逢源街	yhej emhf hoggn
+連城道	yjwj gihs ythu
+連德道	yjwj hojwp ythu
+連德道晨運徑	yjwj hojwp ythu ammv ybjj homvm
+連翔道	yjwj tqsmm ythu
+連翔道地下行車道	yjwj tqsmm ythu gpd my hommn jwj ythu
+連道	yjwj ythu
+進德路	yog hojwp rmher
+進教圍	yog jdok wdmq
+逸東街	ynai dw hoggn
+逸林坊	ynai dd gyhs
+逸林徑	ynai dd homvm
+逸林路	ynai dd rmher
+逸林道	ynai dd ythu
+逸林里	ynai dd wg
+逸泰街	ynai qke hoggn
+逸祥街	ynai iftq hoggn
+逸遙路	ynai ybou rmher
+逸雅里	ynai mhog wg
+遊艇徑	yysd hynkg homvm
+運亨路	ybjj yrnn rmher
+運動場道	ybjj hgks gamh ythu
+運盈街	ybjj nsbt hoggn
+運盛街	ybjj isbt hoggn
+運通街	ybjj ynib hoggn
+運隆路	ybjj nlhem rmher
+運頭坊	ybjj mtmbc gyhs
+運頭街	ybjj mtmbc hoggn
+運頭角里	ybjj mtmbc nbq wg
+過路灣路	ybbr rmher evfn rmher
+道揚路	ythu qamh rmher
+道風山路	ythu hnmli u rmher
+達之路	ygtq ino rmher
+達仁坊	ygtq omm gyhs
+達康路	ygtq ile rmher
+達東路	ygtq dw rmher
+達業里	ygtq tctd wg
+達洋路	ygtq etq rmher
+達福路	ygtq ifmrw rmher
+達美路	ygtq tgk rmher
+達輝徑	ygtq fubjj homvm
+達運道	ygtq ybjj ythu
+遠洋里北	ygrv etq wg lmp
+遠洋里南	ygrv etq wg jbtj
+適安街	yycb jv hoggn
+遮打道	yitf qmn ythu
+邊境路	yhus gytu rmher
+邊境道路	yhus gytu ythu rmher
+邊寧頓街	yhus jpbn pumbc hoggn
+邊界道路	yhus woll ythu rmher
+郝德傑道	gcnl hojwp onqd ythu
+郭興里	ydnl hxbc wg
+都會道	janl omwa ythu
+都爹利街	janl cknin hdln hoggn
+鄉事會坊	vhiil jlln omwa gyhs
+鄉事會街	vhiil jlln omwa hoggn
+鄧屋街	ntnl smig hoggn
+酒街	emcw hoggn
+醫局街	semcw ssr hoggn
+醫局西街	semcw ssr mcw hoggn
+醫院徑	semcw nljmu homvm
+醫院道	semcw nljmu ythu
+里昂徑	wg ahvl homvm
+重士街	hjwg jm hoggn
+重華路	hjwg tmtj rmher
+金嘉街	c xgrtr hoggn
+金坑路	c gyhn rmher
+金城道	c gihs ythu
+金夫人馳馬徑	c qo o sfpd sqsf homvm
+金山路	c u rmher
+金巴倫道	c au oomb ythu
+金巴利街	c au hdln hoggn
+金巴利道	c au hdln ythu
+金文泰道	c yk qke ythu
+金松徑	c dci homvm
+金桃徑	c dlmo homvm
+金水北路	c e lmp rmher
+金水南路	c e jbtj rmher
+金水路	c e rmher
+金池徑	c epd homvm
+金源里	c emhf wg
+金督馳馬徑	c yebu sfpd sqsf homvm
+金祥坊	c iftq gyhs
+金竹北路	c h lmp rmher
+金竹東路	c h dw rmher
+金竹里	c h wg
+金粟徑	c mwfd homvm
+金粟街	c mwfd hoggn
+金翠路	c smyoj rmher
+金華街	c tmtj hoggn
+金融街	c mblmi hoggn
+金輝徑	c fubjj homvm
+金錢南路	c cii jbtj rmher
+金錢徑	c cii homvm
+金錢路	c cii rmher
+金鐘道	c cytg ythu
+金馬倫道	c sqsf oomb ythu
+金馬倫里	c sqsf oomb wg
+金馬麟山道	c sqsf ipfdq u ythu
+金鳳街	c hnmaf hoggn
+金龍脊	c ybysp fcb
+金龍臺	c ybysp grbg
+鈞樂里	cpmm vid wg
+鉛礦凹街	chnr mritc ssu hoggn
+銀城街	cav gihs hoggn
+銀岬路	cav uwl rmher
+銀巒路	cav vfu rmher
+銀幕街	cav takb hoggn
+銀影路	cav afhhh rmher
+銀星徑	cav ahqm homvm
+銀月里	cav b wg
+銀杏徑	cav dr homvm
+銀杏路	cav dr rmher
+銀樹街	cav dgti hoggn
+銀池道	cav epd ythu
+銀河徑	cav emnr homvm
+銀泉徑	cav hae homvm
+銀湖路	cav ejrb rmher
+銀漢街	cav etlo hoggn
+銀澳路	cav ehbk rmher
+銀石街	cav mr hoggn
+銀竹里	cav h wg
+銀綫灣道	cav vfii evfn ythu
+銀臺路	cav grbg rmher
+銀菊徑	cav tpfd homvm
+銀行街	cav hommn hoggn
+銀運路	cav ybjj rmher
+銀鑛灣路	cav xcitc evfn rmher
+銀鳳街	cav hnmaf hoggn
+銅鑼灣天橋	cbmr cwlg evfn mk dhkb
+銅鑼灣山路	cbmr cwlg evfn u rmher
+銅鑼灣徑	cbmr cwlg evfn homvm
+銅鑼灣道	cbmr cwlg evfn ythu
+銘賢路	cnir sebuc rmher
+鋼綫灣道	cbtu vfii evfn ythu
+錦上路	chab ym rmher
+錦匯路	chab seog rmher
+錦壆路	chab hbg rmher
+錦壆路東	chab hbg rmher dw
+錦壆路西	chab hbg rmher mcw
+錦屏街	chab stt hoggn
+錦山路	chab u rmher
+錦慶路	chab ixe rmher
+錦榮街	chab ffbd hoggn
+錦江路	chab em rmher
+錦河路	chab emnr rmher
+錦泰路	chab qke rmher
+錦田公路	chab w ci rmher
+錦田繞道	chab w vfggu ythu
+錦石橋	chab mr dhkb
+錦石路	chab mr rmher
+錦綉大道北	chab vfhds k ythu lmp
+錦綉大道南	chab vfhds k ythu jbtj
+錦綉大道東	chab vfhds k ythu dw
+錦綉大道西	chab vfhds k ythu mcw
+錦綉花園大道	chab vfhds top wgrv k ythu
+錦繡交匯處	chab vflx yck seog yphen
+錦英路	chab tlbk rmher
+錦莆路	chab tijb rmher
+錫安大道	caph jv k ythu
+錫降圍路	caph nlheq wdmq rmher
+鍾屋村橋	chjg smig ddi dhkb
+鎮海路	cjbc eowy rmher
+鐘聲徑	cytg gesj homvm
+鐵樹街	cjig dgti hoggn
+鐵行里	cjig hommn wg
+長仁巷	smv omm tcru
+長俊路	smv oice rmher
+長健路	smv onkq rmher
+長北路	smv lmp rmher
+長坑路	smv gyhn rmher
+長城街	smv gihs hoggn
+長好街	smv vnd hoggn
+長安里	smv jv wg
+長富街	smv jmrw hoggn
+長寧街	smv jpbn hoggn
+長山隧道	smv u nlyto ythu
+長庚里	smv ilo wg
+長康街	smv ile hoggn
+長旺道	smv amg ythu
+長智巷	smv ora tcru
+長樂街	smv vid hoggn
+長沙大橋	smv efh k dhkb
+長沙灣徑	smv efh evfn homvm
+長沙灣道	smv efh evfn ythu
+長沙街	smv efh hoggn
+長洲山頂道	smv eill u mnmbc ythu
+長洲山頂道西	smv eill u mnmbc ythu mcw
+長洲教堂路	smv eill jdok fbrg rmher
+長洲東堤路	smv eill dw gamo rmher
+長洲西堤道	smv eill mcw gamo ythu
+長洲醫院路	smv eill semcw nljmu rmher
+長洲體育路	smv eill bbtwt yib rmher
+長源路	smv emhf rmher
+長瀝尾街	smv emhm shqu hoggn
+長環街	smv mgwlv hoggn
+長發街	smv nonhe hoggn
+長盛街	smv isbt hoggn
+長碩路	smv mrmbc rmher
+長義街	smv tghqi hoggn
+長茂街	smv tih hoggn
+長荔街	smv tkss hoggn
+長裕街	smv lcor hoggn
+長貴路	smv lmbuc rmher
+長輝路	smv fubjj rmher
+長達路	smv ygtq rmher
+長隆街	smv nlhem hoggn
+長青公路	smv qmb ci rmher
+長青隧道	smv qmb nlyto ythu
+長順街	smv lllc hoggn
+開平道	anmt mfj ythu
+開源道	anmt emhf ythu
+閣麟街	anher ipfdq hoggn
+閩街	anlmi hoggn
+關門口街	anvit an r hoggn
+阜財街	hrj bcdh hoggn
+阿公岩村道	nlmnr ci umr ddi ythu
+阿公岩村里	nlmnr ci umr ddi wg
+阿公岩道	nlmnr ci umr ythu
+除塵器道	nlomd ipg rrikr ythu
+除鹽系統道	nlomd swbt hvif vfyiu ythu
+除鹽設備路	nlomd swbt yrhne othb rmher
+陳東里	nldw dw wg
+陳橋	nldw dhkb
+陳瑞球林滿珍伉儷廣場	nldw mgumb mgije dd etlb mgohh oyhn ommp itmc gamh
+陶域道	nlpou girm ythu
+陶樂路	nlpou vid rmher
+陸鄉里	nlgcg vhiil wg
+隆安街	nlhem jv hoggn
+隔坑墩路	nlmrb gyhn gydk rmher
+隔田村松林徑	nlmrb w ddi dci dd homvm
+隔田村正街	nlmrb w ddi mylm hoggn
+隔田村第三街	nlmrb w ddi hnlh mmm hoggn
+隔田村第二街	nlmrb w ddi hnlh mm hoggn
+隔田村第五街	nlmrb w ddi hnlh mdm hoggn
+隔田村第六街	nlmrb w ddi hnlh yc hoggn
+隔田村第四街	nlmrb w ddi hnlh wc hoggn
+隔田村高街	nlmrb w ddi yrbr hoggn
+隔田街	nlmrb w hoggn
+雀仔橋	fog ond dhkb
+雀橋街	fog dhkb hoggn
+雁谷迷徑	moog cor yfd homvm
+雅息士道	mhog hup jm ythu
+雅竹街	mhog h hoggn
+雅翔道	mhog tqsmm ythu
+雅蘭里	mhog tanw wg
+雅賓利道	mhog jmhc hdln ythu
+雅運路	mhog ybjj rmher
+雅麗道	mhog mmbbp ythu
+集祥街	ogd iftq hoggn
+集福路	ogd ifmrw rmher
+集輝街	ogd fubjj hoggn
+雍坪徑	yvhg gmfj homvm
+雍宜路	yvhg jbm rmher
+雙喜街	oge grtr hoggn
+雙潭石澗	oge emwj mr eana
+雙鳳街	oge hnmaf hoggn
+雞伯嶺路	bkog oha uoic rmher
+雞嶺迴旋處	bkog uoic ywr ysono yphen
+雪廠街	mbsm ifbk hoggn
+雲南里	mbmmi jbtj wg
+雲咸街	mbmmi ihmr hoggn
+雲地利道	mbmmi gpd hdln ythu
+雲景道	mbmmi ayrf ythu
+雲漢街	mbmmi etlo hoggn
+雲漢里	mbmmi etlo wg
+雲華街	mbmmi tmtj hoggn
+雷丹彌徑	mbw by nmfb homvm
+雷鳴路	mbw rhaf rmher
+電廠大道	mbwu ifbk k ythu
+電廠街	mbwu ifbk hoggn
+電氣街	mbwu onfd hoggn
+電氣道	mbwu onfd ythu
+電照街	mbwu arf hoggn
+電路里	mbwu rmher wg
+震寰路	mbmmv jwlv rmher
+霎東街	mbytv dw hoggn
+霎西街	mbytv mcw hoggn
+露坪街	mbrmr gmfj hoggn
+露屏路	mbrmr stt rmher
+露明道	mbrmr ab ythu
+露輝路	mbrmr fubjj rmher
+靈實路	mbrro jwjc rmher
+靈山路	mbrro u rmher
+靈康路	mbrro ile rmher
+青亦路	qmb ylnc rmher
+青匯街	qmb seog hoggn
+青南街	qmb jbtj hoggn
+青善街	qmb ttr hoggn
+青尚路	qmb fbr rmher
+青尚里	qmb fbr wg
+青山公路	qmb u ci rmher
+青山坊	qmb u gyhs
+青山寺徑	qmb u gdi homvm
+青山軍路	qmb u bjwj rmher
+青山道	qmb u ythu
+青嶼幹線	qmb uhxc jjomj vfhae
+青州街	qmb ilil hoggn
+青康路	qmb ile rmher
+青強街	qmb nili hoggn
+青敬路	qmb trok rmher
+青新徑	qmb ydhml homvm
+青朗公路	qmb iib ci rmher
+青杏徑	qmb dr homvm
+青松徑	qmb dci homvm
+青松觀路	qmb dci tgbuu rmher
+青柏徑	qmb dha homvm
+青桃徑	qmb dlmo homvm
+青棉徑	qmb dhab homvm
+青楊街	qmb damh hoggn
+青楊路	qmb damh rmher
+青榕徑	qmb djcr homvm
+青榕街	qmb djcr hoggn
+青欖路	qmb dswu rmher
+青沙公路	qmb efh ci rmher
+青河坊	qmb emnr gyhs
+青泰路	qmb qke rmher
+青海圍	qmb eowy wdmq
+青湖坊	qmb ejrb gyhs
+青田路	qmb w rmher
+青發街	qmb nonhe hoggn
+青發里	qmb nonhe wg
+青盈路	qmb nsbt rmher
+青碧街	qmb mamr hoggn
+青磚圍路	qmb mrjii wdmq rmher
+青福里	qmb ifmrw wg
+青綠街	qmb vfvne hoggn
+青翠徑	qmb smyoj homvm
+青芊街	qmb thj hoggn
+青茵街	qmb xtwk hoggn
+青荃路	qmb tomg rmher
+青菱徑	qmb tgce homvm
+青葉街	qmb tptd hoggn
+青葵公路	qmb tnok ci rmher
+青葵徑	qmb tnok homvm
+青蓮臺	qmb tyjj grbg
+青衣交匯處	qmb yhv yck seog yphen
+青衣北岸公路	qmb yhv lmp ummj ci rmher
+青衣海濱長廊	qmb yhv eowy xejmc smv iiil
+青衣細山徑	qmb yhv vfw u homvm
+青衣航運路	qmb yhv hyyhn ybjj rmher
+青衣西北交匯處	qmb yhv mcw lmp yck seog yphen
+青衣西路	qmb yhv mcw rmher
+青衣路	qmb yhv rmher
+青衣鄉事會路	qmb yhv vhiil jlln omwa rmher
+青賢街	qmb sebuc hoggn
+青雲路	qmb mbmmi rmher
+青霞里	qmb mbrse wg
+青高路	qmb yrbr rmher
+青鴻路	qmb xemhf rmher
+青麟路	qmb ipfdq rmher
+青龍路	qmb ybysp rmher
+靖山街	ytqmb u hoggn
+靖遠街	ytqmb ygrv hoggn
+靜修里	qbbsd oloh wg
+靜安街	qbbsd jv hoggn
+靠背壟道	hgrly lpb ypg ythu
+鞍山里	tjjv u wg
+鞍源街	tjjv emhf hoggn
+鞍祿街	tjjv ifvne hoggn
+鞍誠街	tjjv yrihs hoggn
+鞍超街	tjjv goshr hoggn
+鞍駿街	tjjv sfice hoggn
+響石脊	vlyta mr fcb
+響鐘路	vlyta cytg rmher
+順利邨道	lllc hdln xpunl ythu
+順匯路	lllc seog rmher
+順安道	lllc jv ythu
+順富街	lllc jmrw hoggn
+順寧道	lllc jpbn ythu
+順平街	lllc mfj hoggn
+順捷路	lllc qjlo rmher
+順旅路	lllc ysohv rmher
+順昌街	lllc aa hoggn
+順明路	lllc ab rmher
+順景街	lllc ayrf hoggn
+順暉路	lllc xabjj rmher
+順朗路	lllc iib rmher
+順東路	lllc dw rmher
+順業街	lllc tctd hoggn
+順泰道	lllc qke ythu
+順清街	lllc eqmb hoggn
+順環路	lllc mgwlv rmher
+順緻街	lllc vfmgk hoggn
+順興街	lllc hxbc hoggn
+順行路	lllc hommn rmher
+順連路	lllc yjwj rmher
+順達街	lllc ygtq hoggn
+順隆街	lllc nlhem hoggn
+順風街	lllc hnmli hoggn
+順風道	lllc hnmli ythu
+頌雅路	cimbc mhog rmher
+顯和里	afmbc hdr wg
+顯康街	afmbc ile hoggn
+顯徑街	afmbc homvm hoggn
+顯泰街	afmbc qke hoggn
+顯田街	afmbc w hoggn
+顯發里	afmbc nonhe wg
+顯貴里	afmbc lmbuc wg
+顯達路	afmbc ygtq rmher
+飛雲路	nohto mbmmi rmher
+飛霞路	nohto mbrse rmher
+飛鳳街	nohto hnmaf hoggn
+飛鵝山道	nohto hihaf u ythu
+餘慶里	oiomd ixe wg
+餘樂里	oiomd vid wg
+香園圍公路	hda wgrv wdmq ci rmher
+香島道	hda hayu ythu
+香港仔大道	hda etcu ond k ythu
+香港仔水塘道	hda etcu ond e gilr ythu
+香港仔海傍道	hda etcu ond eowy oybs ythu
+香港仔舊大街	hda etcu ond togx k hoggn
+香港仔隧道	hda etcu ond nlyto ythu
+香港奧運徑	hda etcu hbk ybjj homvm
+香粉寮街	hda fdcsh jkcf hoggn
+香花徑	hda top homvm
+香葉徑	hda tptd homvm
+香葉道	hda tptd ythu
+香車街	hda jwj hoggn
+香雪道	hda mbsm ythu
+馬仔坑道	sqsf ond gyhn ythu
+馬來街	sqsf doo hoggn
+馬可尼道	sqsf mnr sp ythu
+馬坑涌道	sqsf gyhn enib ythu
+馬寶道	sqsf jmuc ythu
+馬己仙峽道	sqsf su ou ukoo ythu
+馬師道	sqsf hrmlb ythu
+馬影徑	sqsf afhhh homvm
+馬成徑	sqsf ihs homvm
+馬會道	sqsf omwa ythu
+馬棠路	sqsf fbrd rmher
+馬樂徑	sqsf vid homvm
+馬游塘路	sqsf eysd gilr rmher
+馬灣大街	sqsf evfn k hoggn
+馬灣後街	sqsf evfn hovie hoggn
+馬灣路	sqsf evfn rmher
+馬灣鄉事會路	sqsf evfn vhiil jlln omwa rmher
+馬田宿舍路	sqsf w joma omjr rmher
+馬田路	sqsf w rmher
+馬窩路	sqsf jcbbr rmher
+馬聰路	sqsf sjhwp rmher
+馬草壟路	sqsf taj ypg rmher
+馬角街	sqsf nbq hoggn
+馬角里	sqsf nbq wg
+馬賽徑	sqsf jtcc homvm
+馬蹄徑	sqsf rmybb homvm
+馬適路	sqsf yycb rmher
+馬鈴徑	sqsf coii homvm
+馬錦街	sqsf chab hoggn
+馬閃排路	sqsf ano qlmy rmher
+馬鞅徑	sqsf tjlbk homvm
+馬鞍山村路	sqsf tjjv u ddi rmher
+馬鞍山繞道	sqsf tjjv u vfggu ythu
+馬鞍山路	sqsf tjjv u rmher
+馬鞍山郊遊徑	sqsf tjjv u yknl yysd homvm
+馬鞍徑	sqsf tjjv homvm
+馬頭圍道	sqsf mtmbc wdmq ythu
+馬頭壩道	sqsf mtmbc gmbb ythu
+馬頭涌道	sqsf mtmbc enib ythu
+馬頭角道	sqsf mtmbc nbq ythu
+駱克道	sfher jrhu ythu
+駿光街	sfice fmu hoggn
+駿坪路	sfice gmfj rmher
+駿宏街	sfice jki hoggn
+駿才街	sfice dh hoggn
+駿日街	sfice a hoggn
+駿昇街	sfice aht hoggn
+駿昌街	sfice aa hoggn
+駿明路	sfice ab rmher
+駿景路	sfice ayrf rmher
+駿業街	sfice tctd hoggn
+駿業里	sfice tctd wg
+駿發街	sfice nonhe hoggn
+駿盈街	sfice nsbt hoggn
+駿群路	sfice srtq rmher
+駿裕路	sfice lcor rmher
+駿運北路	sfice ybjj lmp rmher
+駿運南路	sfice ybjj jbtj rmher
+駿運路	sfice ybjj rmher
+駿運路交匯處	sfice ybjj rmher yck seog yphen
+體育徑	bbtwt yib homvm
+體育道	bbtwt yib ythu
+高上路	yrbr ym rmher
+高化利徑	yrbr op hdln homvm
+高埔徑	yrbr gijb homvm
+高埔路	yrbr gijb rmher
+高士威道	yrbr jm ihmv ythu
+高士美道	yrbr jm tgk ythu
+高安里	yrbr jv wg
+高山道	yrbr u ythu
+高槐路	yrbr dhui rmher
+高芳街	yrbr tyhs hoggn
+高行路	yrbr hommn rmher
+高街	yrbr hoggn
+高超徑	yrbr goshr homvm
+高超道	yrbr goshr ythu
+高輝道	yrbr fubjj ythu
+高陞街	yrbr nlhtg hoggn
+高飛里北	yrbr nohto wg lmp
+高飛里南	yrbr nohto wg jbtj
+魚市場道	nwf ylb gamh ythu
+魷魚灣村道	nfiku nwf evfn ddi ythu
+鯉景道	nfwg ayrf ythu
+鯉魚門徑	nfwg nwf an homvm
+鯉魚門海傍道	nfwg nwf an eowy oybs ythu
+鯉魚門道	nfwg nwf an ythu
+鰂魚涌樹木研習徑	nfbcn nwf enib dgti d mrmt smha homvm
+鰂魚涌街	nfbcn nwf enib hoggn
+鱟地坊	hbnwf gpd gyhs
+鳳儀街	hnmaf otgi hoggn
+鳳凰徑	hnmaf hnhag homvm
+鳳凰臺	hnmaf hnhag grbg
+鳳南路	hnmaf jbtj rmher
+鳳南里	hnmaf jbtj wg
+鳳園路	hnmaf wgrv rmher
+鳳地橋	hnmaf gpd dhkb
+鳳坑家樂徑	hnmaf gyhn jmso vid homvm
+鳳坪里	hnmaf gmfj wg
+鳳德道	hnmaf hojwp ythu
+鳳攸北街	hnmaf olok lmp hoggn
+鳳攸南街	hnmaf olok jbtj hoggn
+鳳攸徑	hnmaf olok homvm
+鳳攸東街	hnmaf olok dw hoggn
+鳳池路	hnmaf epd rmher
+鳳琴街	hnmaf mgoin hoggn
+鳳禮道	hnmaf iftwt ythu
+鳳秀路	hnmaf hdnhs rmher
+鳳美徑	hnmaf tgk homvm
+鳳群徑	hnmaf srtq homvm
+鳳群街	hnmaf srtq hoggn
+鳳翔徑	hnmaf tqsmm homvm
+鳳翔路	hnmaf tqsmm rmher
+鳳舞街	hnmaf otniq hoggn
+鳳輝臺	hnmaf fubjj grbg
+鳳降村路	hnmaf nlheq ddi rmher
+鳳香街	hnmaf hda hoggn
+鳳麒路	hnmaf iptmc rmher
+鳴琴路	rhaf mgoin rmher
+鳴鳳街	rhaf hnmaf hoggn
+鴉打街	mhhaf qmn hoggn
+鴉蘭街	mhhaf tanw hoggn
+鴨寮街	wlhaf jkcf hoggn
+鴨巴甸街	wlhaf au pw hoggn
+鴨洲地質步道	wlhaf eill gpd hlbuc ylmh ythu
+鴨脷洲大橋	wlhaf bhdn eill k dhkb
+鴨脷洲大街	wlhaf bhdn eill k hoggn
+鴨脷洲徑	wlhaf bhdn eill homvm
+鴨脷洲橋道	wlhaf bhdn eill dhkb ythu
+鴨脷洲海旁道	wlhaf bhdn eill eowy ybyhs ythu
+鴻光街	xemhf fmu hoggn
+鴻圖道	xemhf wryw ythu
+鴻業街	xemhf tctd hoggn
+鴻福街	xemhf ifmrw hoggn
+鴻興道	xemhf hxbc ythu
+鴻興道天橋	xemhf hxbc ythu mk dhkb
+鴻運街	xemhf ybjj hoggn
+鵬程街	bbhf hdrmg hoggn
+鶴咀道	oghaf rbm ythu
+鶴園東街	oghaf wgrv dw hoggn
+鶴園街	oghaf wgrv hoggn
+鶴園里	oghaf wgrv wg
+鶴翔街	oghaf tqsmm hoggn
+鶴藪水塘家樂徑	oghaf tlvk e gilr jmso vid homvm
+鶴藪道	oghaf tlvk ythu
+鶴藪郊遊徑	oghaf tlvk yknl yysd homvm
+鶴齡街	oghaf yuoii hoggn
+鷹巢山自然教育徑	iogf vvwd u hbu bkf jdok yib homvm
+鷹揚街	iogf qamh hoggn
+鹹田街	ywihr w hoggn
+鹹魚街	ywihr nwf hoggn
+鹿尾村路	ixp shqu ddi rmher
+鹿湖郊遊徑	ixp ejrb yknl yysd homvm
+鹿祥路	ixp iftq rmher
+鹿苑街	ixp tniu hoggn
+鹿茵徑	ixp xtwk homvm
+鹿頸路	ixp mmmbc rmher
+鹿鳴街	ixp rhaf hoggn
+麒青街	iptmc qmb hoggn
+麒麟徑	iptmc ipfdq homvm
+麗坪路	mmbbp gmfj rmher
+麗志路	mmbbp gp rmher
+麗景道	mmbbp ayrf ythu
+麗梨花街	mmbbp xhnd top hoggn
+麗海堤岸路	mmbbp eowy gamo ummj rmher
+麗港南街	mmbbp etcu jbtj hoggn
+麗港東街	mmbbp etcu dw hoggn
+麗港街	mmbbp etcu hoggn
+麗濱徑	mmbbp xejmc homvm
+麗瑤街	mmbbp mgbou hoggn
+麗祖路	mmbbp ifbm rmher
+麗禾里	mmbbp hd wg
+麗翔道	mmbbp tqsmm ythu
+麗華街	mmbbp tmtj hoggn
+麗順路	mmbbp lllc rmher
+麟祥街	ipfdq iftq hoggn
+麥加力歌街	joni ksr ks mrno hoggn
+麥園圍路	joni wgrv wdmq rmher
+麥理浩徑	joni mgwg ehgr homvm
+麥理浩徑第五段	joni mgwg ehgr homvm hnlh mdm hjhne
+麥理浩徑第八段	joni mgwg ehgr homvm hnlh ho hjhne
+麥當勞道	joni fbrw ffbks ythu
+麥蘭徑	joni tanw homvm
+麥連街	joni yjwj hoggn
+麵房街	jemwl isyhs hoggn
+麵房里	jemwl isyhs wg
+麼地廣場	idvi gpd itmc gamh
+麼地道	idvi gpd ythu
+麼地里	idvi gpd wg
+黃埔街	tmlc gijb hoggn
+黃大仙道	tmlc k ou ythu
+黃宜坳路	tmlc jbm gvis rmher
+黃崗圍路	tmlc ubtu wdmq rmher
+黃泥墩村路	tmlc esp gydk ddi rmher
+黃泥涌峽天橋	tmlc esp enib ukoo mk dhkb
+黃泥涌峽道	tmlc esp enib ukoo ythu
+黃泥涌道	tmlc esp enib ythu
+黃石家樂徑	tmlc mr jmso vid homvm
+黃石樹木研習徑	tmlc mr dgti d mrmt smha homvm
+黃竹坑徑	tmlc h gyhn homvm
+黃竹坑道	tmlc h gyhn ythu
+黃竹坑道天橋	tmlc h gyhn ythu mk dhkb
+黃竹山古道	tmlc h u jr ythu
+黃竹洋村徑	tmlc h etq ddi homvm
+黃竹洋街	tmlc h etq hoggn
+黃竹街	tmlc h hoggn
+黃菊路	tmlc tpfd rmher
+黃金泳灘徑	tmlc c eine etog homvm
+黃麻角徑	tmlc ijcc nbq homvm
+黃麻角道	tmlc ijcc nbq ythu
+黃龍坑道	tmlc ybysp gyhn ythu
+黃龍坑郊遊徑	tmlc ybysp gyhn yknl yysd homvm
+黑布街	wgf klb hoggn
+黑排路	wgf qlmy rmher
+黑角徑	wgf nbq homvm
+龍仔村路	ybysp ond ddi rmher
+龍匯道	ybysp seog ythu
+龍合街	ybysp omr hoggn
+龍和道	ybysp hdr ythu
+龍圖街	ybysp wryw hoggn
+龍坪道	ybysp gmfj ythu
+龍如路	ybysp vr rmher
+龍富路	ybysp jmrw rmher
+龍尾村路	ybysp shqu ddi rmher
+龍山橋	ybysp u dhkb
+龍山隧道	ybysp u nlyto ythu
+龍崗道	ybysp ubtu ythu
+龍康街	ybysp ile hoggn
+龍德街	ybysp hojwp hoggn
+龍悅道	ybysp pcru ythu
+龍景街	ybysp ayrf hoggn
+龍柏徑	ybysp dha homvm
+龍柏街	ybysp dha hoggn
+龍欣道	ybysp hlno ythu
+龍池徑	ybysp epd homvm
+龍涎道	ybysp enkv ythu
+龍澤路	ybysp ewlj rmher
+龍珠街	ybysp mghjd hoggn
+龍琛路	ybysp mgbcd rmher
+龍田街	ybysp w hoggn
+龍發街	ybysp nonhe hoggn
+龍盛街	ybysp isbt hoggn
+龍翔道	ybysp tqsmm ythu
+龍耀街	ybysp fusmg hoggn
+龍脊	ybysp fcb
+龍華街	ybysp tmtj hoggn
+龍虎山徤身徑	ybysp yphu u honkq hxh homvm
+龍蝦灣路	ybysp lirse evfn rmher
+龍蝦灣郊遊徑	ybysp lirse evfn yknl yysd homvm
+龍蟠街	ybysp lihdw hoggn
+龍躍徑	ybysp rmsmg homvm
+龍輝街	ybysp fubjj hoggn
+龍運街	ybysp ybjj hoggn
+龍門徑	ybysp an homvm
+龍門路	ybysp an rmher
+龍門郊遊徑	ybysp an yknl yysd homvm
+龍馬路	ybysp sqsf rmher
+龍駒道	ybysp sfpr ythu
+龍騰路	ybysp bfqf rmher
+龍鳳街	ybysp hnmaf hoggn
+龍鼓灘路	ybysp gtje etog rmher
+㘭背灣街	gvis lpb evfn hoggn

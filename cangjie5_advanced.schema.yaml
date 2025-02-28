@@ -36,6 +36,8 @@ schema:
     Telegram 用户交流組 https://t.me/rime_cantonese ##
 
   dependencies:
+    - cangjie5
+    - cangjie5_advanced
     - jyut6ping3 #
 
 switches:
@@ -134,15 +136,15 @@ speller:
 
 
 translator:
-  dictionary: cangjie5
+  dictionary: cangjie5_advanced
   enable_charset_filter: true #是否開啓字符集過濾
   enable_sentence: true #是否開啓自動造句
   enable_encoder: true #是否開啓自動造詞
   encode_commit_history: true #是否對已上屛詞自動成詞
   enable_completion: true #逐渐提示
   enable_user_dict: true #是否開啓用戶詞典
-  spelling_hints: 99 
-  max_phrase_length: 99
+  spelling_hints: 30
+  max_phrase_length: 10
   preedit_format:
     - 'xform/^([a-z]*)$/$1\t（\U$1\E）/'
     - "xlit|ABCDEFGHIJKLMNOPQRSTUVWXYZ|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
@@ -159,38 +161,55 @@ translator:
     - "^z.*$"
     - "^yyy.*$"
 
-cangjie5:
-  tag: cangjie5
-  dictionary: cangjie5
-  enable_user_dict: false
-  prefix: "v"
-  suffix: ";"
-  tips: 〔倉頡五代〕
-  preedit_format:
-    - 'xform/^([a-z]*)$/$1\t（\U$1\E）/'
-    - "xlit|ABCDEFGHIJKLMNOPQRSTUVWXYZ|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
-  comment_format:
-    - "xlit|abcdefghijklmnopqrstuvwxyz~|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符～|"
-  disable_user_dict_for_patterns:
-    - "^z.*$"
-    - "^yyy.*$"
-
-jyut6ping3:
-  tag: jyut6ping3
-  dictionary: jyut6ping3 
-  prefix: "`"
-  suffix: "'"
-  tips: 〔粵拼〕
-  spelling_hints: 12  # 將呢度改作 0，可以去除候選字後邊嘅粵拼提示
-  preedit_format:
-    - xform/([aeiouymngptk])vv/${1}4/
-    - xform/([aeiouymngptk])xx/${1}5/
-    - xform/([aeiouymngptk])qq/${1}6/
-    - xform/([aeiouymngptk])v/${1}1/
-    - xform/([aeiouymngptk])x/${1}2/
-    - xform/([aeiouymngptk])q/${1}3/
-  #comment_format:
-   # - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
+#cangjie5:
+#  tag: cangjie5
+#  dictionary: cangjie5
+#  enable_user_dict: false
+#  prefix: "v"
+#  suffix: ";"
+#  tips: 〔倉頡五代〕
+#  preedit_format:
+#    - 'xform/^([a-z]*)$/$1\t（\U$1\E）/'
+#    - "xlit|ABCDEFGHIJKLMNOPQRSTUVWXYZ|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
+#  comment_format:
+#    - "xlit|abcdefghijklmnopqrstuvwxyz~|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符～|"
+#  disable_user_dict_for_patterns:
+#    - "^z.*$"
+#    - "^yyy.*$"
+#
+#
+#cangjie5_advanced:
+#  tag: cangjie5_advanced
+#  dictionary: cangjie5_advanced
+#  enable_user_dict: false
+#  prefix: "v"
+#  suffix: ";"
+#  tips: 〔倉頡五代〕
+#  preedit_format:
+#    - 'xform/^([a-z]*)$/$1\t（\U$1\E）/'
+#    - "xlit|ABCDEFGHIJKLMNOPQRSTUVWXYZ|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
+#  comment_format:
+#    - "xlit|abcdefghijklmnopqrstuvwxyz~|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符～|"
+#  disable_user_dict_for_patterns:
+#    - "^z.*$"
+#    - "^yyy.*$"
+#
+#jyut6ping3:
+#  tag: jyut6ping3
+#  dictionary: jyut6ping3 
+#  prefix: "`"
+#  suffix: "'"
+#  tips: 〔粵拼〕
+#  spelling_hints: 12  # 將呢度改作 0，可以去除候選字後邊嘅粵拼提示
+#  preedit_format:
+#    - xform/([aeiouymngptk])vv/${1}4/
+#    - xform/([aeiouymngptk])xx/${1}5/
+#    - xform/([aeiouymngptk])qq/${1}6/
+#    - xform/([aeiouymngptk])v/${1}1/
+#    - xform/([aeiouymngptk])x/${1}2/
+#    - xform/([aeiouymngptk])q/${1}3/
+#  #comment_format:
+#   # - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
 
 reverse_lookup:
   dictionary: jyut6ping3 
