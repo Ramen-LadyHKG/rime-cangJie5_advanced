@@ -108,5 +108,140 @@ select_input_methods()
 			case "$c" in
 				1) echo "    - schema: cangjie5" ;;
 				2) echo "    - schema: cangjie5_advanced" ;;
-				3)
+				3) echo "    - schema: ms_quick" ;;
+				4) echo "    - schema: jyut6ping3" ;;
+			esac
+		done
+	} > "$RIME_CFG/default.custom.yaml"
+}
+
+# ─────────────────────────
+# 🌍 環境變數（X11 / Wayland）
+# ─────────────────────────
+setup_env_vars()
+{
+	print_step "🌍 設定輸入法環境變數"
+
+	read -rp "套用到：(1) 此用戶 (2) 全系統？[1/2] " scope
+
+	if [[ "$scope" == "2" ]]; then
+		for v in GTK QT XMODIFIERS SDL; do
+			echo "${v}_IM_MODULE DEFAULT=fcitx" | sudo tee -a /etc/environment
+		done
+	else
+		for v in GTK QT XMODIFIERS SDL; do
+			echo "${v}_IM_MODULE DEFAULT=fcitx" >> "$HOME/.pam_environment"
+		done
+	fi
+}
+
+# ─────────────────────────
+# 🧩 GNOME Kimpanel
+# ─────────────────────────
+install_kimpanel()
+{
+	[[ "$DE" != *GNOME* || "$SESSION_TYPE" != "wayland" ]] && return
+
+	print_step "🧩 安裝 GNOME Kimpanel"
+
+	if ! command -v gext >/dev/null; then
+		if command -v pipx >/dev/null; then
+			pipx install gnome-extensions-cli
+		elif command -v pip3 >/dev/null; then
+			pip3 install --user gnome-extensions-cli
+			export PATH="$HOME/.local/bin:$PATH"
+		else
+			echo "⚠️ 找不到 pip / pipx，跳過 Kimpanel"
+			return
+		fi
+	fi
+
+	gext install 261 || true
+	gext enable kimpanel@kde.org || true
+}
+
+# ─────────────────────────
+# 🧱 KDE Wayland Virtual Keyboard
+# ─────────────────────────
+handle_kde_virtual_keyboard()
+{
+	[[ "$DE" != *KDE* || "$SESSION_TYPE" != "wayland" ]] && return
+
+	print_step "🧱 KDE Wayland Virtual Keyboard 設定"
+
+	kwinrc="$HOME/.config/kwinrc"
+	mkdir -p "$(dirname "$kwinrc")"
+	touch "$kwinrc"
+
+	if grep -q "VirtualKeyboard" "$kwinrc"; then
+		read -rp "已存在 VirtualKeyboard，改為 fcitx5-wayland？[Y/N] " ans
+		[[ "$ans" =~ ^[Yy]$ ]] || return
+	fi
+
+	backup_path "$kwinrc"
+
+	cat >> "$kwinrc" <<EOF
+
+[Wayland]
+VirtualKeyboard=fcitx5-wayland
+EOF
+}
+
+# ─────────────────────────
+# 🎨 Deploy fcitx5 config
+# ─────────────────────────
+deploy_fcitx5_configs()
+{
+	print_step "🎨 部署 fcitx5 設定 / theme"
+
+	USER_CFG="$HOME/.config/fcitx5"
+	USER_SHARE="$HOME/.local/share/fcitx5"
+
+	backup_path "$USER_CFG"
+	backup_path "$USER_SHARE"
+
+	cp -r "$SETUP_DIR/.config/fcitx5" "$HOME/.config/"
+	cp -r "$SETUP_DIR/.local/share/fcitx5" "$HOME/.local/share/"
+}
+
+# ─────────────────────────
+# 🔤 PingFang 字體
+# ─────────────────────────
+install_pingfang_font()
+{
+	print_step "🔤 安裝 PingFang 字體"
+
+	tmp="/tmp/pingfang"
+	rm -rf "$tmp"
+	git clone https://github.com/witt-bit/applePingFangFonts.git "$tmp"
+
+	sudo mkdir -p /usr/share/fonts/pingFang
+	sudo cp -rf "$tmp/pingFang/." /usr/share/fonts/pingFang/
+	sudo fc-cache -fv
+}
+
+# ─────────────────────────
+# 🎛️ 主流程
+# ─────────────────────────
+main()
+{
+	clear
+	echo "🎉 Fcitx5 + Rime（倉頡 / 粵拼）安裝器"
+
+	detect_system
+	confirm_continue
+
+	install_packages
+	install_rime_data
+	select_input_methods
+	setup_env_vars
+	install_kimpanel
+	handle_kde_virtual_keyboard
+	deploy_fcitx5_configs
+	install_pingfang_font
+
+	print_step "✅ 安裝完成，請登出或重新啟動"
+}
+
+main
 
