@@ -1,7 +1,8 @@
 #!/bin/bash
 set -e
 
-SETUP_SRC="rime-cangJie5_advanced/Setup"
+ROOT_DIR="$(pwd)"
+SETUP_DIR="$ROOT_DIR/Setup"
 
 # ─────────────────────────
 # 🖨️ UI helper
@@ -43,7 +44,7 @@ backup_path()
 }
 
 # ─────────────────────────
-# 📥 套件
+# 📦 套件
 # ─────────────────────────
 install_packages()
 {
@@ -60,87 +61,49 @@ install_packages()
 }
 
 # ─────────────────────────
-# 🛠️ Rime 方案
+# 🛠️ 安裝 Rime Data
 # ─────────────────────────
-install_scheme()
+install_rime_data()
 {
-	print_step "🛠️ 安裝 Rime 倉頡方案"
+	print_step "🛠️ 安裝 Rime 詞庫與 Schema"
 
-	rm -rf /tmp/fcitx5_rime_setup
-	git clone https://github.com/Ramen-LadyHKG/rime-cangJie5_advanced.git /tmp/fcitx5_rime_setup
-	sudo cp -r /tmp/fcitx5_rime_setup/. /usr/share/rime-data/
+	sudo cp -v *.yaml /usr/share/rime-data/
+	sudo cp -rv opencc /usr/share/rime-data/ || true
 }
 
 # ─────────────────────────
-# 🐍 Python / pip 檢查
+# ⌨️ 選擇輸入法
 # ─────────────────────────
-ensure_python_and_pip()
+select_input_methods()
 {
-	print_step "🐍 檢查 Python / pip 環境"
+	print_step "⌨️ 選擇要啟用嘅輸入法"
 
-	if ! command -v python3 >/dev/null; then
-		echo "⚠️ 未發現 python3，正在安裝"
-		case "$OS" in
-			fedora) sudo dnf install -y python3 ;;
-			arch*) sudo pacman -S --noconfirm python ;;
-			ubuntu*) sudo apt install -y python3 ;;
-		esac
-	fi
+	echo "可選輸入法（可多選，用空格分隔）："
+	echo "1) 倉頡五代"
+	echo "2) 倉頡五代（進階）"
+	echo "3) 速成"
+	echo "4) 粵拼"
 
-	if ! command -v pip3 >/dev/null; then
-		echo "⚠️ 未發現 pip3，正在安裝"
-		case "$OS" in
-			fedora) sudo dnf install -y python3-pip ;;
-			arch*) sudo pacman -S --noconfirm python-pip ;;
-			ubuntu*) sudo apt install -y python3-pip ;;
-		esac
-	fi
-}
+	read -rp "請輸入編號: " choices
 
-# ─────────────────────────
-# 🧩 GNOME Kimpanel
-# ─────────────────────────
-install_kimpanel()
-{
-	[[ "$DE" != *GNOME* || "$SESSION_TYPE" != "wayland" ]] && return
+	RIME_CFG="$HOME/.local/share/fcitx5/rime"
+	mkdir -p "$RIME_CFG"
+	backup_path "$RIME_CFG/default.custom.yaml"
 
-	print_step "🧩 GNOME Wayland：安裝 Kimpanel"
+	{
+		echo "patch:"
+		echo "  schema_list:"
+		for c in $choices; do
+			case "$c" in
+				1) echo "    - schema: cangjie5" ;;
+				2) echo "    - schema: cangjie5_advanced" ;;
+				3) echo "    - schema: ms_quick" ;;
+				4) echo "    - schema: jyut6ping3" ;;
+			esac
+		done
+	} > "$RIME_CFG/default.custom.yaml"
 
-	if ! command -v gext >/dev/null; then
-		ensure_python_and_pip
-		pip3 install --user --upgrade gnome-extensions-cli
-		export PATH="$HOME/.local/bin:$PATH"
-	fi
-
-	gext install 261 || true
-	gext enable kimpanel@kde.org || true
-}
-
-# ─────────────────────────
-# 🧱 KDE Wayland Virtual Keyboard
-# ─────────────────────────
-handle_kde_virtual_keyboard()
-{
-	[[ "$DE" != *KDE* || "$SESSION_TYPE" != "wayland" ]] && return
-
-	print_step "⌨️ KDE Wayland：設定 Virtual Keyboard（fcitx5）"
-
-	kwinrc="$HOME/.config/kwinrc"
-	mkdir -p "$(dirname "$kwinrc")"
-	touch "$kwinrc"
-
-	if grep -q "VirtualKeyboard" "$kwinrc"; then
-		read -rp "⚠️ 已設定 VirtualKeyboard，要改成 fcitx5-wayland？[Y/N] " ans
-		[[ "$ans" =~ ^[Yy]$ ]] || return
-	fi
-
-	backup_path "$kwinrc"
-
-	cat >> "$kwinrc" <<EOF
-
-[Wayland]
-VirtualKeyboard=fcitx5-wayland
-EOF
+	echo "✅ 已設定輸入法列表"
 }
 
 # ─────────────────────────
@@ -148,7 +111,7 @@ EOF
 # ─────────────────────────
 deploy_fcitx5_configs()
 {
-	print_step "🎨 部署 fcitx5 設定 / Theme / Rime"
+	print_step "🎨 部署 fcitx5 設定與主題"
 
 	read -rp "安裝範圍：(1) 此用戶 (2) 所有用戶？[1/2] " scope
 
@@ -158,13 +121,13 @@ deploy_fcitx5_configs()
 	backup_path "$USER_CFG"
 	backup_path "$USER_SHARE"
 
-	cp -r "$SETUP_SRC/.config/fcitx5" "$HOME/.config/"
-	cp -r "$SETUP_SRC/.local/share/fcitx5" "$HOME/.local/share/"
+	cp -r "$SETUP_DIR/.config/fcitx5" "$HOME/.config/"
+	cp -r "$SETUP_DIR/.local/share/fcitx5" "$HOME/.local/share/"
 
-	if [[ "$scope" == "2" && -d "$USER_CFG" ]]; then
+	if [[ "$scope" == "2" ]]; then
 		sudo mkdir -p /etc/skel/.config /etc/skel/.local/share
-		sudo cp -r "$USER_CFG" /etc/skel/.config/
-		sudo cp -r "$USER_SHARE" /etc/skel/.local/share/
+		sudo cp -r "$HOME/.config/fcitx5" /etc/skel/.config/
+		sudo cp -r "$HOME/.local/share/fcitx5" /etc/skel/.local/share/
 	fi
 }
 
@@ -190,20 +153,19 @@ install_pingfang_font()
 main()
 {
 	clear
-	echo "🎉 Fcitx5 中文輸入法全自動安裝器"
+	echo "🎉 Fcitx5 + Rime（倉頡／粵拼）安裝器"
 
 	detect_system
 	read -rp "是否繼續？[Y/N] " && [[ "$REPLY" =~ ^[Yy]$ ]] || exit 0
 
 	install_packages
-	install_scheme
-	install_kimpanel
+	install_rime_data
+	select_input_methods
 	deploy_fcitx5_configs
-	handle_kde_virtual_keyboard
 	install_pingfang_font
 
 	print_step "✅ 安裝完成"
-	echo "請登出或重新啟動系統以套用設定"
+	echo "請重新登入或重啟系統"
 }
 
 main
