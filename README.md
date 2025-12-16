@@ -45,6 +45,144 @@
 
 \
 
+以下由ChatGPT生成
+
+
+
+# 🚀 Rime 倉頡粵拼混打方案
+
+依個方案係 fork rime-cantonese 而修改出嚟，提供倉頡、粵拼、以及兩者混打嘅輸入體驗。
+
+## ✨ 特色一覽
+
+* **倉頡/粵拼連續混打：** 可以喺同一句輸入中連續切換倉頡碼同粵拼碼。
+* **多方案選擇：** 提供標準倉頡、傳統速成、進階速成、標準粵拼、以及混打方案。
+* **Fcitx5 全自動安裝：** 提供一個新嘅 `install.sh` 腳本，自動幫您搞掂 Fcitx5 嘅安裝同配置。
+* **美觀主題：** 包含多款 Fcitx5 主題，例如 Dracula、FluentDark 等。
+* **PingFang 字體：** 可選安裝 Apple PingFang 字體，以獲得更好嘅顯示效果。
+
+## 💡 DEMO 示範
+
+| 倉頡 DEMO1 | 粵拼 DEMO2 | 粵拼快打 DEMO3 |
+| :---: | :---: | :---: |
+| \[GIF/YouTube 連結\] | \[GIF/YouTube 連結\] | \[GIF/YouTube 連結\] |
+
+> **注意：** 請替換表格中嘅 `[GIF/YouTube 連結]` 為實際的演示檔案或影片連結。
+
+---
+
+## 🛠️ 安裝指南（推薦使用自動化腳本 由ChatGPT生成）
+
+我哋強烈建議使用我哋提供嘅 `install.sh` 腳本，佢會自動處理 Fcitx5 及其 Rime 引擎嘅安裝、配置，並將本方案所需嘅檔案部署到正確位置。
+
+### 1. 準備工作
+
+請確保您已經 **Clone 或下載** 咗成個方案嘅檔案，並且您身處於包含 `install.sh` 嘅**根目錄**（例如 `rime-cangJie5_advanced`）。
+
+
+# 假設您喺您的專案目錄
+```bash
+cd /path/to/rime-cangJie5_advanced
+```
+2. 執行自動安裝腳本
+
+執行以下指令嚟運行安裝腳本：
+`./install.sh`
+
+3. 腳本互動過程
+
+腳本會自動偵測您的系統（支援 Ubuntu/Debian/Linux Mint, Arch, Fedora/Nobara 等），並引導您完成以下步驟：
+
+    安裝系統套件： 腳本會提示您輸入 sudo 密碼，以便自動安裝 fcitx5、fcitx5-rime、git 等必要套件。
+
+    選擇 Rime 方案： 腳本會要求您選擇要安裝嘅輸入法方案（例如：倉頡、粵拼、混打）。您可以輸入對應嘅數字，用空格分隔，或者輸入 6 選擇全部。
+
+            倉頡 (cangjie5)
+
+            傳統速成 (ms_quick)
+
+            進階速成 (cangjie5_advanced)
+
+            粵語拼音 (jyut6ping3)
+
+            混打 (quick5)
+
+            全部
+
+    選擇安裝範圍： 選擇係只為目前用戶安裝（1）定係所有用戶安裝（2，會部署到 /etc/skel）。
+
+    環境配置： 腳本會自動配置 Fcitx5 嘅自動啟動、設定 X11/Wayland 環境變數 (GTK_IM_MODULE 等)。
+
+    （可選）Wayland/GNOME/KDE 調整： 腳本會嘗試為 Wayland 環境下嘅 GNOME Kimpanel 或 KDE 虛擬鍵盤進行最佳化設定。
+
+    （可選）字體安裝： 腳本會詢問並安裝 Apple PingFang 字體。
+
+4. 完成安裝
+
+當腳本運行完畢並顯示「✅ 完成，請登出或重新啟動系統」後，請務必：
+
+    登出 (Log out) 您的系統，然後重新登入 (Log in)。
+
+    或直接重新啟動 (Reboot) 您的電腦。
+
+重新登入後，Fcitx5 應該會自動啟動，您可以通過 Fcitx5 配置工具（通常係透過 system tray icon 或執行 fcitx5-configtool）嚟調整輸入法列表。
+🔍 手動安裝（進階用戶）
+
+如果您唔想使用自動化腳本，可以手動將檔案複製到正確位置：
+1. 複製 Rime 方案檔案
+
+將所有方案相關檔案複製到 Rime 用戶目錄：
+
+
+# 假設您喺專案根目錄
+```
+RIME_DIR="$HOME/.local/share/fcitx5/rime"
+mkdir -p "$RIME_DIR"
+cp *.yaml opencc symbols*.yaml essay*.txt default.yaml "$RIME_DIR/"
+```
+2. 配置 Fcitx5 系統設定
+
+複製 Fcitx5 嘅用戶配置同主題：
+
+# 複製配置檔案
+`cp -r Setup/.config/fcitx5 "$HOME/.config/"`
+# 複製主題檔案
+`cp -r Setup/.local/share/fcitx5/theme "$HOME/.local/share/fcitx5/"`
+# 複製 default.custom.yaml (可選，但推薦)
+`cp Setup/.local/share/fcitx5/rime/default.custom.yaml "$RIME_DIR/"`
+
+3. 調整 default.yaml
+
+編輯 `$HOME/.local/share/fcitx5/rime/default.yaml`，確保您想使用嘅方案前面沒有 # 符號：
+```yaml
+
+# 確保您想要嘅方案被啟用
+# ...
+patch:
+  # ...
+  "schema_list":
+    - schema: cangjie5
+    - schema: jyut6ping3
+    - schema: ms_quick
+    - schema: cangjie5_advanced
+    # - schema: quick5  # 啟用混打方案
+```
+4. 設定環境變數
+
+手動設定 Fcitx5 環境變數，通常係喺 $HOME/.profile 或 /etc/environment：
+
+```bash
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS=@im=fcitx
+export SDL_IM_MODULE=fcitx
+```
+最後，重新登入或重新啟動系統，並透過 Fcitx5 配置工具啟用 Rime 輸入法。
+
+
+希望這次的輸出能夠完全符合您的要求。
+
+
 ## 以下內容截取至[Original Repository](https://github.com/rime/rime-cantonese)
 
 <p align="center">
