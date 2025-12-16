@@ -1,186 +1,175 @@
 #!/bin/bash
 set -e
 
-ROOT_DIR="$(pwd)"
-SETUP_DIR="$ROOT_DIR/Setup"
-
-# ─────────────────────────
-# 🖨️ UI helper
-# ─────────────────────────
-print_step()
-{
-	echo
-	echo "────────────────────────────────────────"
-	echo "$1"
-	echo "────────────────────────────────────────"
-}
+SETUP_SRC="$(pwd)/Setup"
 
 # ─────────────────────────
 # 🧠 系統偵測
 # ─────────────────────────
-detect_system()
-{
-	OS="$(. /etc/os-release; echo $ID)"
-	DE="${XDG_CURRENT_DESKTOP:-$DESKTOP_SESSION}"
-	SESSION_TYPE="${XDG_SESSION_TYPE:-}"
+detect_system() {
+    OS="$(. /etc/os-release; echo $ID)"
+    DE="${XDG_CURRENT_DESKTOP:-$DESKTOP_SESSION}"
+    SESSION_TYPE="${XDG_SESSION_TYPE:-x11}"
 
-	if [[ -z "$SESSION_TYPE" ]]; then
-		SESSION_TYPE="x11"
-	fi
-
-	echo "🔍 偵測系統資訊："
-	echo "- OS：$OS"
-	echo "- 桌面環境：$DE"
-	echo "- 顯示協議：$SESSION_TYPE"
+    echo "────────────────────────────────────────"
+    echo "🎉 Fcitx5 全自動安裝器"
+    echo "────────────────────────────────────────"
+    echo "🔍 偵測系統資訊："
+    echo "- 發行版本：$OS"
+    echo "- 桌面環境：$DE"
+    echo "- 顯示協議：$SESSION_TYPE"
+    read -rp "是否繼續安裝？[Y/N] " && [[ "$REPLY" =~ ^[Yy]$ ]] || exit 0
 }
 
 # ─────────────────────────
-# ❓ 使用者確認
+# 🔧 備份路徑
 # ─────────────────────────
-confirm_continue()
-{
-	read -rp "以上資訊是否正確？是否繼續安裝？[Y/N] " ans
-	[[ "$ans" =~ ^[Yy]$ ]] || exit 0
+backup_path() {
+    local target="$1"
+    [[ ! -e "$target" ]] && return
+    local bak="${target}.bak.$(date +%s)"
+    cp -r "$target" "$bak"
+    echo "🧷 已備份 $target → $bak"
 }
 
 # ─────────────────────────
-# 🔧 Backup
+# 📥 安裝套件
 # ─────────────────────────
-backup_path()
-{
-	local target="$1"
-	[[ ! -e "$target" ]] && return
-	local bak="${target}.bak.$(date +%s)"
-	cp -r "$target" "$bak"
-	echo "🧷 已備份 $target → $bak"
+install_packages() {
+    echo "📦 安裝必要套件"
+    case "$OS" in
+        arch*|cachyos|endevour*) CMD="sudo pacman -S --noconfirm" ;;
+        fedora|nobara*) CMD="sudo dnf install -y --refresh" ;;
+        ubuntu*|debian*|linuxmint*) CMD="sudo apt install -y" ;;
+        *) echo "❌ 不支援系統 ($OS)"; exit 1 ;;
+    esac
+
+    $CMD fcitx5 fcitx5-rime fcitx5-configtool git python3 python3-pip
 }
 
 # ─────────────────────────
-# 📦 套件
+# 🛠️ 選擇輸入法方案
 # ─────────────────────────
-install_packages()
-{
-	print_step "📦 安裝 fcitx5 / rime 套件"
+select_rime_scheme() {
+    echo "請選擇要安裝的輸入法方案（可多選，以空格分隔）："
+    echo "1) 倉頡"
+    echo "2) 傳統速成"
+    echo "3) 進階速成"
+    echo "4) 粵語拼音"
+    echo "5) 混打"
+    read -rp "你的選擇：" input_choices
 
-	case "$OS" in
-		fedora) CMD="sudo dnf install -y --refresh" ;;
-		arch*) CMD="sudo pacman -S --noconfirm" ;;
-		ubuntu*|debian*) CMD="sudo apt install -y" ;;
-		*) echo "❌ 不支援系統"; exit 1 ;;
-	esac
+    SUGGESTED=()
+    for choice in $input_choices; do
+        case $choice in
+            1) SUGGESTED+=("ladyhkg" "tableextra") ;;
+            2) SUGGESTED+=("msquick" "tableextra") ;;
+            3) SUGGESTED+=("jackchan" "ladyhkg" "tableextra") ;;
+            4) SUGGESTED+=("jackchan" "ladyhkg" "tableextra") ;;
+            5) SUGGESTED+=("ladyhkg" "jackchan") ;;
+        esac
+    done
 
-	$CMD fcitx5 fcitx5-rime fcitx5-configtool git
+    echo "推薦方案如下："
+    echo "$(printf ' - %s\n' "${SUGGESTED[@]}" | sort -u)"
+    read -rp "請選擇你想安裝的方案（輸入關鍵字，如 jackchan）：" FINAL_SCHEME
 }
 
 # ─────────────────────────
-# 🛠️ Rime data
+# 🛠️ 部署 Fcitx5 設定
 # ─────────────────────────
-install_rime_data()
-{
-	print_step "🛠️ 安裝 Rime schema / 詞庫"
-	sudo cp -v *.yaml /usr/share/rime-data/
-	sudo cp -rv opencc /usr/share/rime-data/ || true
+deploy_fcitx5_configs() {
+    echo "📂 部署 Fcitx5 設定與主題"
+    read -rp "安裝範圍：(1) 此用戶 (2) 所有用戶？[1/2] " scope
+
+    USER_CFG="$HOME/.config/fcitx5"
+    USER_SHARE="$HOME/.local/share/fcitx5"
+
+    backup_path "$USER_CFG"
+    backup_path "$USER_SHARE"
+
+    cp -r "$SETUP_SRC/.config/fcitx5/." "$USER_CFG/"
+    cp -r "$SETUP_SRC/.local/share/fcitx5/." "$USER_SHARE/"
+
+    # 如果安裝給所有用戶
+    if [[ "$scope" == "2" ]]; then
+        sudo mkdir -p /etc/skel/.config /etc/skel/.local/share
+        sudo cp -r "$USER_CFG" /etc/skel/.config/
+        sudo cp -r "$USER_SHARE" /etc/skel/.local/share/
+    fi
 }
 
 # ─────────────────────────
-# ⌨️ 選擇輸入法
+# 🔄 設定自動啟動
 # ─────────────────────────
-select_input_methods()
-{
-	print_step "⌨️ 選擇要啟用嘅輸入法"
+setup_autostart() {
+    echo "🔄 設定 Fcitx5 自動啟動"
+    read -rp "安裝範圍：(1) 此用戶 (2) 所有用戶？[1/2] " scope
 
-	echo "可多選（用空格分隔）："
-	echo "1) 倉頡五代"
-	echo "2) 倉頡五代（進階）"
-	echo "3) 速成"
-	echo "4) 粵拼"
-
-	read -rp "請輸入編號: " choices
-
-	RIME_CFG="$HOME/.local/share/fcitx5/rime"
-	mkdir -p "$RIME_CFG"
-	backup_path "$RIME_CFG/default.custom.yaml"
-
-	{
-		echo "patch:"
-		echo "  schema_list:"
-		for c in $choices; do
-			case "$c" in
-				1) echo "    - schema: cangjie5" ;;
-				2) echo "    - schema: cangjie5_advanced" ;;
-				3) echo "    - schema: ms_quick" ;;
-				4) echo "    - schema: jyut6ping3" ;;
-			esac
-		done
-	} > "$RIME_CFG/default.custom.yaml"
-}
-
-# ─────────────────────────
-# 🌍 環境變數（X11 / Wayland）
-# ─────────────────────────
-setup_env_vars()
-{
-	print_step "🌍 設定輸入法環境變數"
-
-	read -rp "套用到：(1) 此用戶 (2) 全系統？[1/2] " scope
-
-	if [[ "$scope" == "2" ]]; then
-		for v in GTK QT XMODIFIERS SDL; do
-			echo "${v}_IM_MODULE DEFAULT=fcitx" | sudo tee -a /etc/environment
-		done
-	else
-		for v in GTK QT XMODIFIERS SDL; do
-			echo "${v}_IM_MODULE DEFAULT=fcitx" >> "$HOME/.pam_environment"
-		done
-	fi
+    if [[ "$scope" == "2" ]]; then
+        AUTOSTART_DIR="/etc/xdg/autostart"
+        sudo mkdir -p "$AUTOSTART_DIR"
+        FILE="$AUTOSTART_DIR/fcitx5.desktop"
+        [[ -f "$FILE" ]] && sudo cp "$FILE" "${FILE}.bak.$(date +%s)"
+        sudo tee "$FILE" >/dev/null <<EOF
+[Desktop Entry]
+Type=Application
+Name=Fcitx5
+Exec=/usr/bin/fcitx5
+X-GNOME-Autostart-enabled=true
+NoDisplay=false
+EOF
+    else
+        AUTOSTART_DIR="$HOME/.config/autostart"
+        mkdir -p "$AUTOSTART_DIR"
+        FILE="$AUTOSTART_DIR/fcitx5.desktop"
+        [[ -f "$FILE" ]] && cp "$FILE" "${FILE}.bak.$(date +%s)"
+        tee "$FILE" >/dev/null <<EOF
+[Desktop Entry]
+Type=Application
+Name=Fcitx5
+Exec=/usr/bin/fcitx5
+X-GNOME-Autostart-enabled=true
+NoDisplay=false
+EOF
+    fi
 }
 
 # ─────────────────────────
 # 🧩 GNOME Kimpanel
 # ─────────────────────────
-install_kimpanel()
-{
-	[[ "$DE" != *GNOME* || "$SESSION_TYPE" != "wayland" ]] && return
+install_kimpanel() {
+    [[ "$DE" != *GNOME* || "$SESSION_TYPE" != "wayland" ]] && return
 
-	print_step "🧩 安裝 GNOME Kimpanel"
+    echo "🧩 安裝 GNOME Kimpanel"
+    if ! command -v gext >/dev/null; then
+        pip3 install --user --upgrade gnome-extensions-cli
+        export PATH="$HOME/.local/bin:$PATH"
+    fi
 
-	if ! command -v gext >/dev/null; then
-		if command -v pipx >/dev/null; then
-			pipx install gnome-extensions-cli
-		elif command -v pip3 >/dev/null; then
-			pip3 install --user gnome-extensions-cli
-			export PATH="$HOME/.local/bin:$PATH"
-		else
-			echo "⚠️ 找不到 pip / pipx，跳過 Kimpanel"
-			return
-		fi
-	fi
-
-	gext install 261 || true
-	gext enable kimpanel@kde.org || true
+    gext install 261 || true
+    gext enable kimpanel@kde.org || true
 }
 
 # ─────────────────────────
 # 🧱 KDE Wayland Virtual Keyboard
 # ─────────────────────────
-handle_kde_virtual_keyboard()
-{
-	[[ "$DE" != *KDE* || "$SESSION_TYPE" != "wayland" ]] && return
+handle_kde_virtual_keyboard() {
+    [[ "$DE" != *KDE* || "$SESSION_TYPE" != "wayland" ]] && return
 
-	print_step "🧱 KDE Wayland Virtual Keyboard 設定"
+    echo "🧱 設定 KDE Wayland 虛擬鍵盤"
+    kwinrc="$HOME/.config/kwinrc"
+    mkdir -p "$(dirname "$kwinrc")"
+    touch "$kwinrc"
 
-	kwinrc="$HOME/.config/kwinrc"
-	mkdir -p "$(dirname "$kwinrc")"
-	touch "$kwinrc"
+    if grep -q "VirtualKeyboard" "$kwinrc"; then
+        read -rp "⚠️ 已設定 VirtualKeyboard，要改成 fcitx5-wayland？[Y/N] " ans
+        [[ "$ans" =~ ^[Yy]$ ]] || return
+    fi
 
-	if grep -q "VirtualKeyboard" "$kwinrc"; then
-		read -rp "已存在 VirtualKeyboard，改為 fcitx5-wayland？[Y/N] " ans
-		[[ "$ans" =~ ^[Yy]$ ]] || return
-	fi
+    backup_path "$kwinrc"
 
-	backup_path "$kwinrc"
-
-	cat >> "$kwinrc" <<EOF
+    cat >> "$kwinrc" <<EOF
 
 [Wayland]
 VirtualKeyboard=fcitx5-wayland
@@ -188,59 +177,33 @@ EOF
 }
 
 # ─────────────────────────
-# 🎨 Deploy fcitx5 config
+# 🔤 安裝 PingFang 字體
 # ─────────────────────────
-deploy_fcitx5_configs()
-{
-	print_step "🎨 部署 fcitx5 設定 / theme"
-
-	USER_CFG="$HOME/.config/fcitx5"
-	USER_SHARE="$HOME/.local/share/fcitx5"
-
-	backup_path "$USER_CFG"
-	backup_path "$USER_SHARE"
-
-	cp -r "$SETUP_DIR/.config/fcitx5" "$HOME/.config/"
-	cp -r "$SETUP_DIR/.local/share/fcitx5" "$HOME/.local/share/"
-}
-
-# ─────────────────────────
-# 🔤 PingFang 字體
-# ─────────────────────────
-install_pingfang_font()
-{
-	print_step "🔤 安裝 PingFang 字體"
-
-	tmp="/tmp/pingfang"
-	rm -rf "$tmp"
-	git clone https://github.com/witt-bit/applePingFangFonts.git "$tmp"
-
-	sudo mkdir -p /usr/share/fonts/pingFang
-	sudo cp -rf "$tmp/pingFang/." /usr/share/fonts/pingFang/
-	sudo fc-cache -fv
+install_pingfang_font() {
+    echo "🔤 安裝 PingFang 字體"
+    tmp="/tmp/pingfang"
+    rm -rf "$tmp"
+    git clone https://github.com/witt-bit/applePingFangFonts.git "$tmp"
+    sudo mkdir -p /usr/share/fonts/pingFang
+    sudo cp -rf "$tmp/pingFang/." /usr/share/fonts/pingFang/
+    sudo fc-cache -fv
 }
 
 # ─────────────────────────
 # 🎛️ 主流程
 # ─────────────────────────
-main()
-{
-	clear
-	echo "🎉 Fcitx5 + Rime（倉頡 / 粵拼）安裝器"
+main() {
+    clear
+    detect_system
+    install_packages
+    select_rime_scheme
+    deploy_fcitx5_configs
+    setup_autostart
+    install_kimpanel
+    handle_kde_virtual_keyboard
+    install_pingfang_font
 
-	detect_system
-	confirm_continue
-
-	install_packages
-	install_rime_data
-	select_input_methods
-	setup_env_vars
-	install_kimpanel
-	handle_kde_virtual_keyboard
-	deploy_fcitx5_configs
-	install_pingfang_font
-
-	print_step "✅ 安裝完成，請登出或重新啟動"
+    echo "✅ 完成安裝，請登出或重新啟動"
 }
 
 main
