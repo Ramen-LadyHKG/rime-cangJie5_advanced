@@ -7,6 +7,7 @@ schema_list:
   - schema: cangjie5
   - schema: jyut6ping3
   - schema: cangjie5_advanced
+  - schema: ms_quick
 
 
 switcher:

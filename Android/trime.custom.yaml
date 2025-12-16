@@ -1,0 +1,292 @@
+patch:
+# 傳統速成鍵位佈局
+  "preset_keyboards/ms_quick":
+    ascii_mode: 0
+    name: 傳統速成
+    author: Kho
+    width: 10
+    keys:
+# 第一行
+    - {click: "1", long_click: "！", height: 46}
+    - {click: "2", long_click: "@"}
+    - {click: "3", long_click: "#"}
+    - {click: "4", long_click: "$"}
+    - {click: "5", long_click: "%"}
+    - {click: "6", long_click: "^"}
+    - {click: "7", long_click: "&"}
+    - {click: "8", long_click: "*"}
+    - {click: "9", long_click: "("}
+    - {click: "0", long_click: ")"}
+# 第二行
+    - {label: "手", click: quick_q, long_click: Tab, height: 46}
+    - {label: "田", click: quick_w, long_click: "`"}
+    - {label: "水", click: quick_e, long_click: "["}
+    - {label: "口", click: quick_r, long_click: "]"}
+    - {label: "廿", click: quick_t, long_click: "{"}
+    - {label: "卜", click: quick_y, long_click: "}"}
+    - {label: "山", click: quick_u, long_click: "-"}
+    - {label: "戈", click: quick_i, long_click: "_"}
+    - {label: "人", click: quick_o, long_click: "="}
+    - {label: "心", click: quick_p, long_click: "+"}
+# 第三行
+    - {click: Left, long_click: Home, width: 5, height: 46}
+    - {label: "日", click: quick_a, long_click: select_all}
+    - {label: "尸", click: quick_s, long_click: Up}
+    - {label: "木", click: quick_d, long_click: Down}
+    - {label: "火", click: quick_f, long_click: "<"}
+    - {label: "土", click: quick_g, long_click: ">"}
+    - {label: "竹", click: quick_h, long_click: ";"}
+    - {label: "十", click: quick_j, long_click: ":"}
+    - {label: "大", click: quick_k, long_click: "\'"}
+    - {label: "中", click: quick_l, long_click: "\""}
+    - {click: Right, long_click: End, width: 5}
+# 第四行
+    - {click: Escape, long_click: Henkan, width: 10, height: 46}
+    - {label: "符", click: quick_z, long_click: undo}
+    - {label: "難", click: quick_x, long_click: cut}
+    - {label: "金", click: quick_c, long_click: copy}
+    - {label: "女", click: quick_v, long_click: paste}
+    - {label: "月", click: quick_b, long_click: redo}
+    - {label: "弓", click: quick_n, long_click: "\\"}
+    - {label: "一", click: quick_m, long_click: "|"}
+    - {click: "/", long_click: "？", width: 8}
+    - {click: BackSpace, width: 12}
+# 第五行
+    - {click: Keyboard_ms_quick_symbols, long_click: Keyboard_ms_quick_number, width: 14, height: 46}
+    - {click: Keyboard_ms_quick_latin, long_click: IME_switch, width: 14}
+    - {click: space, width: 44, long_click: Menu}
+    - {click: "，", long_click: "～", width: 8}
+    - {click: ".", long_click: "。", width: 8}
+    - {click: Return, width: 12}
+    
+
+# 傳統速成西文鍵位佈局
+  "preset_keyboards/ms_quick_latin":
+    ascii_mode: 1
+    name: 傳統速成西文
+    author: Kho
+    width: 10
+    keys:
+# 第一行
+    - {click: "1", long_click: "!", height: 46}
+    - {click: "2", long_click: "@"}
+    - {click: "3", long_click: "#"}
+    - {click: "4", long_click: "$"}
+    - {click: "5", long_click: "%"}
+    - {click: "6", long_click: "^"}
+    - {click: "7", long_click: "&"}
+    - {click: "8", long_click: "*"}
+    - {click: "9", long_click: "("}
+    - {click: "0", long_click: ")"}
+# 第二行
+    - {click: "q", long_click: Tab, height: 46}
+    - {click: "w", long_click: "`"}
+    - {click: "e", long_click: "["}
+    - {click: "r", long_click: "]"}
+    - {click: "t", long_click: "{"}
+    - {click: "y", long_click: "}"}
+    - {click: "u", long_click: "-"}
+    - {click: "i", long_click: "_"}
+    - {click: "o", long_click: "="}
+    - {click: "p", long_click: "+"}
+# 第三行
+    - {click: Left, long_click: Home, width: 5, height: 46}
+    - {click: "a", long_click: select_all}
+    - {click: "s", long_click: Up}
+    - {click: "d", long_click: Down}
+    - {click: "f", long_click: "<"}
+    - {click: "g", long_click: ">"}
+    - {click: "h", long_click: ";"}
+    - {click: "j", long_click: ":"}
+    - {click: "k", long_click: "\'"}
+    - {click: "l", long_click: "\""}
+    - {click: Right, long_click: End, width: 5}
+# 第四行
+    - {click: Shift_L, send_bindings: false, width: 10, height: 46}
+    - {click: "z", long_click: undo}
+    - {click: "x", long_click: cut}
+    - {click: "c", long_click: copy}
+    - {click: "v", long_click: paste}
+    - {click: "b", long_click: redo}
+    - {click: "n", long_click: "\\"}
+    - {click: "m", long_click: "|"}
+    - {click: "/", long_click: "?", width: 8}
+    - {click: BackSpace, width: 12}
+# 第五行
+    - {click: Keyboard_ms_quick_symbols, long_click: Keyboard_ms_quick_number, width: 14, height: 46}
+    - {click: Keyboard_quick, long_click: IME_switch, width: 14}
+    - {click: space, width: 44, long_click: Menu}
+    - {click: ",", long_click: "~", width: 8}
+    - {click: ".", long_click: "。", width: 8}
+    - {click: Return, width: 12}
+    
+    
+
+
+# 傳統速成數字鍵位佈局
+  "preset_keyboards/ms_quick_number":
+    name: 傳統速成數字
+    author: Kho
+    width: 20
+    height: 60
+    keys:
+# 第一行
+    - {click: '+'}
+    - {click: '1'}
+    - {click: '2'}
+    - {click: '3'}
+    - {click: '%'}
+# 第二行
+    - {click: '-'}
+    - {click: '4'}
+    - {click: '5'}
+    - {click: '6'}
+    - {label: "⎵", click: space}
+# 第三行
+    - {click: '*'}
+    - {click: '7'}
+    - {click: '8'}
+    - {click: '9'}
+    - {click: BackSpace}
+# 第四行
+    - {click: Keyboard_default, long_click: Keyboard_ms_quick_symbols}
+    - {click: '='}
+    - {click: '0'}
+    - {click: '.'}
+    - {click: Return}
+
+# 傳統速成符號鍵位佈局
+  "preset_keyboards/ms_quick_symbols":
+    name: 符號
+    author: kho
+    ascii_mode: 1
+    width: 10
+    height: 46
+    keys:
+# 第一行
+    - {click: '1'}
+    - {click: '2'}
+    - {click: '3'}
+    - {click: '4'}
+    - {click: '5'}
+    - {click: '6'}
+    - {click: '7'}
+    - {click: '8'}
+    - {click: '9'}
+    - {click: '0'}
+# 第二行
+    - {click: '~',long_click: '`'}
+    - {click: '!'}
+    - {click: '@'}
+    - {click: '#'}
+    - {click: '$'}
+    - {click: '￥'}
+    - {click: '%'}
+    - {click: '^'}
+    - {click: '&'}
+    - {click: '*'}
+# 第三行
+    - {click: '(', long_click: '{'}
+    - {click: ')', long_click: '}'}
+    - {click: '[', long_click: '【'}
+    - {click: ']', long_click: '】'}
+    - {click: '「', long_click: '『'}
+    - {click: '」', long_click: '』'}
+    - {click: '、', ascii: '\', long_click: '|'}
+    - {click: '/', long_click: '√'}
+    - {click: ':'}
+    - {click: ';'}
+# 第四行
+    - {click: '+'}
+    - {click: '-', long_click: '_'}
+    - {click: '='}
+    - {click: '〈', long_click: '《', ascii: '<'}
+    - {click: '〉', long_click: '》', ascii: '>'}
+    - {click: '“', ascii: '"', long_click: '‘'}
+    - {click: '”', ascii: "'", long_click: '’'}
+    - {click: '，', ascii: ','}
+    - {click: '？', ascii: '?'}
+# 第五行
+    - {click: BackSpace, long_click: Escape}
+    - {click: Keyboard_default, long_click: Menu, width: 15}
+    - {click: Keyboard_ms_quick_number, long_click: Color_switch}
+    - {click: space, width: 40}
+    - {click: '。', ascii: '.'}
+    - {click: Hide, long_click: Delete}
+    - {click: Return, long_click: select_all, width: 15}
+
+# 佈局調整
+  "style/candidate_text_size": 21  #候选字体大小
+  "style/key_text_size": 18 #按键字体大小
+  "style/vertical_gap": 10 #行距
+  "style/horizontal_gap": 5 #水平间距改为0
+  "style/round_corner": 10
+  "style/label_text_size": 16 #懸浮候選數字大小
+
+# 自定義懸浮窗
+  "style/horizontal": true
+  "style/layout/position": bottom_left
+  "style/layout/min_length": 1
+  "style/layout/max_length": 36 
+  "style/layout/max_entries": 9
+  "style/layout/sticky_lines": 0
+  "style/layout/max_width": 930
+  "style/layout/margin_x": 0
+  "style/layout/margin_y": 0
+  "style/layout/border": 0
+  "style/layout/round_corner": 3
+  "style/layout/elevation": 8
+  "style/layout/alpha": 0xdd 
+  "style/layout/line_spacing_multiplier": 1
+  "style/layout/movable": true
+  "style/window":
+    - {label: "%s.", candidate: "%s "}
+    - {start: "", move: ' ≡ ', end: ""}
+
+#功能鍵定制
+  "preset_keys/BackSpace": {label: "⌫", repeatable: true, send: BackSpace}
+  "preset_keys/Shift_L": {label: "⇧", send: Shift_L, shift_lock: long}
+  "preset_keys/Tab": {label: "↹", send: Tab}
+  "preset_keys/Return": {label: "⏎", send: Return}
+  "preset_keys/Home": {label: ⇱, send: Home}
+  "preset_keys/End": {label: ⇲, send: End}
+  "preset_keys/Keyboard_quick": {label: "西", send: Eisu_toggle, select: .default}
+  "preset_keys/Keyboard_ms_quick_latin": {label: "中", send: Eisu_toggle, select: ms_quick_latin}
+  "preset_keys/Keyboard_ms_quick_number": {label: "數字", send: Eisu_toggle, select: ms_quick_number}
+  "preset_keys/Keyboard_ms_quick_symbols": {label: "符號", send: Eisu_toggle, select: ms_quick_symbols}
+  "preset_keys/space": {repeatable: false, functional: false, preview: "⎵", send: space}
+  "preset_keys/quick_q": {label: "手", preview : "手", send: q}
+  "preset_keys/quick_w": {label: "田", preview : "田", send: w}
+  "preset_keys/quick_e": {label: "水", preview : "水", send: e}
+  "preset_keys/quick_r": {label: "口", preview : "口", send: r}
+  "preset_keys/quick_t": {label: "廿", preview : "廿", send: t}
+  "preset_keys/quick_y": {label: "卜", preview : "卜", send: y}
+  "preset_keys/quick_u": {label: "山", preview : "山", send: u}
+  "preset_keys/quick_i": {label: "戈", preview : "戈", send: i}
+  "preset_keys/quick_o": {label: "人", preview : "人", send: o}
+  "preset_keys/quick_p": {label: "心", preview : "心", send: p}
+  "preset_keys/quick_a": {label: "日", preview : "日", send: a}
+  "preset_keys/quick_s": {label: "尸", preview : "尸", send: s}
+  "preset_keys/quick_d": {label: "木", preview : "木", send: d}
+  "preset_keys/quick_f": {label: "火", preview : "火", send: f}
+  "preset_keys/quick_g": {label: "土", preview : "土", send: g}
+  "preset_keys/quick_h": {label: "竹", preview : "竹", send: h}
+  "preset_keys/quick_j": {label: "十", preview : "十", send: j}
+  "preset_keys/quick_k": {label: "大", preview : "大", send: k}
+  "preset_keys/quick_l": {label: "中", preview : "中", send: l}
+  "preset_keys/quick_z": {label: "符", preview : "符", send: z}
+  "preset_keys/quick_x": {label: "難", preview : "難", send: x}
+  "preset_keys/quick_c": {label: "金", preview : "金", send: c}
+  "preset_keys/quick_v": {label: "女", preview : "女", send: v}
+  "preset_keys/quick_b": {label: "月", preview : "月", send: b}
+  "preset_keys/quick_n": {label: "弓", preview : "弓", send: n}
+  "preset_keys/quick_m": {label: "一", preview : "一", send: m}
+
+#添加自定義西文鍵盤
+  "style/keyboards": 
+    - .default
+    - default
+    - letter
+    - ms_quick_number
+    - ms_quick_symbols
+    - ms_quick_latin

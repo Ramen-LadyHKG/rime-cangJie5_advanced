@@ -1,0 +1,97 @@
+# Rime schema settings
+# encoding: utf-8
+
+schema:
+  schema_id: ms_quick
+  name: 傳統速成
+  version: "1.0"
+  author:
+    - Kho
+  description: |
+    碼表按照 windows 10 傳統速成錄入(含增加香港增補字符集字元)
+
+switches:
+  - name: ascii_mode
+    # reset: 0 (1是英文)
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+  - name: _hide_candidate #供 Android Trime 識別，會隱藏手機上的候選欄
+    reset: 1
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - table_translator
+    - script_translator@zouci
+    - reverse_lookup_translator
+  filters:
+    - simplifier
+
+speller:
+  delimiter: " ;"
+  alphabet: abcdefghijklmnopqrstuvwxyz
+
+translator:
+  initial_quality: 100000
+  dictionary: ms_quick
+  enable_encoder: false
+  encode_commit_history: false
+  enable_completion: false
+  enable_user_dict: false
+  enable_sentence: false
+  preedit_format:
+    - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
+  comment_format:
+    - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
+
+zouci:
+  initial_quality: 1
+  dictionary: ms_quick
+  preedit_format:
+    - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
+  comment_format:
+    - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
+    
+reverse_lookup:
+  dictionary: luna_pinyin
+  prefix: "`"
+  tips: 〔拼音〕
+  preedit_format:
+    - xform/([nljqxy])v/$1ü/
+  comment_format:
+    - "xlit|abcdefghijklmnopqrstuvwxyz|日月金木水火土竹戈十大中一弓人心手口尸廿山女田難卜符|"
+
+key_binder:
+  import_preset: default
+  bindings: 
+    - { when: has_menu, accept: space, send: Page_Down }
+    - { when: always, accept: Shift_L, toggle: ascii_mode }
+
+menu:
+  page_size: 9
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*$"
+
+style:
+  font_point: 12 #字號
+  horizontal: false #橫／直排
